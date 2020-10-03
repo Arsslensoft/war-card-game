@@ -1,4 +1,6 @@
-﻿using CardGames.Core.Contracts;
+﻿using System.Collections.Generic;
+using System.Linq;
+using CardGames.Core.Contracts;
 
 namespace CardGames.Core
 {
@@ -7,18 +9,20 @@ namespace CardGames.Core
         where TDeck : class, IDeck<TCard>
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
-
+        public virtual IEnumerable<TPlayer> Players { get; protected set; }
+        public IRound<TPlayer, TDeck, TCard> CurrentRound { get; set; }
         public ICardTray<TPlayer, TDeck, TCard> CurrentCardTray { get; protected set; }
         public IMoveController<TPlayer, TDeck, TCard> MoveController { get; protected set; }
 
         public abstract TPlayer Winner { get; }
         public abstract void Play();
-        public virtual void Initialize<TMoveController, TCardTray>()
+        public virtual void Initialize<TMoveController, TCardTray>(IEnumerable<TPlayer> players)
             where TMoveController : class, IMoveController<TPlayer, TDeck, TCard>, new()
             where TCardTray : class, ICardTray<TPlayer, TDeck, TCard>, new()
         {
             MoveController = new TMoveController();
             CurrentCardTray = new TCardTray();
+            Players = players;
         }
     }
 }

@@ -12,7 +12,7 @@ namespace CardGames.Core.Contracts
         IEnumerable<IRound<TPlayer, TDeck, TCard>> Rounds { get; }
         TDeck InitialDeck { get; set; }
         void Play();
-        TRound CreateRound<TRound>(int roundNumber)
+        TRound CreateRound<TRound>(IEnumerable<TPlayer> players, int roundNumber)
             where TRound : class, IRound<TPlayer, TDeck, TCard>, new();
         void DistributeCards();
     }

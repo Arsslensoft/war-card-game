@@ -19,12 +19,13 @@ namespace CardGames.Core
 
         public abstract void Play();
 
-        public virtual TRound CreateRound<TRound>(int roundNumber)
+        public virtual TRound CreateRound<TRound>(IEnumerable<TPlayer> players, int roundNumber)
             where TRound : class, IRound<TPlayer, TDeck, TCard>, new()
         {
             var round = new TRound
             {
-                Number = roundNumber
+                Number = roundNumber,
+                Players = players
             };
             _rounds.Add(round);
             return round;

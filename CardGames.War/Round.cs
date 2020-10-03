@@ -59,6 +59,33 @@ namespace CardGames.War
     }
     public class WarCardRoundIteration : RoundIteration<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>
     {
+        public bool HasConflict
+        {
+            get
+            {
+                var groupedPlayersByCard = CurrentCardTray.PlayedCards
+                    .Select(x => new { x.Player, Card = x.Cards.FirstOrDefault() })
+                    .GroupBy(x => x.Card.Face);
+
+                return groupedPlayersByCard.Count() != CurrentCardTray.PlayedCards.Count();
+            }
+        }
+        public IEnumerable<FiftyTwoCardGamePlayer> ConflictingPlayers
+        {
+            get
+            {
+                var groupedPlayersByCard = CurrentCardTray.PlayedCards
+                    .Select(x => new { x.Player, Card = x.Cards.FirstOrDefault() })
+                    .GroupBy(x => x.Card.Face);
+
+                foreach (var playerCards in groupedPlayersByCard)
+                {
+                    if (playerCards.Count() <= 1) continue;
+                    foreach (var playerCard in playerCards)
+                        yield return playerCard.Player;
+                }
+            }
+        }
         public override FiftyTwoCardGamePlayer Winner => throw new NotImplementedException();
         public override void Play()
         {
@@ -68,10 +95,18 @@ namespace CardGames.War
 
     public class WarCardRound : Round<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>
     {
-
         public override void Play()
         {
-            throw new NotImplementedException();
+            // create the first iteration with a simple movement controller
+            var currentIteration = CreateIteration<WarCardRoundIteration, SimplePlayerMovementController, WarCardTray>();
+            currentIteration.Play();
+            // detect conflict and enter war mode if possible
+            while (currentIteration.HasConflict)
+            {
+                currentIteration = CreateIteration<WarCardRoundIteration, WarPlayerMovementController, WarCardTray>();
+                currentIteration.Play();
+            }
+            Winner?.Deck.Put(AllPlayedCards);
         }
     }
     public class WarCardGame : Game<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>
@@ -92,7 +127,7 @@ namespace CardGames.War
             while (candidates.Count > 1)
             {
                 // create a new round and play
-                var round = CreateRound<WarCardRound>(++roundNumber);
+                var round = CreateRound<WarCardRound>(candidates, ++roundNumber);
                 round.Play();
                 // update candidates list
                 candidates = Players.Where(player => player.Status == PlayerStatus.Competing).ToList();
