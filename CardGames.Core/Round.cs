@@ -9,15 +9,11 @@ namespace CardGames.Core
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
         private readonly List<IRoundIteration<TPlayer, TDeck, TCard>> _iterations = new List<IRoundIteration<TPlayer, TDeck, TCard>>();
-        protected Round(int number)
-        {
-            Number = number;
-        }
-        public int Number { get; }
+        public int Number { get; set; }
         public IEnumerable<IRoundIteration<TPlayer, TDeck, TCard>> Iterations => _iterations;
         public abstract void Play();
 
-        protected virtual IRoundIteration<TPlayer, TDeck, TCard> CreateIteration<TRoundIteration, TMoveController, TCardTray>()
+        public virtual TRoundIteration CreateIteration<TRoundIteration, TMoveController, TCardTray>()
             where TRoundIteration : class, IRoundIteration<TPlayer, TDeck, TCard>, new()
             where TMoveController : class, IMoveController<TPlayer, TDeck, TCard>, new()
             where TCardTray : class, ICardTray<TPlayer, TDeck, TCard>, new()

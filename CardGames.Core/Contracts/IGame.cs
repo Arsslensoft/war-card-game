@@ -9,8 +9,11 @@ namespace CardGames.Core.Contracts
     {
         TPlayer Winner { get; }
         IEnumerable<TPlayer> Players { get; }
-        IEnumerable<IRound<TPlayer, TDeck, TCard>> Rounds { get; set; }
+        IEnumerable<IRound<TPlayer, TDeck, TCard>> Rounds { get; }
         TDeck InitialDeck { get; set; }
         void Play();
+        TRound CreateRound<TRound>(int roundNumber)
+            where TRound : class, IRound<TPlayer, TDeck, TCard>, new();
+        void DistributeCards();
     }
 }

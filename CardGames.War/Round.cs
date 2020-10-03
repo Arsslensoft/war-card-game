@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using CardGames.Core;
 using CardGames.Core.Contracts;
+using CardGames.Core.Enums;
 using CardGames.War.StandardFiftyTwo;
 
 namespace CardGames.War
@@ -67,9 +68,6 @@ namespace CardGames.War
 
     public class WarCardRound : Round<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>
     {
-        public WarCardRound(int number) : base(number)
-        {
-        }
 
         public override void Play()
         {
@@ -78,9 +76,27 @@ namespace CardGames.War
     }
     public class WarCardGame : Game<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>
     {
+        public override FiftyTwoCardGamePlayer Winner
+        {
+            get
+            {
+                var candidates = Players.Where(player => player.Status == PlayerStatus.Competing).ToList();
+                return candidates.Count == 1 ? candidates.FirstOrDefault() : null;
+            }
+        }
         public override void Play()
         {
-            throw new NotImplementedException();
+            var roundNumber = 0;
+            var candidates = Players.Where(player => player.Status == PlayerStatus.Competing).ToList();
+            // while there are some players keep the game going
+            while (candidates.Count > 1)
+            {
+                // create a new round and play
+                var round = CreateRound<WarCardRound>(++roundNumber);
+                round.Play();
+                // update candidates list
+                candidates = Players.Where(player => player.Status == PlayerStatus.Competing).ToList();
+            }
         }
     }
 }
