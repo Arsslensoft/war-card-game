@@ -17,5 +17,7 @@ Time Taken To Design & Implement: ~3h30 the solution
 Time Taken To Document / Refactor / Cleanup Code: 50 minutes
 Total Time Taken: ~6h
 
+# Class diagram
+![The global class diagram](Class.png "Class diagram")
 
 
