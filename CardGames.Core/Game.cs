@@ -14,7 +14,7 @@ namespace CardGames.Core
 
         public virtual TPlayer Winner { get; }
         public TDeck InitialDeck { get; set; }
-        public virtual IEnumerable<TPlayer> Players { get; }
+        public virtual IEnumerable<TPlayer> Players { get; protected set; }
         public virtual IEnumerable<IRound<TPlayer, TDeck, TCard>> Rounds => _rounds;
 
         public abstract void Play();

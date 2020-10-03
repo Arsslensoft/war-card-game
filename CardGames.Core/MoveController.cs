@@ -7,6 +7,6 @@ namespace CardGames.Core
         where TDeck : class, IDeck<TCard>
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
-        public abstract void Execute(TDeck deck, ICardTray<TPlayer, TDeck, TCard> cardTray);
+        public abstract bool Execute(TPlayer player, ICardTray<TPlayer, TDeck, TCard> cardTray);
     }
 }

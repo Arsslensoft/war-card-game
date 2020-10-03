@@ -9,7 +9,7 @@ namespace CardGames.War.StandardFiftyTwo
     {
         public Face Face { get; }
         public Suite Suite { get; }
-        public FiftyTwoCardGameCard(Face face, Suite suite, bool isVisible = false)
+        public FiftyTwoCardGameCard(Suite suite, Face face, bool isVisible = false)
             : base(isVisible)
         {
             Face = face;

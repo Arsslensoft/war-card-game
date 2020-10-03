@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO.Enumeration;
 using System.Linq;
 using System.Text;
 using CardGames.Core;
 using CardGames.Core.Contracts;
 using CardGames.Core.Enums;
+using CardGames.Core.Exception;
 using CardGames.War.StandardFiftyTwo;
 
 namespace CardGames.War
@@ -45,16 +47,35 @@ namespace CardGames.War
 
     public class SimplePlayerMovementController : MoveController<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>
     {
-        public override void Execute(FiftyTwoCardGameDeck deck, ICardTray<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard> cardTray)
+        public override bool Execute(FiftyTwoCardGamePlayer player, ICardTray<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard> cardTray)
         {
-            throw new NotImplementedException(); //TODO:Implement the move
+            var card = player.Deck.Draw();
+            if (card == null) // deck is empty the player has lost
+                return false;
+            cardTray.Place<WarCardTraySlot>(player, card);
+
+            return true;
         }
     }
     public class WarPlayerMovementController : MoveController<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>
     {
-        public override void Execute(FiftyTwoCardGameDeck deck, ICardTray<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard> cardTray)
+        public override bool Execute(FiftyTwoCardGamePlayer player, ICardTray<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard> cardTray)
         {
-            throw new NotImplementedException(); //TODO:Implement the move
+            var isVisible = false;
+            foreach (var fiftyTwoCardGameCard in player.Deck.Draw(2)) // the player must put his card on the tray if he has one
+            {
+
+                if (fiftyTwoCardGameCard == null) // deck is empty the player has lost
+                    return false;
+                if (!isVisible) // set the first card as invisible
+                {
+                    fiftyTwoCardGameCard.IsVisible = false;
+                    isVisible = true;
+
+                }
+                cardTray.Place<WarCardTraySlot>(player, fiftyTwoCardGameCard);
+            }
+            return true;
         }
     }
     public class WarCardRoundIteration : RoundIteration<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>
@@ -63,33 +84,37 @@ namespace CardGames.War
         {
             get
             {
-                var groupedPlayersByCard = CurrentCardTray.PlayedCards
+                var conflictingPlayersByTopCard = CurrentCardTray.PlayedCards
                     .Select(x => new { x.Player, Card = x.Cards.FirstOrDefault() })
-                    .GroupBy(x => x.Card.Face);
-
-                return groupedPlayersByCard.Count() != CurrentCardTray.PlayedCards.Count();
+                    .GroupBy(x => x.Card.Face)
+                    .OrderByDescending(x => x.Key)
+                    .FirstOrDefault();
+                return conflictingPlayersByTopCard != null && conflictingPlayersByTopCard.Count() > 1;
             }
         }
-        public IEnumerable<FiftyTwoCardGamePlayer> ConflictingPlayers
+        public IEnumerable<FiftyTwoCardGamePlayer> PlayersInConflict
         {
             get
             {
-                var groupedPlayersByCard = CurrentCardTray.PlayedCards
+                var conflictingPlayersByTopCard = CurrentCardTray.PlayedCards
                     .Select(x => new { x.Player, Card = x.Cards.FirstOrDefault() })
-                    .GroupBy(x => x.Card.Face);
+                    .GroupBy(x => x.Card.Face)
+                    .OrderByDescending(x => x.Key)
+                    .FirstOrDefault();
+                if (conflictingPlayersByTopCard == null || conflictingPlayersByTopCard.Count() <= 1) yield break;
 
-                foreach (var playerCards in groupedPlayersByCard)
-                {
-                    if (playerCards.Count() <= 1) continue;
-                    foreach (var playerCard in playerCards)
-                        yield return playerCard.Player;
-                }
+                foreach (var playerCards in conflictingPlayersByTopCard)
+                    yield return playerCards.Player;
             }
         }
-        public override FiftyTwoCardGamePlayer Winner => throw new NotImplementedException();
+        public override FiftyTwoCardGamePlayer Winner => CurrentCardTray
+            .PlayedCards
+            .Aggregate((l, r) => l?.Cards?.FirstOrDefault()?.CompareTo(r.Cards.FirstOrDefault()) == 1 ? l : r).Player;
         public override void Play()
         {
-            throw new NotImplementedException();
+            foreach (var player in Players)
+                if (!MoveController.Execute(player, CurrentCardTray))
+                    player.Status = PlayerStatus.Lost;
         }
     }
 
@@ -103,14 +128,24 @@ namespace CardGames.War
             // detect conflict and enter war mode if possible
             while (currentIteration.HasConflict)
             {
-                currentIteration = CreateIteration<WarCardRoundIteration, WarPlayerMovementController, WarCardTray>();
+                var playersInConflict = currentIteration.PlayersInConflict;
+                currentIteration = CreateIteration<WarCardRoundIteration, WarPlayerMovementController, WarCardTray>(playersInConflict);
                 currentIteration.Play();
             }
             Winner?.Deck.Put(AllPlayedCards);
+            // Eliminate players with an empty deck
+            foreach (var player in Players)
+                if (!player.Deck.CanPick)
+                    player.Status = PlayerStatus.Lost;
         }
     }
     public class WarCardGame : Game<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>
     {
+        public WarCardGame(IEnumerable<FiftyTwoCardGamePlayer> players, FiftyTwoCardGameDeck initialDeck)
+        {
+            Players = players;
+            InitialDeck = initialDeck;
+        }
         public override FiftyTwoCardGamePlayer Winner
         {
             get

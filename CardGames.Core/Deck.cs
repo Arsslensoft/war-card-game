@@ -17,6 +17,7 @@ namespace CardGames.Core
         {
             if (_cards.Count <= 0) return null;
             var card = _cards[0];
+            card.IsVisible = true;
             _cards.RemoveAt(0);
             return card;
         }
@@ -29,6 +30,7 @@ namespace CardGames.Core
 
         public virtual void Put(TCard card)
         {
+            card.IsVisible = false;
             _cards.Add(card);
         }
         public virtual void Shuffle()
@@ -44,7 +46,12 @@ namespace CardGames.Core
 
         public virtual void Put(IEnumerable<TCard> cards)
         {
-            _cards.AddRange(cards);
+            foreach (var card in cards)
+            {
+                card.IsVisible = false;
+                _cards.Add(card);
+            }
+
         }
     }
 }
