@@ -9,29 +9,26 @@ namespace CardGames.Core
         where TDeck : class, IDeck<TCard>
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
-        public virtual IEnumerable<ICardTraySlot<TPlayer, TDeck, TCard>> PlayedCards { get; private set; }
+        public virtual IEnumerable<ICardTraySlot<TPlayer, TDeck, TCard>> PlayedCards { get; protected set; }
 
         public virtual void Place<TCardTraySlot>(TPlayer player, TCard card)
             where TCardTraySlot : class, ICardTraySlot<TPlayer, TDeck, TCard>, new()
         {
             var cardTraySlot = PlayedCards.FirstOrDefault(x => x.Player == player);
             if (cardTraySlot == null)
+            {
+                var newCardTraySlot = new TCardTraySlot()
+                {
+                    Player = player
+                };
+                newCardTraySlot.Put(card);
                 PlayedCards = PlayedCards.Union(new ICardTraySlot<TPlayer, TDeck, TCard>[]
                 {
-                    new TCardTraySlot()
-                    {
-                        Player = player,
-                        Cards = new List<TCard>()
-                        {
-                            card
-                        }
-                    },
+                    newCardTraySlot
                 });
+            }
             else
-                cardTraySlot.Cards = cardTraySlot.Cards.Union(new List<TCard>()
-                {
-                    card
-                });
+                cardTraySlot.Put(card);
         }
     }
 }

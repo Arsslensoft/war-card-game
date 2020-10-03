@@ -9,6 +9,11 @@ namespace CardGames.Core
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
         public TPlayer Player { get; set; }
-        public virtual IEnumerable<TCard> Cards { get; set; }
+        public virtual IEnumerable<TCard> Cards { get; protected set; }
+
+        public virtual void Put(TCard card)
+        {
+
+        }
     }
 }

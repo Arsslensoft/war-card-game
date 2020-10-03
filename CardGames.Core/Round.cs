@@ -14,7 +14,18 @@ namespace CardGames.Core
             Number = number;
         }
         public int Number { get; }
-        public virtual IEnumerable<IRoundIteration<TPlayer, TDeck, TCard>> Iterations => _iterations;
+        public IEnumerable<IRoundIteration<TPlayer, TDeck, TCard>> Iterations => _iterations;
         public abstract void Play();
+
+        protected virtual IRoundIteration<TPlayer, TDeck, TCard> CreateIteration<TRoundIteration, TMoveController, TCardTray>()
+            where TRoundIteration : class, IRoundIteration<TPlayer, TDeck, TCard>, new()
+            where TMoveController : class, IMoveController<TPlayer, TDeck, TCard>, new()
+            where TCardTray : class, ICardTray<TPlayer, TDeck, TCard>, new()
+        {
+            var roundIteration = new TRoundIteration();
+            _iterations.Add(roundIteration);
+            roundIteration.Initialize<TMoveController, TCardTray>();
+            return roundIteration;
+        }
     }
 }

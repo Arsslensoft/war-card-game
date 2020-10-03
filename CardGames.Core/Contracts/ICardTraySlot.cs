@@ -8,6 +8,7 @@ namespace CardGames.Core.Contracts
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
         TPlayer Player { get; set; }
-        IEnumerable<TCard> Cards { get; set; }
+        IEnumerable<TCard> Cards { get; }
+        void Put(TCard card);
     }
 }

@@ -9,5 +9,10 @@
         IMoveController<TPlayer, TDeck, TCard> MoveController { get; }
         TPlayer Winner { get; }
         void Play();
+
+        void Initialize<TMoveController, TCardTray>()
+            where TMoveController : class, IMoveController<TPlayer, TDeck, TCard>, new()
+            where TCardTray : class, ICardTray<TPlayer, TDeck, TCard>, new();
+
     }
 }
