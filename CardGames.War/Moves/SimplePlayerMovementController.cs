@@ -15,5 +15,7 @@ namespace CardGames.War.Moves
 
             return true;
         }
+
+        public override string ToString() => "Simple Move Mode";
     }
 }

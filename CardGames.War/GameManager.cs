@@ -6,6 +6,7 @@ using CardGames.Core.Contracts;
 using CardGames.Core.Enums;
 using CardGames.War.StandardFiftyTwo;
 using CardGames.War.StandardFiftyTwo.Enums;
+using Serilog;
 
 namespace CardGames.War
 {
@@ -87,11 +88,11 @@ namespace CardGames.War
             return deck;
         }
 
-        public static WarCardGame Play(IEnumerable<string> playerNames)
+        public static WarCardGame Play(IEnumerable<string> playerNames, ILogger logger)
         {
             var players = CreatePlayers(playerNames).ToList();
-            var deck = CreateDummyWar();
-            var game = new WarCardGame(players, deck);
+            var deck = CreateInitialShuffledDeck();
+            var game = new WarCardGame(players, deck) { Logger = logger };
             game.DistributeCards();
             game.Play();
             return game;

@@ -28,6 +28,8 @@ namespace CardGames.War.StandardFiftyTwo
             if (ReferenceEquals(other, null)) return false;
             return ReferenceEquals(this, other) || Face.Equals(other.Face);
         }
+
+        public override string ToString() => $"{base.ToString()}, Face={Face}, Suite={Suite}";
     }
 
 }

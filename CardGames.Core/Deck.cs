@@ -53,5 +53,7 @@ namespace CardGames.Core
             }
 
         }
+
+        public override string ToString() => $"{_cards.Count} cards";
     }
 }

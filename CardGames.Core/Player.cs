@@ -13,7 +13,7 @@ namespace CardGames.Core
 
         public override string ToString()
         {
-            return Name;
+            return $"[{Name}, Deck={Deck}, Status={Status}]";
         }
     }
 }

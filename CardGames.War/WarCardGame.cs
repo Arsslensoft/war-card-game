@@ -2,11 +2,13 @@
 using System.Linq;
 using CardGames.Core;
 using CardGames.Core.Enums;
+using CardGames.War.Contracts;
 using CardGames.War.StandardFiftyTwo;
+using Serilog;
 
 namespace CardGames.War
 {
-    public class WarCardGame : Game<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>
+    public class WarCardGame : Game<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>, ILogged
     {
         public WarCardGame(IEnumerable<FiftyTwoCardGamePlayer> players, FiftyTwoCardGameDeck initialDeck)
         {
@@ -30,10 +32,18 @@ namespace CardGames.War
             {
                 // create a new round and play
                 var round = CreateRound<WarCardRound>(candidates, ++roundNumber);
+                round.Logger = this.Logger;
                 round.Play();
                 // update candidates list
                 candidates = Players.Where(player => player.Status == PlayerStatus.Competing).ToList();
             }
+            Log();
+        }
+
+        public ILogger Logger { get; set; }
+        public void Log()
+        {
+            Logger?.Information($"Game Winner: {Winner}");
         }
     }
 }

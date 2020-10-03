@@ -24,5 +24,6 @@ namespace CardGames.War.Moves
             }
             return true;
         }
+        public override string ToString() => "War Move Mode";
     }
 }
