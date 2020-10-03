@@ -70,11 +70,13 @@ All components use interfaces, therefore mocking is easy to use for testing.
 * 21h00-21h30: Console app methods and reading input
 * 21h30-22h00: Explaining the system in README
 
-Time Taken To Design & Implement: ~3h30 the solution
+Time Taken To Design & Implement: ~4h10 the solution
 
 Time Taken To Document / Refactor / Cleanup Code: 50 minutes
 
-Total Time Taken: ~6h
+Time Taken To Debug / Test / Write tests / Veirfy the code: 60 minutes
+
+Total Time Taken Without : ~6h
 
 ## Delay Considerations
 Some distractions during the implementation due to phone calls and family matters, can be estimated to 30 minutes.
