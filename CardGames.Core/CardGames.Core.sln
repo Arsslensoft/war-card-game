@@ -14,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardGames.War", "..\CardGam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarCardGameConsole", "..\WarCardGameConsole\WarCardGameConsole.csproj", "{28397E2E-9D95-47B6-982B-C8CFCEEA4589}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardGames.War.Tests", "..\CardGames.Core.Tests\CardGames.War.Tests.csproj", "{8D727C68-C619-4696-9672-18AA1F06B3A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardGames.War.Tests", "..\CardGames.War.Tests\CardGames.War.Tests.csproj", "{8D727C68-C619-4696-9672-18AA1F06B3A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{54A6E20E-1B69-4610-978A-975BE8C5118C}"
 EndProject

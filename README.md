@@ -90,7 +90,7 @@ The solution was implemented using:
 * Resharper Ultimate
 
 # Testing the project
-Import the library ``CardGames.War`` and perform your tests. You can check an example test for the ``CardGames.Core`` in the ``CardGames.Core.Tests``
+Import the library ``CardGames.War`` and perform your tests. You can check an example test for the ``CardGames.War`` in the ``CardGames.War.Tests``
 
 # Unit Tests
 Were not implemented due to the lack of time.
