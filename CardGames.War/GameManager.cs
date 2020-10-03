@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using CardGames.Core.Contracts;
 using CardGames.Core.Enums;
 using CardGames.War.StandardFiftyTwo;
 using CardGames.War.StandardFiftyTwo.Enums;
@@ -10,6 +8,9 @@ using Serilog;
 
 namespace CardGames.War
 {
+    /// <summary>
+    ///     Represents the Façade of the war game class.
+    /// </summary>
     public static class GameManager
     {
         private static FiftyTwoCardGameDeck CreateDummyWar()
@@ -45,8 +46,8 @@ namespace CardGames.War
         {
             var deck = new FiftyTwoCardGameDeck();
             foreach (var suite in Enum.GetValues(typeof(Suite)))
-                foreach (var face in Enum.GetValues(typeof(Face)))
-                    deck.Put(new FiftyTwoCardGameCard((Suite)suite, (Face)face));
+            foreach (var face in Enum.GetValues(typeof(Face)))
+                deck.Put(new FiftyTwoCardGameCard((Suite) suite, (Face) face));
             deck.Shuffle();
 
             return deck;
@@ -70,6 +71,17 @@ namespace CardGames.War
             }
         }
 
+        private static IEnumerable<FiftyTwoCardGamePlayer> CreatePlayers(int numberOfPlayers)
+        {
+            for (var i = 0; i < numberOfPlayers; i++)
+                yield return new FiftyTwoCardGamePlayer
+                {
+                    Name = "Player " + i,
+                    Deck = new FiftyTwoCardGameDeck(),
+                    Status = PlayerStatus.Competing
+                };
+        }
+
         private static IEnumerable<FiftyTwoCardGamePlayer> CreatePlayers(IEnumerable<string> playerNames)
         {
             return playerNames.Select(playerName => new FiftyTwoCardGamePlayer
@@ -80,6 +92,29 @@ namespace CardGames.War
             });
         }
 
+        private static IEnumerable<FiftyTwoCardGamePlayer> CreatePlayers(List<Tuple<string, string[]>> playerCards)
+        {
+            return playerCards.Select(playerCard => new FiftyTwoCardGamePlayer
+            {
+                Name = playerCard.Item1,
+                Deck = GetPlayerDeck(playerCard.Item2),
+                Status = PlayerStatus.Competing
+            });
+        }
+
+        private static FiftyTwoCardGameDeck GetPlayerDeck(string[] cards)
+        {
+            var deck = new FiftyTwoCardGameDeck();
+            for (var i = cards.Length - 1; i >= 0; i++) // reverse add because the deck is a queue
+            {
+                var cardInfos = cards[i].Split(',');
+                deck.Put(new FiftyTwoCardGameCard(Enum.Parse<Suite>(cardInfos[1], true),
+                    Enum.Parse<Face>(cardInfos[0], true)));
+            }
+
+            return deck;
+        }
+
         private static FiftyTwoCardGameDeck GetInitialDeck(IEnumerable<FiftyTwoCardGamePlayer> players)
         {
             var deck = new FiftyTwoCardGameDeck();
@@ -88,16 +123,49 @@ namespace CardGames.War
             return deck;
         }
 
-        public static WarCardGame Play(IEnumerable<string> playerNames, ILogger logger)
+        private static WarCardGame Play(IEnumerable<FiftyTwoCardGamePlayer> players, FiftyTwoCardGameDeck deck,
+            ILogger logger)
         {
-            var players = CreatePlayers(playerNames).ToList();
-            var deck = CreateDummyWar();
-            var game = new WarCardGame(players, deck) { Logger = logger };
+            var game = new WarCardGame(players, deck) {Logger = logger};
             game.DistributeCards();
             game.Play();
             return game;
         }
 
+        /// <summary>
+        ///     Creates a game using a list of player names.
+        /// </summary>
+        /// <param name="playerNames">The player names list.</param>
+        /// <param name="logger">The logger.</param>
+        /// <returns>The created and simulated game.</returns>
+        public static WarCardGame Play(IEnumerable<string> playerNames, ILogger logger)
+        {
+            var players = CreatePlayers(playerNames).ToList();
+            var deck = CreateInitialShuffledDeck();
+            return Play(players, deck, logger);
+        }
+
+        /// <summary>
+        ///     Creates a set of games.
+        /// </summary>
+        /// <param name="numberOfPlayers">The number of players.</param>
+        /// <param name="numberOfGames">The number of games to create.</param>
+        /// <param name="logger">The logger.</param>
+        /// <returns>The simulated games.</returns>
+        public static IEnumerable<WarCardGame> Play(int numberOfPlayers, int numberOfGames, ILogger logger)
+        {
+            for (var i = 0; i < numberOfGames; i++)
+            {
+                var players = CreatePlayers(numberOfPlayers).ToList();
+                yield return Play(players, CreateInitialShuffledDeck(), logger);
+            }
+        }
+
+        public static WarCardGame Play(List<Tuple<string, string[]>> playerCards, ILogger logger)
+        {
+            var players = CreatePlayers(playerCards).ToList();
+            var deck = GetInitialDeck(players);
+            return Play(players, deck, logger);
+        }
     }
 }
-

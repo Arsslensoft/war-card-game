@@ -8,6 +8,9 @@ using Serilog;
 
 namespace CardGames.War
 {
+    /// <summary>
+    ///     Represents the war card game class.
+    /// </summary>
     public class WarCardGame : Game<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>, ILogged
     {
         public WarCardGame(IEnumerable<FiftyTwoCardGamePlayer> players, FiftyTwoCardGameDeck initialDeck)
@@ -15,6 +18,8 @@ namespace CardGames.War
             Players = players;
             InitialDeck = initialDeck;
         }
+
+        /// <inheritdoc cref="Game{TPlayer,TDeck,TCard}" />
         public override FiftyTwoCardGamePlayer Winner
         {
             get
@@ -23,6 +28,17 @@ namespace CardGames.War
                 return candidates.Count == 1 ? candidates.FirstOrDefault() : null;
             }
         }
+
+        /// <inheritdoc cref="ILogged" />
+        public ILogger Logger { get; set; }
+
+        /// <inheritdoc cref="ILogged" />
+        public void Log()
+        {
+            Logger?.Information($"Game Winner: {Winner}");
+        }
+
+        /// <inheritdoc cref="Game{TPlayer,TDeck,TCard}" />
         public override void Play()
         {
             var roundNumber = 0;
@@ -32,18 +48,13 @@ namespace CardGames.War
             {
                 // create a new round and play
                 var round = CreateRound<WarCardRound>(candidates, ++roundNumber);
-                round.Logger = this.Logger;
+                round.Logger = Logger;
                 round.Play();
                 // update candidates list
                 candidates = Players.Where(player => player.Status == PlayerStatus.Competing).ToList();
             }
-            Log();
-        }
 
-        public ILogger Logger { get; set; }
-        public void Log()
-        {
-            Logger?.Information($"Game Winner: {Winner}");
+            Log();
         }
     }
 }

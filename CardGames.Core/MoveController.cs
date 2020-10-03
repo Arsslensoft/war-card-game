@@ -7,7 +7,7 @@ namespace CardGames.Core
         where TDeck : class, IDeck<TCard>
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
-        /// <inheritdoc cref="IMoveController{TPlayer,TDeck,TCard}"/>
+        /// <inheritdoc cref="IMoveController{TPlayer,TDeck,TCard}" />
         public abstract bool Execute(TPlayer player, ICardTray<TPlayer, TDeck, TCard> cardTray);
     }
 }

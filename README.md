@@ -9,10 +9,13 @@
 19h40-20h20: Implement the history printer
 20h21-2035: Document the project Part I
 20h35-20h42: Pause
+20h42-21h00: Documentation
+21h00-21h30: Console app methods and reading input
+21h30-22h00: Explaining the system in README
 
 Time Taken To Design & Implement: ~3h30 the solution
 Time Taken To Document / Refactor / Cleanup Code: 50 minutes
-Total Time Taken: 4h20
+Total Time Taken: ~6h
 
 
 

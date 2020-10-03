@@ -8,12 +8,14 @@ namespace CardGames.Core
         where TCard : class, ICard
     {
         private readonly List<TCard> _cards = new List<TCard>();
-        /// <inheritdoc cref="IDeck{TCard}"/>
-        public virtual IEnumerable<TCard> Cards => _cards;
-        /// <inheritdoc cref="IDeck{TCard}"/>
+
+        /// <inheritdoc cref="IDeck{TCard}" />
         public virtual bool CanPick => _cards.Count > 0;
 
-        /// <inheritdoc cref="IDeck{TCard}"/>
+        /// <inheritdoc cref="IDeck{TCard}" />
+        public virtual IEnumerable<TCard> Cards => _cards;
+
+        /// <inheritdoc cref="IDeck{TCard}" />
         public virtual TCard Draw()
         {
             if (_cards.Count <= 0) return null;
@@ -22,19 +24,32 @@ namespace CardGames.Core
             _cards.RemoveAt(0);
             return card;
         }
-        /// <inheritdoc cref="IDeck{TCard}"/>
+
+        /// <inheritdoc cref="IDeck{TCard}" />
         public IEnumerable<TCard> Draw(int numberOfCards)
         {
             for (var i = 0; i < numberOfCards; i++)
                 yield return Draw();
         }
-        /// <inheritdoc cref="IDeck{TCard}"/>
+
+        /// <inheritdoc cref="IDeck{TCard}" />
         public virtual void Put(TCard card)
         {
             card.IsVisible = false;
             _cards.Add(card);
         }
-        /// <inheritdoc cref="IDeck{TCard}"/>
+
+        /// <inheritdoc cref="IDeck{TCard}" />
+        public virtual void Put(IEnumerable<TCard> cards)
+        {
+            foreach (var card in cards)
+            {
+                card.IsVisible = false;
+                _cards.Add(card);
+            }
+        }
+
+        /// <inheritdoc cref="IDeck{TCard}" />
         public virtual void Shuffle()
         {
             for (var i = _cards.Count - 1; i > 1; i--)
@@ -45,17 +60,11 @@ namespace CardGames.Core
                 _cards[i] = randomCard;
             }
         }
-        /// <inheritdoc cref="IDeck{TCard}"/>
-        public virtual void Put(IEnumerable<TCard> cards)
-        {
-            foreach (var card in cards)
-            {
-                card.IsVisible = false;
-                _cards.Add(card);
-            }
 
+        /// <inheritdoc cref="object" />
+        public override string ToString()
+        {
+            return $"{_cards.Count} cards";
         }
-        /// <inheritdoc cref="object"/>
-        public override string ToString() => $"{_cards.Count} cards";
     }
 }

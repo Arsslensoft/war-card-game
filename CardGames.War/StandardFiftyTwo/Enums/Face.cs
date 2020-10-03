@@ -1,5 +1,8 @@
 ﻿namespace CardGames.War.StandardFiftyTwo.Enums
 {
+    /// <summary>
+    ///     Represents the faces of a standard 52 cards deck and their representative values for the war game.
+    /// </summary>
     public enum Face : byte
     {
         Two = 2,

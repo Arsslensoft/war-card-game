@@ -5,10 +5,11 @@ using CardGames.War.StandardFiftyTwo.Enums;
 
 namespace CardGames.War.StandardFiftyTwo
 {
+    /// <summary>
+    ///     Represents the standard 52-card deck card class.
+    /// </summary>
     public class FiftyTwoCardGameCard : Card, IEquatable<FiftyTwoCardGameCard>, IComparable<FiftyTwoCardGameCard>
     {
-        public Face Face { get; }
-        public Suite Suite { get; }
         public FiftyTwoCardGameCard(Suite suite, Face face, bool isVisible = false)
             : base(isVisible)
         {
@@ -16,6 +17,17 @@ namespace CardGames.War.StandardFiftyTwo
             Suite = suite;
         }
 
+        /// <summary>
+        ///     Represents the face of the card.
+        /// </summary>
+        public Face Face { get; }
+
+        /// <summary>
+        ///     Represents the suite of the card.
+        /// </summary>
+        public Suite Suite { get; }
+
+        /// <inheritdoc cref="IComparable{T}" />
         public int CompareTo(FiftyTwoCardGameCard other)
         {
             if (ReferenceEquals(other, null))
@@ -23,13 +35,17 @@ namespace CardGames.War.StandardFiftyTwo
             return ReferenceEquals(this, other) ? 0 : Face.CompareTo(other.Face);
         }
 
+        /// <inheritdoc cref="IEquatable{T}" />
         public bool Equals([AllowNull] FiftyTwoCardGameCard other)
         {
             if (ReferenceEquals(other, null)) return false;
             return ReferenceEquals(this, other) || Face.Equals(other.Face);
         }
 
-        public override string ToString() => $"{base.ToString()}, Face={Face}, Suite={Suite}";
+        /// <inheritdoc cref="object" />
+        public override string ToString()
+        {
+            return $"{base.ToString()}, Face={Face}, Suite={Suite}";
+        }
     }
-
 }
