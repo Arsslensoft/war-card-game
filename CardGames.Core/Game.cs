@@ -12,13 +12,17 @@ namespace CardGames.Core
     {
         private readonly List<IRound<TPlayer, TDeck, TCard>> _rounds = new List<IRound<TPlayer, TDeck, TCard>>();
 
+        /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}"/>
         public virtual TPlayer Winner { get; }
+        /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}"/>
         public TDeck InitialDeck { get; set; }
+        /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}"/>
         public virtual IEnumerable<TPlayer> Players { get; protected set; }
+        /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}"/>
         public virtual IEnumerable<IRound<TPlayer, TDeck, TCard>> Rounds => _rounds;
-
+        /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}"/>
         public abstract void Play();
-
+        /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}"/>
         public virtual TRound CreateRound<TRound>(IEnumerable<TPlayer> players, int roundNumber)
             where TRound : class, IRound<TPlayer, TDeck, TCard>, new()
         {
@@ -30,6 +34,7 @@ namespace CardGames.Core
             _rounds.Add(round);
             return round;
         }
+        /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}"/>
         public virtual void DistributeCards()
         {
             var cardsPerPlayer = InitialDeck.Cards.Count() / Players.Count();

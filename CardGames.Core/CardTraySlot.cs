@@ -8,12 +8,12 @@ namespace CardGames.Core
         where TDeck : class, IDeck<TCard>
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
+        /// <inheritdoc cref="ICardTraySlot{TPlayer,TDeck,TCard}"/>
         public TPlayer Player { get; set; }
+        /// <inheritdoc cref="ICardTraySlot{TPlayer,TDeck,TCard}"/>
         public virtual IEnumerable<TCard> Cards { get; protected set; }
 
-        public virtual void Put(TCard card)
-        {
-
-        }
+        /// <inheritdoc cref="ICardTraySlot{TPlayer,TDeck,TCard}"/>
+        public abstract void Put(TCard card);
     }
 }

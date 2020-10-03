@@ -9,8 +9,9 @@ namespace CardGames.Core
         where TDeck : class, IDeck<TCard>
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
+        /// <inheritdoc cref="ICardTray{TPlayer,TDeck,TCard}"/>
         public virtual IEnumerable<ICardTraySlot<TPlayer, TDeck, TCard>> PlayedCards { get; protected set; }
-
+        /// <inheritdoc cref="ICardTray{TPlayer,TDeck,TCard}"/>
         public virtual void Place<TCardTraySlot>(TPlayer player, TCard card)
             where TCardTraySlot : class, ICardTraySlot<TPlayer, TDeck, TCard>, new()
         {

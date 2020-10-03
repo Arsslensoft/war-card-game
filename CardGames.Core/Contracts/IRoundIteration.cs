@@ -43,7 +43,7 @@ namespace CardGames.Core.Contracts
         /// </summary>
         /// <typeparam name="TMoveController">The movement controller type.</typeparam>
         /// <typeparam name="TCardTray">The card tray type.</typeparam>
-        /// <param name="players"></param>
+        /// <param name="players">The players of the current round iteration.</param>
         void Initialize<TMoveController, TCardTray>(IEnumerable<TPlayer> players)
             where TMoveController : class, IMoveController<TPlayer, TDeck, TCard>, new()
             where TCardTray : class, ICardTray<TPlayer, TDeck, TCard>, new();

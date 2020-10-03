@@ -15,13 +15,19 @@ namespace CardGames.Core
         where TDeck : class, IDeck<TCard>
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
+        /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}"/>
         public virtual IEnumerable<TPlayer> Players { get; protected set; }
+        /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}"/>
         public IRound<TPlayer, TDeck, TCard> CurrentRound { get; set; }
+        /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}"/>
         public ICardTray<TPlayer, TDeck, TCard> CurrentCardTray { get; protected set; }
+        /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}"/>
         public IMoveController<TPlayer, TDeck, TCard> MoveController { get; protected set; }
-
+        /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}"/>
         public abstract TPlayer Winner { get; }
+        /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}"/>
         public abstract void Play();
+        /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}"/>
         public virtual void Initialize<TMoveController, TCardTray>(IEnumerable<TPlayer> players)
             where TMoveController : class, IMoveController<TPlayer, TDeck, TCard>, new()
             where TCardTray : class, ICardTray<TPlayer, TDeck, TCard>, new()
