@@ -22,9 +22,11 @@ namespace CardGames.War
             {
 
                 var playersInConflict = currentIteration.PlayersInConflict;
+                Logger.Information("---------------Conflict--------------");
                 Logger.Information("Conflict has been found between players");
                 foreach (var player in playersInConflict)
                     Logger.Information($"Player: {player}");
+                Logger.Information("-------------------------------------");
 
                 currentIteration = CreateIteration<WarCardRoundIteration, WarPlayerMovementController, WarCardTray>(playersInConflict);
                 currentIteration.Logger = this.Logger;
