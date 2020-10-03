@@ -46,8 +46,8 @@ namespace CardGames.War
         {
             var deck = new FiftyTwoCardGameDeck();
             foreach (var suite in Enum.GetValues(typeof(Suite)))
-            foreach (var face in Enum.GetValues(typeof(Face)))
-                deck.Put(new FiftyTwoCardGameCard((Suite) suite, (Face) face));
+                foreach (var face in Enum.GetValues(typeof(Face)))
+                    deck.Put(new FiftyTwoCardGameCard((Suite)suite, (Face)face));
             deck.Shuffle();
 
             return deck;
@@ -105,9 +105,9 @@ namespace CardGames.War
         private static FiftyTwoCardGameDeck GetPlayerDeck(string[] cards)
         {
             var deck = new FiftyTwoCardGameDeck();
-            for (var i = cards.Length - 1; i >= 0; i++) // reverse add because the deck is a queue
+            foreach (var cardText in cards)
             {
-                var cardInfos = cards[i].Split(',');
+                var cardInfos = cardText.Split(',');
                 deck.Put(new FiftyTwoCardGameCard(Enum.Parse<Suite>(cardInfos[1], true),
                     Enum.Parse<Face>(cardInfos[0], true)));
             }
@@ -124,10 +124,11 @@ namespace CardGames.War
         }
 
         private static WarCardGame Play(IEnumerable<FiftyTwoCardGamePlayer> players, FiftyTwoCardGameDeck deck,
-            ILogger logger)
+            ILogger logger, bool distribute)
         {
-            var game = new WarCardGame(players, deck) {Logger = logger};
-            game.DistributeCards();
+            var game = new WarCardGame(players, deck) { Logger = logger };
+            if (distribute)
+                game.DistributeCards();
             game.Play();
             return game;
         }
@@ -142,7 +143,7 @@ namespace CardGames.War
         {
             var players = CreatePlayers(playerNames).ToList();
             var deck = CreateInitialShuffledDeck();
-            return Play(players, deck, logger);
+            return Play(players, deck, logger, true);
         }
 
         /// <summary>
@@ -157,7 +158,7 @@ namespace CardGames.War
             for (var i = 0; i < numberOfGames; i++)
             {
                 var players = CreatePlayers(numberOfPlayers).ToList();
-                yield return Play(players, CreateInitialShuffledDeck(), logger);
+                yield return Play(players, CreateInitialShuffledDeck(), logger, true);
             }
         }
 
@@ -165,7 +166,7 @@ namespace CardGames.War
         {
             var players = CreatePlayers(playerCards).ToList();
             var deck = GetInitialDeck(players);
-            return Play(players, deck, logger);
+            return Play(players, deck, logger, false);
         }
     }
 }
