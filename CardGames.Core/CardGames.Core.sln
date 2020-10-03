@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGames.War", "..\CardGam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarCardGameConsole", "..\WarCardGameConsole\WarCardGameConsole.csproj", "{28397E2E-9D95-47B6-982B-C8CFCEEA4589}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGames.Core.Tests", "..\CardGames.Core.Tests\CardGames.Core.Tests.csproj", "{046DD414-C5B4-4EBB-8A63-E9A63CA2D4A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CEEF847E-1233-45B2-B99F-B9ABA307820F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,9 +36,16 @@ Global
 		{28397E2E-9D95-47B6-982B-C8CFCEEA4589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28397E2E-9D95-47B6-982B-C8CFCEEA4589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28397E2E-9D95-47B6-982B-C8CFCEEA4589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046DD414-C5B4-4EBB-8A63-E9A63CA2D4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046DD414-C5B4-4EBB-8A63-E9A63CA2D4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046DD414-C5B4-4EBB-8A63-E9A63CA2D4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046DD414-C5B4-4EBB-8A63-E9A63CA2D4A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{046DD414-C5B4-4EBB-8A63-E9A63CA2D4A2} = {CEEF847E-1233-45B2-B99F-B9ABA307820F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8B7FEEE-3B9D-4CB0-9A3A-2AD6FF41ECA6}

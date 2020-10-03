@@ -4,6 +4,12 @@ using CardGames.Core.Contracts;
 
 namespace CardGames.Core
 {
+    /// <summary>
+    /// Represents the round iteration concerning a set of players class.
+    /// </summary>
+    /// <typeparam name="TPlayer">The <see cref="Player{TDeck,TCard}"/> subtype.</typeparam>
+    /// <typeparam name="TDeck">The <see cref="Deck{TCard}"/> subtype.</typeparam>
+    /// <typeparam name="TCard">The <see cref="Card"/> subtype.</typeparam>
     public abstract class RoundIteration<TPlayer, TDeck, TCard> : IRoundIteration<TPlayer, TDeck, TCard>
         where TCard : class, ICard
         where TDeck : class, IDeck<TCard>
