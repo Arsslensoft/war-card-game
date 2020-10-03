@@ -74,7 +74,7 @@ Time Taken To Design & Implement: ~4h10 the solution
 
 Time Taken To Document / Refactor / Cleanup Code: 50 minutes
 
-Time Taken To Debug / Test / Write tests / Veirfy the code: 60 minutes
+Time Taken To Debug / Test / Write tests / Verify the code / Apply fixes: 60 minutes
 
 Total Time Taken Without : ~6h
 
