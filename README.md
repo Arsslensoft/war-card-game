@@ -1,4 +1,4 @@
-# Considerations
+# Disclaimer
 After checking the problem statement there criteria seemed to be the highest priority:
 
 * Modeling
@@ -8,6 +8,14 @@ After checking the problem statement there criteria seemed to be the highest pri
 After verifying the given link: https://www.momes.net/jeux/jeux-interieur/regle-des-jeux-de-cartes/la-bataille-regles-du-jeu-842140
 
 I noticed that there are variants for the game, so from that i decided to make it easily modifyable by increasing abstraction.
+
+I focused on making the system as abstract for the ease of maintenainability as possible by maintaining a minimum of documentation.
+
+# Proposition and To Do
+* Wrap the code in ``#region...#endregion``.
+* More Unit Tests and Integration Tests.
+* Exception handling.
+* Abstract the game manager make it easily substitutable.
 
 # Explaining Libraries
 The project is composed of 2 libraries:
@@ -42,6 +50,10 @@ These classes rarely change as they are part of every card game and contain the 
 # Ease of mocking
 All components use interfaces, therefore mocking is easy to use for testing.
 
+# Used Principles
+* Don't Repeat Yourself (DRY)
+* S.O.L.I.D
+* OOP Principles
 
 # Implementation Time
 03/10/2020: 
@@ -69,6 +81,16 @@ Some distractions during the implementation due to phone calls and family matter
 
 # Class diagram
 ![The global class diagram](Class.png "Class diagram")
+
+# Environment 
+The solution was implemented using:
+
+* .NET Core
+* Visual Studio 2019
+* Resharper Ultimate
+
+# Testing the project
+Import the library ``CardGames.War`` and perform your tests. You can check an example test for the ``CardGames.Core`` in the ``CardGames.Core.Tests``
 
 # Unit Tests
 Were not implemented due to the lack of time.
