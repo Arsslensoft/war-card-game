@@ -24,7 +24,7 @@ namespace CardGames.War
         {
             get
             {
-                var candidates = Players.Where(player => player.Status == PlayerStatus.Competing).ToList();
+                var candidates = Players.Where(player => player.Status <= PlayerStatus.Won).ToList();
                 return candidates.Count == 1 ? candidates.FirstOrDefault() : null;
             }
         }
@@ -53,7 +53,8 @@ namespace CardGames.War
                 // update candidates list
                 candidates = Players.Where(player => player.Status == PlayerStatus.Competing).ToList();
             }
-
+            // mark the winner as won
+            Winner.Status = PlayerStatus.Won;
             Log();
         }
     }

@@ -22,7 +22,7 @@ namespace CardGames.War
             get
             {
                 var conflictingPlayersByTopCard = CurrentCardTray.PlayedCards
-                    .Select(x => new {x.Player, Card = x.Cards.FirstOrDefault()})
+                    .Select(x => new { x.Player, Card = x.Cards.FirstOrDefault() })
                     .GroupBy(x => x.Card.Face)
                     .OrderByDescending(x => x.Key)
                     .FirstOrDefault();
@@ -36,7 +36,7 @@ namespace CardGames.War
             get
             {
                 var conflictingPlayersByTopCard = CurrentCardTray.PlayedCards
-                    .Select(x => new {x.Player, Card = x.Cards.FirstOrDefault()})
+                    .Select(x => new { x.Player, Card = x.Cards.FirstOrDefault() })
                     .GroupBy(x => x.Card.Face)
                     .OrderByDescending(x => x.Key)
                     .FirstOrDefault();
@@ -58,6 +58,7 @@ namespace CardGames.War
         /// <inheritdoc cref="ILogged" />
         public void Log()
         {
+            if (Logger == null) return;
             Logger.Information("--------------------Round Iteration---------------------");
             Logger.Information($"Mode: {MoveController}");
             var playerNamesBuilder = new StringBuilder();

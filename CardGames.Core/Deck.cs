@@ -9,12 +9,15 @@ namespace CardGames.Core
     {
         private readonly List<TCard> _cards = new List<TCard>();
 
+        #region Properties
         /// <inheritdoc cref="IDeck{TCard}" />
         public virtual bool CanPick => _cards.Count > 0;
 
         /// <inheritdoc cref="IDeck{TCard}" />
         public virtual IEnumerable<TCard> Cards => _cards;
+        #endregion
 
+        #region Methods
         /// <inheritdoc cref="IDeck{TCard}" />
         public virtual TCard Draw()
         {
@@ -48,7 +51,9 @@ namespace CardGames.Core
                 _cards.Add(card);
             }
         }
+        #endregion
 
+        #region Implementation of IShuffleable
         /// <inheritdoc cref="IDeck{TCard}" />
         public virtual void Shuffle()
         {
@@ -60,6 +65,7 @@ namespace CardGames.Core
                 _cards[i] = randomCard;
             }
         }
+        #endregion
 
         /// <inheritdoc cref="object" />
         public override string ToString()

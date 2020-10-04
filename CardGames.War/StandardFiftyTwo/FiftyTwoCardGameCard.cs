@@ -47,5 +47,23 @@ namespace CardGames.War.StandardFiftyTwo
         {
             return $"{base.ToString()}, Face={Face}, Suite={Suite}";
         }
+
+        #region Comparison Operators Implementation
+        public static bool operator >(FiftyTwoCardGameCard left, FiftyTwoCardGameCard right)
+        {
+            if (ReferenceEquals(left, null)) return false;
+            return left.CompareTo(right) == 1;
+        }
+        public static bool operator <(FiftyTwoCardGameCard left, FiftyTwoCardGameCard right)
+        {
+            if (ReferenceEquals(left, null))
+                return !ReferenceEquals(right, null);
+
+            return left.CompareTo(right) == -1;
+        }
+        public static bool operator ==(FiftyTwoCardGameCard left, FiftyTwoCardGameCard right) => left?.Equals(right) ?? ReferenceEquals(right, null);
+        public static bool operator !=(FiftyTwoCardGameCard left, FiftyTwoCardGameCard right) => !(left?.Equals(right) ?? ReferenceEquals(right, null));
+        #endregion
+
     }
 }

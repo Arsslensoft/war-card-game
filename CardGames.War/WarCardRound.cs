@@ -19,7 +19,7 @@ namespace CardGames.War
         /// <inheritdoc cref="ILogged" />
         public void Log()
         {
-            Logger.Information($"--------------------{this}---------------------");
+            Logger?.Information($"--------------------{this}---------------------");
         }
 
         /// <inheritdoc cref="Round{TPlayer,TDeck,TCard}" />
@@ -34,11 +34,11 @@ namespace CardGames.War
             while (currentIteration.HasConflict)
             {
                 var playersInConflict = currentIteration.PlayersInConflict;
-                Logger.Information("---------------Conflict--------------");
-                Logger.Information("Conflict has been found between players");
+                Logger?.Information("---------------Conflict--------------");
+                Logger?.Information("Conflict has been found between players");
                 foreach (var player in playersInConflict)
-                    Logger.Information($"Player: {player}");
-                Logger.Information("-------------------------------------");
+                    Logger?.Information($"Player: {player}");
+                Logger?.Information("-------------------------------------");
 
                 currentIteration =
                     CreateIteration<WarCardRoundIteration, WarPlayerMovementController, WarCardTray>(playersInConflict);
@@ -46,7 +46,7 @@ namespace CardGames.War
                 currentIteration.Play();
             }
 
-            Logger.Information($"{Winner} Won the round and will claim {AllPlayedCards.Count()} cards");
+            Logger?.Information($"{Winner} Won the round and will claim {AllPlayedCards.Count()} cards");
             Winner?.Deck.Put(AllPlayedCards);
             // Eliminate players with an empty deck
             foreach (var player in Players)

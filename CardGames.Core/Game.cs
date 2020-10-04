@@ -12,8 +12,9 @@ namespace CardGames.Core
     {
         private readonly List<IRound<TPlayer, TDeck, TCard>> _rounds = new List<IRound<TPlayer, TDeck, TCard>>();
 
+        #region Properties
         /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}" />
-        public virtual TPlayer Winner { get; }
+        public abstract TPlayer Winner { get; }
 
         /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}" />
         public TDeck InitialDeck { get; set; }
@@ -23,7 +24,9 @@ namespace CardGames.Core
 
         /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}" />
         public virtual IEnumerable<IRound<TPlayer, TDeck, TCard>> Rounds => _rounds;
+        #endregion
 
+        #region Methods
         /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}" />
         public abstract void Play();
 
@@ -51,5 +54,6 @@ namespace CardGames.Core
             foreach (var player in Players)
                 player.Deck.Put(InitialDeck.Cards.Skip(i++ * cardsPerPlayer).Take(cardsPerPlayer));
         }
+        #endregion
     }
 }
