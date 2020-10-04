@@ -14,7 +14,7 @@ namespace CardGames.Core
 
         #region Properties
         /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}" />
-        public virtual TPlayer Winner { get; }
+        public abstract TPlayer Winner { get; }
 
         /// <inheritdoc cref="IGame{TPlayer,TDeck,TCard}" />
         public TDeck InitialDeck { get; set; }
