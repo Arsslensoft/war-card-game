@@ -12,6 +12,7 @@ namespace CardGames.Core
         private readonly List<IRoundIteration<TPlayer, TDeck, TCard>> _iterations =
             new List<IRoundIteration<TPlayer, TDeck, TCard>>();
 
+        #region Properties
         /// <inheritdoc cref="IRound{TPlayer,TDeck,TCard}" />
         public int Number { get; set; }
 
@@ -30,7 +31,9 @@ namespace CardGames.Core
 
         /// <inheritdoc cref="IRound{TPlayer,TDeck,TCard}" />
         public IEnumerable<IRoundIteration<TPlayer, TDeck, TCard>> Iterations => _iterations;
+        #endregion
 
+        #region Methods
         /// <inheritdoc cref="IRound{TPlayer,TDeck,TCard}" />
         public abstract void Play();
 
@@ -49,5 +52,6 @@ namespace CardGames.Core
             roundIteration.Initialize<TMoveController, TCardTray>(players ?? Players);
             return roundIteration;
         }
+        #endregion
     }
 }

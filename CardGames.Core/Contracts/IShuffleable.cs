@@ -6,7 +6,7 @@
     public interface IShuffleable
     {
         /// <summary>
-        ///     Suffles the object data.
+        ///     Shuffles the object data.
         /// </summary>
         void Shuffle();
     }

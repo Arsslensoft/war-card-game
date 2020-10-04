@@ -9,9 +9,12 @@ namespace CardGames.Core
         where TDeck : class, IDeck<TCard>
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
+        #region Properties
         /// <inheritdoc cref="ICardTray{TPlayer,TDeck,TCard}" />
         public virtual IEnumerable<ICardTraySlot<TPlayer, TDeck, TCard>> PlayedCards { get; protected set; }
+        #endregion 
 
+        #region Methods
         /// <inheritdoc cref="ICardTray{TPlayer,TDeck,TCard}" />
         public virtual void Place<TCardTraySlot>(TPlayer player, TCard card)
             where TCardTraySlot : class, ICardTraySlot<TPlayer, TDeck, TCard>, new()
@@ -34,5 +37,6 @@ namespace CardGames.Core
                 cardTraySlot.Put(card);
             }
         }
+        #endregion
     }
 }

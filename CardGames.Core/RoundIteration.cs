@@ -14,6 +14,7 @@ namespace CardGames.Core
         where TDeck : class, IDeck<TCard>
         where TPlayer : class, IPlayer<TDeck, TCard>
     {
+        #region Properties
         /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}" />
         public virtual IEnumerable<TPlayer> Players { get; protected set; }
 
@@ -28,7 +29,9 @@ namespace CardGames.Core
 
         /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}" />
         public abstract TPlayer Winner { get; }
+        #endregion
 
+        #region Methods
         /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}" />
         public abstract void Play();
 
@@ -41,5 +44,6 @@ namespace CardGames.Core
             CurrentCardTray = new TCardTray();
             Players = players;
         }
+        #endregion
     }
 }
