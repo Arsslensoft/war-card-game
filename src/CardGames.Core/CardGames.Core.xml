@@ -1,0 +1,516 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CardGames.Core</name>
+    </assembly>
+    <members>
+        <member name="T:CardGames.Core.Card">
+            <summary>
+            Represents the base representation class of a game card.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Card.IsVisible">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Card.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.Core.CardTray`3">
+            <summary>
+            Represents the base class of card tray where the players place their cards during a game.
+            </summary>
+            <typeparam name="TPlayer">The  type that represents the customized <see cref="T:CardGames.Core.Player`2" /> for a given game.</typeparam>
+            <typeparam name="TDeck">The  type that represents the customized <see cref="T:CardGames.Core.Deck`1" /> for a given game.</typeparam>
+            <typeparam name="TCard">The type that represents the customized <see cref="T:CardGames.Core.Card" /> for a given game.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.CardTray`3.PlayedCards">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.CardTray`3.Place``1(`0,`2)">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.Core.CardTraySlot`3">
+            <summary>
+            Represents the card tray slot base class containing the placed cards information specific to a player.
+            </summary>
+            <typeparam name="TPlayer">The  type that represents the customized <see cref="T:CardGames.Core.Player`2" /> for a given game.</typeparam>
+            <typeparam name="TDeck">The  type that represents the customized <see cref="T:CardGames.Core.Deck`1" /> for a given game.</typeparam>
+            <typeparam name="TCard">The type that represents the customized <see cref="T:CardGames.Core.Card" /> for a given game.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.CardTraySlot`3.Player">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.CardTraySlot`3.Cards">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.CardTraySlot`3.Put(`2)">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.Core.Contracts.ICard">
+            <summary>
+                Represents the base interface of all cards.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.ICard.IsVisible">
+            <summary>
+                Indicates whether the card value is visible to the players or not.
+            </summary>
+        </member>
+        <member name="T:CardGames.Core.Contracts.ICardTray`3">
+            <summary>
+                A Representation of the tray where players put their cards.
+            </summary>
+            <typeparam name="TPlayer">The <see cref="T:CardGames.Core.Contracts.IPlayer`2" /> subtype.</typeparam>
+            <typeparam name="TDeck">The <see cref="T:CardGames.Core.Contracts.IDeck`1" /> subtype.</typeparam>
+            <typeparam name="TCard">The <see cref="T:CardGames.Core.Contracts.ICard" /> subtype.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Contracts.ICardTray`3.PlayedCards">
+            <summary>
+                Represents the list of players and their corresponding placed cards.
+            </summary>
+        </member>
+        <member name="M:CardGames.Core.Contracts.ICardTray`3.Place``1(`0,`2)">
+            <summary>
+                Places a card for a player in the tray.
+            </summary>
+            <typeparam name="TCardTraySlot">The <see cref="T:CardGames.Core.Contracts.ICardTraySlot`3" /> subtype.</typeparam>
+            <param name="player">The calling player.</param>
+            <param name="card">The card to place.</param>
+        </member>
+        <member name="T:CardGames.Core.Contracts.ICardTraySlot`3">
+            <summary>
+                Represents the cards tray slot interface.
+            </summary>
+            <typeparam name="TPlayer">The <see cref="T:CardGames.Core.Contracts.IPlayer`2" /> subtype.</typeparam>
+            <typeparam name="TDeck">The <see cref="T:CardGames.Core.Contracts.IDeck`1" /> subtype.</typeparam>
+            <typeparam name="TCard">The <see cref="T:CardGames.Core.Contracts.ICard" /> subtype.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Contracts.ICardTraySlot`3.Player">
+            <summary>
+                Represents the owner player.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.ICardTraySlot`3.Cards">
+            <summary>
+                Represents the list of cards that the player has put in the tray.
+            </summary>
+        </member>
+        <member name="M:CardGames.Core.Contracts.ICardTraySlot`3.Put(`2)">
+            <summary>
+                Puts a card in the tray.
+            </summary>
+            <param name="card">The card to put in the tray.</param>
+        </member>
+        <member name="T:CardGames.Core.Contracts.IDeck`1">
+            <summary>
+                Represents the deck of cards interface.
+            </summary>
+            <typeparam name="TCard">The <see cref="T:CardGames.Core.Contracts.ICard" /> subtype.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IDeck`1.Cards">
+            <summary>
+                Represents the cards list.
+            </summary>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IDeck`1.Draw">
+            <summary>
+                Draws a card from the deck if possible.
+            </summary>
+            <returns>The drawn card or null.</returns>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IDeck`1.Draw(System.Int32)">
+            <summary>
+                Draws a set of cards from the deck if possible.
+            </summary>
+            <param name="numberOfCards">The number of cards to draw</param>
+            <returns>The drawn card or null.</returns>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IDeck`1.Put(`0)">
+            <summary>
+                Puts a card in the tray.
+            </summary>
+            <param name="card"></param>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IDeck`1.Put(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+                Puts a set of cards in the tray.
+            </summary>
+            <param name="cards">The cards to put in the tray.</param>
+        </member>
+        <member name="T:CardGames.Core.Contracts.IGame`3">
+            <summary>
+                Represents the game interface.
+            </summary>
+            <typeparam name="TPlayer">The <see cref="T:CardGames.Core.Contracts.IPlayer`2" /> subtype.</typeparam>
+            <typeparam name="TDeck">The <see cref="T:CardGames.Core.Contracts.IDeck`1" /> subtype.</typeparam>
+            <typeparam name="TCard">The <see cref="T:CardGames.Core.Contracts.ICard" /> subtype.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IGame`3.Winner">
+            <summary>
+                Represents the winning player.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IGame`3.Players">
+            <summary>
+                Represents the players that are enrolled in the game.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IGame`3.Rounds">
+            <summary>
+                Represents the list of rounds that were created during the game.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IGame`3.InitialDeck">
+            <summary>
+                Represents the initial deck of cards.
+            </summary>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IGame`3.Play">
+            <summary>
+                Executes the game play logic.
+            </summary>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IGame`3.CreateRound``1(System.Collections.Generic.IEnumerable{`0},System.Int32)">
+            <summary>
+                Creates a game round.
+            </summary>
+            <typeparam name="TRound">The custom round type.</typeparam>
+            <param name="players">The players that are eligible to play in the next round.</param>
+            <param name="roundNumber">The index of the round.</param>
+            <returns>The created game round.</returns>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IGame`3.DistributeCards">
+            <summary>
+                Distributes the initial deck of cards to the competing players.
+            </summary>
+        </member>
+        <member name="T:CardGames.Core.Contracts.IMoveController`3">
+            <summary>
+                Represents the player move logic interface.
+                This interface will hold the logic of the player actions when his turn comes.
+            </summary>
+            <typeparam name="TPlayer">The <see cref="T:CardGames.Core.Contracts.IPlayer`2" /> subtype.</typeparam>
+            <typeparam name="TDeck">The <see cref="T:CardGames.Core.Contracts.IDeck`1" /> subtype.</typeparam>
+            <typeparam name="TCard">The <see cref="T:CardGames.Core.Contracts.ICard" /> subtype.</typeparam>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IMoveController`3.Execute(`0,CardGames.Core.Contracts.ICardTray{`0,`1,`2})">
+            <summary>
+                Executes the move logic.
+            </summary>
+            <param name="player">The target player.</param>
+            <param name="cardTray">The target card tray.</param>
+            <returns>A success or failure of execution due to deck issues.</returns>
+        </member>
+        <member name="T:CardGames.Core.Contracts.IPlayer`2">
+            <summary>
+                Represents the player interface.
+            </summary>
+            <typeparam name="TDeck">The <see cref="T:CardGames.Core.Contracts.IDeck`1" /> subtype.</typeparam>
+            <typeparam name="TCard">The <see cref="T:CardGames.Core.Contracts.ICard" /> subtype.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IPlayer`2.Name">
+            <summary>
+                Represents the player name.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IPlayer`2.Status">
+            <summary>
+                Represents the status of the player, see <see cref="T:CardGames.Core.Enums.PlayerStatus" />.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IPlayer`2.Deck">
+            <summary>
+                Represents the player deck of cards.
+            </summary>
+        </member>
+        <member name="T:CardGames.Core.Contracts.IRound`3">
+            <summary>
+                Represents the round interface.
+                This interface will only represent the base round logic, that is specific to the game.
+            </summary>
+            <typeparam name="TPlayer">The <see cref="T:CardGames.Core.Contracts.IPlayer`2" /> subtype.</typeparam>
+            <typeparam name="TDeck">The <see cref="T:CardGames.Core.Contracts.IDeck`1" /> subtype.</typeparam>
+            <typeparam name="TCard">The <see cref="T:CardGames.Core.Contracts.ICard" /> subtype.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IRound`3.Number">
+            <summary>
+                Represents the round number.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IRound`3.AllPlayedCards">
+            <summary>
+                Represents all the cards that were played during this round.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IRound`3.Winner">
+            <summary>
+                Represents the winning player.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IRound`3.Players">
+            <summary>
+                Represents the list of players that participated in this round.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IRound`3.Iterations">
+            <summary>
+                Represents the number of iterations that were created under this round.
+            </summary>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IRound`3.Play">
+            <summary>
+                Represents the play logic.
+            </summary>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IRound`3.CreateIteration``3(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+                Represents the create round iteration logic.
+            </summary>
+            <typeparam name="TRoundIteration">The round iteration type.</typeparam>
+            <typeparam name="TMoveController">The movement controller type.</typeparam>
+            <typeparam name="TCardTray">The card tray type.</typeparam>
+            <param name="players">The players to participate in the iteration.</param>
+            <returns>The created round iteration.</returns>
+        </member>
+        <member name="T:CardGames.Core.Contracts.IRoundIteration`3">
+            <summary>
+                Represents the interface of the round iteration.
+                This interface will define the detailed round logic which is specific to the game.
+            </summary>
+            <typeparam name="TPlayer">The <see cref="T:CardGames.Core.Contracts.IPlayer`2" /> subtype.</typeparam>
+            <typeparam name="TDeck">The <see cref="T:CardGames.Core.Contracts.IDeck`1" /> subtype.</typeparam>
+            <typeparam name="TCard">The <see cref="T:CardGames.Core.Contracts.ICard" /> subtype.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IRoundIteration`3.Players">
+            <summary>
+                Represents the players that are part of this iteration.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IRoundIteration`3.CurrentRound">
+            <summary>
+                Represents the current round this iteration is attached to.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IRoundIteration`3.CurrentCardTray">
+            <summary>
+                Represents the current card tray.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IRoundIteration`3.MoveController">
+            <summary>
+                Represents the movement controller that is specific to this round iteration.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Contracts.IRoundIteration`3.Winner">
+            <summary>
+                Represents the winning player.
+            </summary>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IRoundIteration`3.Play">
+            <summary>
+                Represents the round iteration play logic.
+            </summary>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IRoundIteration`3.Initialize``2(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+                Represents the initialization code to be executed just after the creation and before round iteration execution.
+            </summary>
+            <typeparam name="TMoveController">The movement controller type.</typeparam>
+            <typeparam name="TCardTray">The card tray type.</typeparam>
+            <param name="players">The players of the current round iteration.</param>
+        </member>
+        <member name="T:CardGames.Core.Contracts.IShuffleable">
+            <summary>
+                Represents the interface of an object that supports shuffling.
+            </summary>
+        </member>
+        <member name="M:CardGames.Core.Contracts.IShuffleable.Shuffle">
+            <summary>
+                Shuffles the object data.
+            </summary>
+        </member>
+        <member name="T:CardGames.Core.Deck`1">
+            <summary>
+            Represents the deck of cards base class.
+            </summary>
+            <typeparam name="TCard">The type that represents the customized <see cref="T:CardGames.Core.Card" /> for a given game.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Deck`1.CanPick">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.Deck`1.Cards">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Deck`1.Draw">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Deck`1.Draw(System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Deck`1.Put(`0)">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Deck`1.Put(System.Collections.Generic.IEnumerable{`0})">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Deck`1.Shuffle">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Deck`1.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.Core.Enums.PlayerStatus">
+            <summary>
+                Represents the player status enum.
+            </summary>
+        </member>
+        <member name="F:CardGames.Core.Enums.PlayerStatus.Competing">
+            <summary>
+                Represents the player in competition mode.
+            </summary>
+        </member>
+        <member name="F:CardGames.Core.Enums.PlayerStatus.Won">
+            <summary>
+                Represents the player who won.
+            </summary>
+        </member>
+        <member name="F:CardGames.Core.Enums.PlayerStatus.Lost">
+            <summary>
+                Represents the player who lost.
+            </summary>
+        </member>
+        <member name="T:CardGames.Core.Game`3">
+            <summary>
+            Represents the base class of a card game.
+            </summary>
+            <typeparam name="TPlayer">The  type that represents the customized <see cref="T:CardGames.Core.Player`2" /> for a given game.</typeparam>
+            <typeparam name="TDeck">The  type that represents the customized <see cref="T:CardGames.Core.Deck`1" /> for a given game.</typeparam>
+            <typeparam name="TCard">The type that represents the customized <see cref="T:CardGames.Core.Card" /> for a given game.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Game`3.Winner">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.Game`3.InitialDeck">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.Game`3.Players">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.Game`3.Rounds">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Game`3.Play">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Game`3.CreateRound``1(System.Collections.Generic.IEnumerable{`0},System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Game`3.DistributeCards">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.Core.Helpers.Utils">
+            <summary>
+                Represents the utility class.
+            </summary>
+        </member>
+        <member name="P:CardGames.Core.Helpers.Utils.Random">
+            <summary>
+                Represents the singleton of <see cref="T:System.Random" />.
+            </summary>
+        </member>
+        <member name="T:CardGames.Core.MoveController`3">
+            <summary>
+            Represents the base class of the player move during the game.
+            </summary>
+            <typeparam name="TPlayer">The  type that represents the customized <see cref="T:CardGames.Core.Player`2" /> for a given game.</typeparam>
+            <typeparam name="TDeck">The  type that represents the customized <see cref="T:CardGames.Core.Deck`1" /> for a given game.</typeparam>
+            <typeparam name="TCard">The type that represents the customized <see cref="T:CardGames.Core.Card" /> for a given game.</typeparam>
+        </member>
+        <member name="M:CardGames.Core.MoveController`3.Execute(`0,CardGames.Core.Contracts.ICardTray{`0,`1,`2})">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.Core.Player`2">
+            <summary>
+            Represents the base class of the player.
+            </summary>
+            <typeparam name="TDeck">The  type that represents the customized <see cref="T:CardGames.Core.Deck`1" /> for a given game.</typeparam>
+            <typeparam name="TCard">The type that represents the customized <see cref="T:CardGames.Core.Card" /> for a given game.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Player`2.Name">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.Player`2.Status">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.Player`2.Deck">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Player`2.Equals(CardGames.Core.Player{`0,`1})">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Player`2.CompareTo(CardGames.Core.Player{`0,`1})">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Player`2.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.Core.Round`3">
+            <summary>
+            Represents the base class of a game round.
+            </summary>
+            <typeparam name="TPlayer">The  type that represents the customized <see cref="T:CardGames.Core.Player`2" /> for a given game.</typeparam>
+            <typeparam name="TDeck">The  type that represents the customized <see cref="T:CardGames.Core.Deck`1" /> for a given game.</typeparam>
+            <typeparam name="TCard">The type that represents the customized <see cref="T:CardGames.Core.Card" /> for a given game.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.Round`3.Number">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.Round`3.Winner">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.Round`3.AllPlayedCards">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.Round`3.Players">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.Round`3.Iterations">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Round`3.Play">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.Round`3.CreateIteration``3(System.Collections.Generic.IEnumerable{`0})">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.Core.RoundIteration`3">
+            <summary>
+                Represents the round iteration concerning a set of players class.
+            </summary>
+            <typeparam name="TPlayer">The  type that represents the customized <see cref="T:CardGames.Core.Player`2" /> for a given game.</typeparam>
+            <typeparam name="TDeck">The  type that represents the customized <see cref="T:CardGames.Core.Deck`1" /> for a given game.</typeparam>
+            <typeparam name="TCard">The type that represents the customized <see cref="T:CardGames.Core.Card" /> for a given game.</typeparam>
+        </member>
+        <member name="P:CardGames.Core.RoundIteration`3.Players">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.RoundIteration`3.CurrentRound">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.RoundIteration`3.CurrentCardTray">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.RoundIteration`3.MoveController">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.Core.RoundIteration`3.Winner">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.RoundIteration`3.Play">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.Core.RoundIteration`3.Initialize``2(System.Collections.Generic.IEnumerable{`0})">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

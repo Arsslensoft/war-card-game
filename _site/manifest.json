@@ -1,0 +1,684 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Work/Research/war-card-game",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "jN4KJugQc2sMjT+ffWJdrg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "CB+WSZA+XNaRcdWuNtsvaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/understanding-classes.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/understanding-classes.html",
+          "hash": "a0CD297NtSRovb8uMnMXkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/intro_class.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/intro_class.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "f0N/b+mQkGF6KFy1qeIOnw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Card.html",
+          "hash": "8+pSEaxGDThT4vFpdSIhcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.CardTray-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.CardTray-3.html",
+          "hash": "RBUkiPlhLoUqbutOuzc2Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.CardTraySlot-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.CardTraySlot-3.html",
+          "hash": "62D8wkwvlJ3E+MGLvagf6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.ICard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.ICard.html",
+          "hash": "qY32yaHaCHIjclqJ++/Xew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.ICardTray-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.ICardTray-3.html",
+          "hash": "Jqhof/bHk3+N42MAi5fJ8A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.ICardTraySlot-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.ICardTraySlot-3.html",
+          "hash": "WhneWvSEpWhCn9snH8XFMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.IDeck-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.IDeck-1.html",
+          "hash": "IyHqLG0wHyHjiJyyYWjSUw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.IGame-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.IGame-3.html",
+          "hash": "B/2AFmUDCP/cAASy/8Z1AA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.IMoveController-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.IMoveController-3.html",
+          "hash": "OKnk/PApLPKfPQee4Rl0fA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.IPlayer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.IPlayer-2.html",
+          "hash": "BLKNd6Nb5p+usV+lXusSrg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.IRound-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.IRound-3.html",
+          "hash": "2x5SGslPUed72HvtOLzxYQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.IRoundIteration-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.IRoundIteration-3.html",
+          "hash": "/Hok/ThP2bVX8NJ+em6lJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.IShuffleable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.IShuffleable.html",
+          "hash": "Uw86R733HpNLoBq6iJ+s3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Contracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Contracts.html",
+          "hash": "3+Y70cXEKLercZAyZHYkcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Deck-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Deck-1.html",
+          "hash": "PFPwOzTsr13PUpHu0xfTdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Enums.PlayerStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Enums.PlayerStatus.html",
+          "hash": "7cuepGdlTgBd6UOqICaPJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Enums.html",
+          "hash": "kSp3GBa+P0Jp01+RXfWGaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Game-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Game-3.html",
+          "hash": "H0UTCFbM39ZcxjCoCs+Ffg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Helpers.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Helpers.Utils.html",
+          "hash": "i18HFswG73EwuIfVj0Rd+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Helpers.html",
+          "hash": "HshYSqXvheSqGjfnACs43A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.MoveController-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.MoveController-3.html",
+          "hash": "S/JnTMqYxu4tXIaGO8NuTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Player-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Player-2.html",
+          "hash": "+SZmSZj4Wy4upzA07ZnaCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.Round-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.Round-3.html",
+          "hash": "M34u6R/eaxt+Nw1uqHlFiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.RoundIteration-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.RoundIteration-3.html",
+          "hash": "bl8LobtcL8O1+zJADeDTNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.Core.html",
+          "hash": "MIn31BWybuUHrC1PNyhj1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.Contracts.ILogged.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.Contracts.ILogged.html",
+          "hash": "vMo18zDRDsEZ9MICcW9lRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.Contracts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.Contracts.html",
+          "hash": "RBA76FziTHaEfqD4vr0wyg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.GameManager.html",
+          "hash": "ydN6j9qJ+NLXn+X3aTGVdQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.Moves.SimplePlayerMoveController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.Moves.SimplePlayerMoveController.html",
+          "hash": "lXkaxJpr8puot0wboXdtAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.Moves.WarPlayerMovementController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.Moves.WarPlayerMovementController.html",
+          "hash": "wzDt/H/2RwKQ7DwPXTy7TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.Moves.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.Moves.html",
+          "hash": "WOh5f5QBtNtxRXZOORFOLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.StandardFiftyTwo.Enums.Face.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html",
+          "hash": "DYmVURZgIskGG8FN0cVTKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.StandardFiftyTwo.Enums.Suite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.StandardFiftyTwo.Enums.Suite.html",
+          "hash": "tjs1KhKMzm9VWgxzsQtXxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.StandardFiftyTwo.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.StandardFiftyTwo.Enums.html",
+          "hash": "NadHc/JniW1coxY1wxf8fQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html",
+          "hash": "lUmJzG8MFTedrv6rVssd2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.html",
+          "hash": "GtZz7/nujmurdCfskWLkUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html",
+          "hash": "KcfMoM4IueLfHU9PLCr98Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.StandardFiftyTwo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.StandardFiftyTwo.html",
+          "hash": "1w4jlS7G31K3VyGfrej3ZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.WarCardGame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.WarCardGame.html",
+          "hash": "ZN3rRkyMPp/QphxFHtBMHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.WarCardRound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.WarCardRound.html",
+          "hash": "jkMk6R9Eunzy3L4T1uDDDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.WarCardRoundIteration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.WarCardRoundIteration.html",
+          "hash": "wkw4P+jWFtiJLf6eH/SrOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.WarCardTray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.WarCardTray.html",
+          "hash": "yA2fZMOBj04G/oR/PuyYIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.WarCardTraySlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.WarCardTraySlot.html",
+          "hash": "sSHjXA/qkCHFu1rM/N9smA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "libraries/CardGames.War.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/CardGames.War.html",
+          "hash": "Wm3mgFBmWs6l7Pjd3t+P3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "libraries/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/index.html",
+          "hash": "rUv/63wkfeKMonSJqfKX6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "libraries/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "libraries/toc.html",
+          "hash": "3iKNIkn/bxvWF8bYqHLq3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "sUVa2fULg+SBHMuVjIywgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 44,
+          "skipped_file_count": 33
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

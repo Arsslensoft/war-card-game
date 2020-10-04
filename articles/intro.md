@@ -71,21 +71,20 @@ All components use interfaces, therefore mocking is easy to use for testing.
 * 20h42-21h00: Documentation
 * 21h00-21h30: Console app methods and reading input
 * 21h30-22h00: Explaining the system in README
-* 4/10/2020 14:40-14:50: Implemented the leaderboard
 
-Time Taken To Design & Implement: ~4h20 the solution
+Time Taken To Design & Implement: ~4h10 the solution
 
 Time Taken To Document / Refactor / Cleanup Code: 50 minutes
 
 Time Taken To Debug / Test / Write tests / Verify the code / Apply fixes: 60 minutes
 
-Total Time Taken Without : ~6h10
+Total Time Taken Without : ~6h
 
 ## Delay Considerations
 Some distractions during the implementation due to phone calls and family matters, can be estimated to 30 minutes.
 
 # Class diagram
-![The global class diagram](images/intro_class.png "Class diagram")
+![The global class diagram](/images/intro_class.png "Class diagram")
 
 # Environment 
 The solution was implemented using:

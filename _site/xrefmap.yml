@@ -1,0 +1,2333 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CardGames.Core
+  name: CardGames.Core
+  href: libraries/CardGames.Core.html
+  commentId: N:CardGames.Core
+  fullName: CardGames.Core
+  nameWithType: CardGames.Core
+- uid: CardGames.Core.Card
+  name: Card
+  href: libraries/CardGames.Core.Card.html
+  commentId: T:CardGames.Core.Card
+  fullName: CardGames.Core.Card
+  nameWithType: Card
+- uid: CardGames.Core.Card.#ctor(System.Boolean)
+  name: Card(Boolean)
+  href: libraries/CardGames.Core.Card.html#CardGames_Core_Card__ctor_System_Boolean_
+  commentId: M:CardGames.Core.Card.#ctor(System.Boolean)
+  fullName: CardGames.Core.Card.Card(System.Boolean)
+  nameWithType: Card.Card(Boolean)
+- uid: CardGames.Core.Card.#ctor*
+  name: Card
+  href: libraries/CardGames.Core.Card.html#CardGames_Core_Card__ctor_
+  commentId: Overload:CardGames.Core.Card.#ctor
+  isSpec: "True"
+  fullName: CardGames.Core.Card.Card
+  nameWithType: Card.Card
+- uid: CardGames.Core.Card.IsVisible
+  name: IsVisible
+  href: libraries/CardGames.Core.Card.html#CardGames_Core_Card_IsVisible
+  commentId: P:CardGames.Core.Card.IsVisible
+  fullName: CardGames.Core.Card.IsVisible
+  nameWithType: Card.IsVisible
+- uid: CardGames.Core.Card.IsVisible*
+  name: IsVisible
+  href: libraries/CardGames.Core.Card.html#CardGames_Core_Card_IsVisible_
+  commentId: Overload:CardGames.Core.Card.IsVisible
+  isSpec: "True"
+  fullName: CardGames.Core.Card.IsVisible
+  nameWithType: Card.IsVisible
+- uid: CardGames.Core.Card.ToString
+  name: ToString()
+  href: libraries/CardGames.Core.Card.html#CardGames_Core_Card_ToString
+  commentId: M:CardGames.Core.Card.ToString
+  fullName: CardGames.Core.Card.ToString()
+  nameWithType: Card.ToString()
+- uid: CardGames.Core.Card.ToString*
+  name: ToString
+  href: libraries/CardGames.Core.Card.html#CardGames_Core_Card_ToString_
+  commentId: Overload:CardGames.Core.Card.ToString
+  isSpec: "True"
+  fullName: CardGames.Core.Card.ToString
+  nameWithType: Card.ToString
+- uid: CardGames.Core.CardTray`3
+  name: CardTray<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.CardTray-3.html
+  commentId: T:CardGames.Core.CardTray`3
+  name.vb: CardTray(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.CardTray<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.CardTray(Of TPlayer, TDeck, TCard)
+  nameWithType: CardTray<TPlayer, TDeck, TCard>
+  nameWithType.vb: CardTray(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.CardTray`3.Place*
+  name: Place
+  href: libraries/CardGames.Core.CardTray-3.html#CardGames_Core_CardTray_3_Place_
+  commentId: Overload:CardGames.Core.CardTray`3.Place
+  isSpec: "True"
+  fullName: CardGames.Core.CardTray<TPlayer, TDeck, TCard>.Place
+  fullName.vb: CardGames.Core.CardTray(Of TPlayer, TDeck, TCard).Place
+  nameWithType: CardTray<TPlayer, TDeck, TCard>.Place
+  nameWithType.vb: CardTray(Of TPlayer, TDeck, TCard).Place
+- uid: CardGames.Core.CardTray`3.Place``1(`0,`2)
+  name: Place<TCardTraySlot>(TPlayer, TCard)
+  href: libraries/CardGames.Core.CardTray-3.html#CardGames_Core_CardTray_3_Place__1__0__2_
+  commentId: M:CardGames.Core.CardTray`3.Place``1(`0,`2)
+  name.vb: Place(Of TCardTraySlot)(TPlayer, TCard)
+  fullName: CardGames.Core.CardTray<TPlayer, TDeck, TCard>.Place<TCardTraySlot>(TPlayer, TCard)
+  fullName.vb: CardGames.Core.CardTray(Of TPlayer, TDeck, TCard).Place(Of TCardTraySlot)(TPlayer, TCard)
+  nameWithType: CardTray<TPlayer, TDeck, TCard>.Place<TCardTraySlot>(TPlayer, TCard)
+  nameWithType.vb: CardTray(Of TPlayer, TDeck, TCard).Place(Of TCardTraySlot)(TPlayer, TCard)
+- uid: CardGames.Core.CardTray`3.PlayedCards
+  name: PlayedCards
+  href: libraries/CardGames.Core.CardTray-3.html#CardGames_Core_CardTray_3_PlayedCards
+  commentId: P:CardGames.Core.CardTray`3.PlayedCards
+  fullName: CardGames.Core.CardTray<TPlayer, TDeck, TCard>.PlayedCards
+  fullName.vb: CardGames.Core.CardTray(Of TPlayer, TDeck, TCard).PlayedCards
+  nameWithType: CardTray<TPlayer, TDeck, TCard>.PlayedCards
+  nameWithType.vb: CardTray(Of TPlayer, TDeck, TCard).PlayedCards
+- uid: CardGames.Core.CardTray`3.PlayedCards*
+  name: PlayedCards
+  href: libraries/CardGames.Core.CardTray-3.html#CardGames_Core_CardTray_3_PlayedCards_
+  commentId: Overload:CardGames.Core.CardTray`3.PlayedCards
+  isSpec: "True"
+  fullName: CardGames.Core.CardTray<TPlayer, TDeck, TCard>.PlayedCards
+  fullName.vb: CardGames.Core.CardTray(Of TPlayer, TDeck, TCard).PlayedCards
+  nameWithType: CardTray<TPlayer, TDeck, TCard>.PlayedCards
+  nameWithType.vb: CardTray(Of TPlayer, TDeck, TCard).PlayedCards
+- uid: CardGames.Core.CardTraySlot`3
+  name: CardTraySlot<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.CardTraySlot-3.html
+  commentId: T:CardGames.Core.CardTraySlot`3
+  name.vb: CardTraySlot(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.CardTraySlot<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.CardTraySlot(Of TPlayer, TDeck, TCard)
+  nameWithType: CardTraySlot<TPlayer, TDeck, TCard>
+  nameWithType.vb: CardTraySlot(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.CardTraySlot`3.Cards
+  name: Cards
+  href: libraries/CardGames.Core.CardTraySlot-3.html#CardGames_Core_CardTraySlot_3_Cards
+  commentId: P:CardGames.Core.CardTraySlot`3.Cards
+  fullName: CardGames.Core.CardTraySlot<TPlayer, TDeck, TCard>.Cards
+  fullName.vb: CardGames.Core.CardTraySlot(Of TPlayer, TDeck, TCard).Cards
+  nameWithType: CardTraySlot<TPlayer, TDeck, TCard>.Cards
+  nameWithType.vb: CardTraySlot(Of TPlayer, TDeck, TCard).Cards
+- uid: CardGames.Core.CardTraySlot`3.Cards*
+  name: Cards
+  href: libraries/CardGames.Core.CardTraySlot-3.html#CardGames_Core_CardTraySlot_3_Cards_
+  commentId: Overload:CardGames.Core.CardTraySlot`3.Cards
+  isSpec: "True"
+  fullName: CardGames.Core.CardTraySlot<TPlayer, TDeck, TCard>.Cards
+  fullName.vb: CardGames.Core.CardTraySlot(Of TPlayer, TDeck, TCard).Cards
+  nameWithType: CardTraySlot<TPlayer, TDeck, TCard>.Cards
+  nameWithType.vb: CardTraySlot(Of TPlayer, TDeck, TCard).Cards
+- uid: CardGames.Core.CardTraySlot`3.Player
+  name: Player
+  href: libraries/CardGames.Core.CardTraySlot-3.html#CardGames_Core_CardTraySlot_3_Player
+  commentId: P:CardGames.Core.CardTraySlot`3.Player
+  fullName: CardGames.Core.CardTraySlot<TPlayer, TDeck, TCard>.Player
+  fullName.vb: CardGames.Core.CardTraySlot(Of TPlayer, TDeck, TCard).Player
+  nameWithType: CardTraySlot<TPlayer, TDeck, TCard>.Player
+  nameWithType.vb: CardTraySlot(Of TPlayer, TDeck, TCard).Player
+- uid: CardGames.Core.CardTraySlot`3.Player*
+  name: Player
+  href: libraries/CardGames.Core.CardTraySlot-3.html#CardGames_Core_CardTraySlot_3_Player_
+  commentId: Overload:CardGames.Core.CardTraySlot`3.Player
+  isSpec: "True"
+  fullName: CardGames.Core.CardTraySlot<TPlayer, TDeck, TCard>.Player
+  fullName.vb: CardGames.Core.CardTraySlot(Of TPlayer, TDeck, TCard).Player
+  nameWithType: CardTraySlot<TPlayer, TDeck, TCard>.Player
+  nameWithType.vb: CardTraySlot(Of TPlayer, TDeck, TCard).Player
+- uid: CardGames.Core.CardTraySlot`3.Put(`2)
+  name: Put(TCard)
+  href: libraries/CardGames.Core.CardTraySlot-3.html#CardGames_Core_CardTraySlot_3_Put__2_
+  commentId: M:CardGames.Core.CardTraySlot`3.Put(`2)
+  fullName: CardGames.Core.CardTraySlot<TPlayer, TDeck, TCard>.Put(TCard)
+  fullName.vb: CardGames.Core.CardTraySlot(Of TPlayer, TDeck, TCard).Put(TCard)
+  nameWithType: CardTraySlot<TPlayer, TDeck, TCard>.Put(TCard)
+  nameWithType.vb: CardTraySlot(Of TPlayer, TDeck, TCard).Put(TCard)
+- uid: CardGames.Core.CardTraySlot`3.Put*
+  name: Put
+  href: libraries/CardGames.Core.CardTraySlot-3.html#CardGames_Core_CardTraySlot_3_Put_
+  commentId: Overload:CardGames.Core.CardTraySlot`3.Put
+  isSpec: "True"
+  fullName: CardGames.Core.CardTraySlot<TPlayer, TDeck, TCard>.Put
+  fullName.vb: CardGames.Core.CardTraySlot(Of TPlayer, TDeck, TCard).Put
+  nameWithType: CardTraySlot<TPlayer, TDeck, TCard>.Put
+  nameWithType.vb: CardTraySlot(Of TPlayer, TDeck, TCard).Put
+- uid: CardGames.Core.Contracts
+  name: CardGames.Core.Contracts
+  href: libraries/CardGames.Core.Contracts.html
+  commentId: N:CardGames.Core.Contracts
+  fullName: CardGames.Core.Contracts
+  nameWithType: CardGames.Core.Contracts
+- uid: CardGames.Core.Contracts.ICard
+  name: ICard
+  href: libraries/CardGames.Core.Contracts.ICard.html
+  commentId: T:CardGames.Core.Contracts.ICard
+  fullName: CardGames.Core.Contracts.ICard
+  nameWithType: ICard
+- uid: CardGames.Core.Contracts.ICard.IsVisible
+  name: IsVisible
+  href: libraries/CardGames.Core.Contracts.ICard.html#CardGames_Core_Contracts_ICard_IsVisible
+  commentId: P:CardGames.Core.Contracts.ICard.IsVisible
+  fullName: CardGames.Core.Contracts.ICard.IsVisible
+  nameWithType: ICard.IsVisible
+- uid: CardGames.Core.Contracts.ICard.IsVisible*
+  name: IsVisible
+  href: libraries/CardGames.Core.Contracts.ICard.html#CardGames_Core_Contracts_ICard_IsVisible_
+  commentId: Overload:CardGames.Core.Contracts.ICard.IsVisible
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.ICard.IsVisible
+  nameWithType: ICard.IsVisible
+- uid: CardGames.Core.Contracts.ICardTray`3
+  name: ICardTray<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.Contracts.ICardTray-3.html
+  commentId: T:CardGames.Core.Contracts.ICardTray`3
+  name.vb: ICardTray(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.Contracts.ICardTray<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.Contracts.ICardTray(Of TPlayer, TDeck, TCard)
+  nameWithType: ICardTray<TPlayer, TDeck, TCard>
+  nameWithType.vb: ICardTray(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.Contracts.ICardTray`3.Place*
+  name: Place
+  href: libraries/CardGames.Core.Contracts.ICardTray-3.html#CardGames_Core_Contracts_ICardTray_3_Place_
+  commentId: Overload:CardGames.Core.Contracts.ICardTray`3.Place
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.ICardTray<TPlayer, TDeck, TCard>.Place
+  fullName.vb: CardGames.Core.Contracts.ICardTray(Of TPlayer, TDeck, TCard).Place
+  nameWithType: ICardTray<TPlayer, TDeck, TCard>.Place
+  nameWithType.vb: ICardTray(Of TPlayer, TDeck, TCard).Place
+- uid: CardGames.Core.Contracts.ICardTray`3.Place``1(`0,`2)
+  name: Place<TCardTraySlot>(TPlayer, TCard)
+  href: libraries/CardGames.Core.Contracts.ICardTray-3.html#CardGames_Core_Contracts_ICardTray_3_Place__1__0__2_
+  commentId: M:CardGames.Core.Contracts.ICardTray`3.Place``1(`0,`2)
+  name.vb: Place(Of TCardTraySlot)(TPlayer, TCard)
+  fullName: CardGames.Core.Contracts.ICardTray<TPlayer, TDeck, TCard>.Place<TCardTraySlot>(TPlayer, TCard)
+  fullName.vb: CardGames.Core.Contracts.ICardTray(Of TPlayer, TDeck, TCard).Place(Of TCardTraySlot)(TPlayer, TCard)
+  nameWithType: ICardTray<TPlayer, TDeck, TCard>.Place<TCardTraySlot>(TPlayer, TCard)
+  nameWithType.vb: ICardTray(Of TPlayer, TDeck, TCard).Place(Of TCardTraySlot)(TPlayer, TCard)
+- uid: CardGames.Core.Contracts.ICardTray`3.PlayedCards
+  name: PlayedCards
+  href: libraries/CardGames.Core.Contracts.ICardTray-3.html#CardGames_Core_Contracts_ICardTray_3_PlayedCards
+  commentId: P:CardGames.Core.Contracts.ICardTray`3.PlayedCards
+  fullName: CardGames.Core.Contracts.ICardTray<TPlayer, TDeck, TCard>.PlayedCards
+  fullName.vb: CardGames.Core.Contracts.ICardTray(Of TPlayer, TDeck, TCard).PlayedCards
+  nameWithType: ICardTray<TPlayer, TDeck, TCard>.PlayedCards
+  nameWithType.vb: ICardTray(Of TPlayer, TDeck, TCard).PlayedCards
+- uid: CardGames.Core.Contracts.ICardTray`3.PlayedCards*
+  name: PlayedCards
+  href: libraries/CardGames.Core.Contracts.ICardTray-3.html#CardGames_Core_Contracts_ICardTray_3_PlayedCards_
+  commentId: Overload:CardGames.Core.Contracts.ICardTray`3.PlayedCards
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.ICardTray<TPlayer, TDeck, TCard>.PlayedCards
+  fullName.vb: CardGames.Core.Contracts.ICardTray(Of TPlayer, TDeck, TCard).PlayedCards
+  nameWithType: ICardTray<TPlayer, TDeck, TCard>.PlayedCards
+  nameWithType.vb: ICardTray(Of TPlayer, TDeck, TCard).PlayedCards
+- uid: CardGames.Core.Contracts.ICardTraySlot`3
+  name: ICardTraySlot<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.Contracts.ICardTraySlot-3.html
+  commentId: T:CardGames.Core.Contracts.ICardTraySlot`3
+  name.vb: ICardTraySlot(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.Contracts.ICardTraySlot<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.Contracts.ICardTraySlot(Of TPlayer, TDeck, TCard)
+  nameWithType: ICardTraySlot<TPlayer, TDeck, TCard>
+  nameWithType.vb: ICardTraySlot(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.Contracts.ICardTraySlot`3.Cards
+  name: Cards
+  href: libraries/CardGames.Core.Contracts.ICardTraySlot-3.html#CardGames_Core_Contracts_ICardTraySlot_3_Cards
+  commentId: P:CardGames.Core.Contracts.ICardTraySlot`3.Cards
+  fullName: CardGames.Core.Contracts.ICardTraySlot<TPlayer, TDeck, TCard>.Cards
+  fullName.vb: CardGames.Core.Contracts.ICardTraySlot(Of TPlayer, TDeck, TCard).Cards
+  nameWithType: ICardTraySlot<TPlayer, TDeck, TCard>.Cards
+  nameWithType.vb: ICardTraySlot(Of TPlayer, TDeck, TCard).Cards
+- uid: CardGames.Core.Contracts.ICardTraySlot`3.Cards*
+  name: Cards
+  href: libraries/CardGames.Core.Contracts.ICardTraySlot-3.html#CardGames_Core_Contracts_ICardTraySlot_3_Cards_
+  commentId: Overload:CardGames.Core.Contracts.ICardTraySlot`3.Cards
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.ICardTraySlot<TPlayer, TDeck, TCard>.Cards
+  fullName.vb: CardGames.Core.Contracts.ICardTraySlot(Of TPlayer, TDeck, TCard).Cards
+  nameWithType: ICardTraySlot<TPlayer, TDeck, TCard>.Cards
+  nameWithType.vb: ICardTraySlot(Of TPlayer, TDeck, TCard).Cards
+- uid: CardGames.Core.Contracts.ICardTraySlot`3.Player
+  name: Player
+  href: libraries/CardGames.Core.Contracts.ICardTraySlot-3.html#CardGames_Core_Contracts_ICardTraySlot_3_Player
+  commentId: P:CardGames.Core.Contracts.ICardTraySlot`3.Player
+  fullName: CardGames.Core.Contracts.ICardTraySlot<TPlayer, TDeck, TCard>.Player
+  fullName.vb: CardGames.Core.Contracts.ICardTraySlot(Of TPlayer, TDeck, TCard).Player
+  nameWithType: ICardTraySlot<TPlayer, TDeck, TCard>.Player
+  nameWithType.vb: ICardTraySlot(Of TPlayer, TDeck, TCard).Player
+- uid: CardGames.Core.Contracts.ICardTraySlot`3.Player*
+  name: Player
+  href: libraries/CardGames.Core.Contracts.ICardTraySlot-3.html#CardGames_Core_Contracts_ICardTraySlot_3_Player_
+  commentId: Overload:CardGames.Core.Contracts.ICardTraySlot`3.Player
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.ICardTraySlot<TPlayer, TDeck, TCard>.Player
+  fullName.vb: CardGames.Core.Contracts.ICardTraySlot(Of TPlayer, TDeck, TCard).Player
+  nameWithType: ICardTraySlot<TPlayer, TDeck, TCard>.Player
+  nameWithType.vb: ICardTraySlot(Of TPlayer, TDeck, TCard).Player
+- uid: CardGames.Core.Contracts.ICardTraySlot`3.Put(`2)
+  name: Put(TCard)
+  href: libraries/CardGames.Core.Contracts.ICardTraySlot-3.html#CardGames_Core_Contracts_ICardTraySlot_3_Put__2_
+  commentId: M:CardGames.Core.Contracts.ICardTraySlot`3.Put(`2)
+  fullName: CardGames.Core.Contracts.ICardTraySlot<TPlayer, TDeck, TCard>.Put(TCard)
+  fullName.vb: CardGames.Core.Contracts.ICardTraySlot(Of TPlayer, TDeck, TCard).Put(TCard)
+  nameWithType: ICardTraySlot<TPlayer, TDeck, TCard>.Put(TCard)
+  nameWithType.vb: ICardTraySlot(Of TPlayer, TDeck, TCard).Put(TCard)
+- uid: CardGames.Core.Contracts.ICardTraySlot`3.Put*
+  name: Put
+  href: libraries/CardGames.Core.Contracts.ICardTraySlot-3.html#CardGames_Core_Contracts_ICardTraySlot_3_Put_
+  commentId: Overload:CardGames.Core.Contracts.ICardTraySlot`3.Put
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.ICardTraySlot<TPlayer, TDeck, TCard>.Put
+  fullName.vb: CardGames.Core.Contracts.ICardTraySlot(Of TPlayer, TDeck, TCard).Put
+  nameWithType: ICardTraySlot<TPlayer, TDeck, TCard>.Put
+  nameWithType.vb: ICardTraySlot(Of TPlayer, TDeck, TCard).Put
+- uid: CardGames.Core.Contracts.IDeck`1
+  name: IDeck<TCard>
+  href: libraries/CardGames.Core.Contracts.IDeck-1.html
+  commentId: T:CardGames.Core.Contracts.IDeck`1
+  name.vb: IDeck(Of TCard)
+  fullName: CardGames.Core.Contracts.IDeck<TCard>
+  fullName.vb: CardGames.Core.Contracts.IDeck(Of TCard)
+  nameWithType: IDeck<TCard>
+  nameWithType.vb: IDeck(Of TCard)
+- uid: CardGames.Core.Contracts.IDeck`1.Cards
+  name: Cards
+  href: libraries/CardGames.Core.Contracts.IDeck-1.html#CardGames_Core_Contracts_IDeck_1_Cards
+  commentId: P:CardGames.Core.Contracts.IDeck`1.Cards
+  fullName: CardGames.Core.Contracts.IDeck<TCard>.Cards
+  fullName.vb: CardGames.Core.Contracts.IDeck(Of TCard).Cards
+  nameWithType: IDeck<TCard>.Cards
+  nameWithType.vb: IDeck(Of TCard).Cards
+- uid: CardGames.Core.Contracts.IDeck`1.Cards*
+  name: Cards
+  href: libraries/CardGames.Core.Contracts.IDeck-1.html#CardGames_Core_Contracts_IDeck_1_Cards_
+  commentId: Overload:CardGames.Core.Contracts.IDeck`1.Cards
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IDeck<TCard>.Cards
+  fullName.vb: CardGames.Core.Contracts.IDeck(Of TCard).Cards
+  nameWithType: IDeck<TCard>.Cards
+  nameWithType.vb: IDeck(Of TCard).Cards
+- uid: CardGames.Core.Contracts.IDeck`1.Draw
+  name: Draw()
+  href: libraries/CardGames.Core.Contracts.IDeck-1.html#CardGames_Core_Contracts_IDeck_1_Draw
+  commentId: M:CardGames.Core.Contracts.IDeck`1.Draw
+  fullName: CardGames.Core.Contracts.IDeck<TCard>.Draw()
+  fullName.vb: CardGames.Core.Contracts.IDeck(Of TCard).Draw()
+  nameWithType: IDeck<TCard>.Draw()
+  nameWithType.vb: IDeck(Of TCard).Draw()
+- uid: CardGames.Core.Contracts.IDeck`1.Draw(System.Int32)
+  name: Draw(Int32)
+  href: libraries/CardGames.Core.Contracts.IDeck-1.html#CardGames_Core_Contracts_IDeck_1_Draw_System_Int32_
+  commentId: M:CardGames.Core.Contracts.IDeck`1.Draw(System.Int32)
+  fullName: CardGames.Core.Contracts.IDeck<TCard>.Draw(System.Int32)
+  fullName.vb: CardGames.Core.Contracts.IDeck(Of TCard).Draw(System.Int32)
+  nameWithType: IDeck<TCard>.Draw(Int32)
+  nameWithType.vb: IDeck(Of TCard).Draw(Int32)
+- uid: CardGames.Core.Contracts.IDeck`1.Draw*
+  name: Draw
+  href: libraries/CardGames.Core.Contracts.IDeck-1.html#CardGames_Core_Contracts_IDeck_1_Draw_
+  commentId: Overload:CardGames.Core.Contracts.IDeck`1.Draw
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IDeck<TCard>.Draw
+  fullName.vb: CardGames.Core.Contracts.IDeck(Of TCard).Draw
+  nameWithType: IDeck<TCard>.Draw
+  nameWithType.vb: IDeck(Of TCard).Draw
+- uid: CardGames.Core.Contracts.IDeck`1.Put(`0)
+  name: Put(TCard)
+  href: libraries/CardGames.Core.Contracts.IDeck-1.html#CardGames_Core_Contracts_IDeck_1_Put__0_
+  commentId: M:CardGames.Core.Contracts.IDeck`1.Put(`0)
+  fullName: CardGames.Core.Contracts.IDeck<TCard>.Put(TCard)
+  fullName.vb: CardGames.Core.Contracts.IDeck(Of TCard).Put(TCard)
+  nameWithType: IDeck<TCard>.Put(TCard)
+  nameWithType.vb: IDeck(Of TCard).Put(TCard)
+- uid: CardGames.Core.Contracts.IDeck`1.Put(System.Collections.Generic.IEnumerable{`0})
+  name: Put(IEnumerable<TCard>)
+  href: libraries/CardGames.Core.Contracts.IDeck-1.html#CardGames_Core_Contracts_IDeck_1_Put_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CardGames.Core.Contracts.IDeck`1.Put(System.Collections.Generic.IEnumerable{`0})
+  name.vb: Put(IEnumerable(Of TCard))
+  fullName: CardGames.Core.Contracts.IDeck<TCard>.Put(System.Collections.Generic.IEnumerable<TCard>)
+  fullName.vb: CardGames.Core.Contracts.IDeck(Of TCard).Put(System.Collections.Generic.IEnumerable(Of TCard))
+  nameWithType: IDeck<TCard>.Put(IEnumerable<TCard>)
+  nameWithType.vb: IDeck(Of TCard).Put(IEnumerable(Of TCard))
+- uid: CardGames.Core.Contracts.IDeck`1.Put*
+  name: Put
+  href: libraries/CardGames.Core.Contracts.IDeck-1.html#CardGames_Core_Contracts_IDeck_1_Put_
+  commentId: Overload:CardGames.Core.Contracts.IDeck`1.Put
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IDeck<TCard>.Put
+  fullName.vb: CardGames.Core.Contracts.IDeck(Of TCard).Put
+  nameWithType: IDeck<TCard>.Put
+  nameWithType.vb: IDeck(Of TCard).Put
+- uid: CardGames.Core.Contracts.IGame`3
+  name: IGame<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.Contracts.IGame-3.html
+  commentId: T:CardGames.Core.Contracts.IGame`3
+  name.vb: IGame(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard)
+  nameWithType: IGame<TPlayer, TDeck, TCard>
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.Contracts.IGame`3.CreateRound*
+  name: CreateRound
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_CreateRound_
+  commentId: Overload:CardGames.Core.Contracts.IGame`3.CreateRound
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.CreateRound
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).CreateRound
+  nameWithType: IGame<TPlayer, TDeck, TCard>.CreateRound
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).CreateRound
+- uid: CardGames.Core.Contracts.IGame`3.CreateRound``1(System.Collections.Generic.IEnumerable{`0},System.Int32)
+  name: CreateRound<TRound>(IEnumerable<TPlayer>, Int32)
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_CreateRound__1_System_Collections_Generic_IEnumerable__0__System_Int32_
+  commentId: M:CardGames.Core.Contracts.IGame`3.CreateRound``1(System.Collections.Generic.IEnumerable{`0},System.Int32)
+  name.vb: CreateRound(Of TRound)(IEnumerable(Of TPlayer), Int32)
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.CreateRound<TRound>(System.Collections.Generic.IEnumerable<TPlayer>, System.Int32)
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).CreateRound(Of TRound)(System.Collections.Generic.IEnumerable(Of TPlayer), System.Int32)
+  nameWithType: IGame<TPlayer, TDeck, TCard>.CreateRound<TRound>(IEnumerable<TPlayer>, Int32)
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).CreateRound(Of TRound)(IEnumerable(Of TPlayer), Int32)
+- uid: CardGames.Core.Contracts.IGame`3.DistributeCards
+  name: DistributeCards()
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_DistributeCards
+  commentId: M:CardGames.Core.Contracts.IGame`3.DistributeCards
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.DistributeCards()
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).DistributeCards()
+  nameWithType: IGame<TPlayer, TDeck, TCard>.DistributeCards()
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).DistributeCards()
+- uid: CardGames.Core.Contracts.IGame`3.DistributeCards*
+  name: DistributeCards
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_DistributeCards_
+  commentId: Overload:CardGames.Core.Contracts.IGame`3.DistributeCards
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.DistributeCards
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).DistributeCards
+  nameWithType: IGame<TPlayer, TDeck, TCard>.DistributeCards
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).DistributeCards
+- uid: CardGames.Core.Contracts.IGame`3.InitialDeck
+  name: InitialDeck
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_InitialDeck
+  commentId: P:CardGames.Core.Contracts.IGame`3.InitialDeck
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.InitialDeck
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).InitialDeck
+  nameWithType: IGame<TPlayer, TDeck, TCard>.InitialDeck
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).InitialDeck
+- uid: CardGames.Core.Contracts.IGame`3.InitialDeck*
+  name: InitialDeck
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_InitialDeck_
+  commentId: Overload:CardGames.Core.Contracts.IGame`3.InitialDeck
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.InitialDeck
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).InitialDeck
+  nameWithType: IGame<TPlayer, TDeck, TCard>.InitialDeck
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).InitialDeck
+- uid: CardGames.Core.Contracts.IGame`3.Play
+  name: Play()
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_Play
+  commentId: M:CardGames.Core.Contracts.IGame`3.Play
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.Play()
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).Play()
+  nameWithType: IGame<TPlayer, TDeck, TCard>.Play()
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).Play()
+- uid: CardGames.Core.Contracts.IGame`3.Play*
+  name: Play
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_Play_
+  commentId: Overload:CardGames.Core.Contracts.IGame`3.Play
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.Play
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).Play
+  nameWithType: IGame<TPlayer, TDeck, TCard>.Play
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).Play
+- uid: CardGames.Core.Contracts.IGame`3.Players
+  name: Players
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_Players
+  commentId: P:CardGames.Core.Contracts.IGame`3.Players
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).Players
+  nameWithType: IGame<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.Contracts.IGame`3.Players*
+  name: Players
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_Players_
+  commentId: Overload:CardGames.Core.Contracts.IGame`3.Players
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).Players
+  nameWithType: IGame<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.Contracts.IGame`3.Rounds
+  name: Rounds
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_Rounds
+  commentId: P:CardGames.Core.Contracts.IGame`3.Rounds
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.Rounds
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).Rounds
+  nameWithType: IGame<TPlayer, TDeck, TCard>.Rounds
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).Rounds
+- uid: CardGames.Core.Contracts.IGame`3.Rounds*
+  name: Rounds
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_Rounds_
+  commentId: Overload:CardGames.Core.Contracts.IGame`3.Rounds
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.Rounds
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).Rounds
+  nameWithType: IGame<TPlayer, TDeck, TCard>.Rounds
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).Rounds
+- uid: CardGames.Core.Contracts.IGame`3.Winner
+  name: Winner
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_Winner
+  commentId: P:CardGames.Core.Contracts.IGame`3.Winner
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: IGame<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.Contracts.IGame`3.Winner*
+  name: Winner
+  href: libraries/CardGames.Core.Contracts.IGame-3.html#CardGames_Core_Contracts_IGame_3_Winner_
+  commentId: Overload:CardGames.Core.Contracts.IGame`3.Winner
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IGame<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.Contracts.IGame(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: IGame<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: IGame(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.Contracts.IMoveController`3
+  name: IMoveController<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.Contracts.IMoveController-3.html
+  commentId: T:CardGames.Core.Contracts.IMoveController`3
+  name.vb: IMoveController(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.Contracts.IMoveController<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.Contracts.IMoveController(Of TPlayer, TDeck, TCard)
+  nameWithType: IMoveController<TPlayer, TDeck, TCard>
+  nameWithType.vb: IMoveController(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.Contracts.IMoveController`3.Execute(`0,CardGames.Core.Contracts.ICardTray{`0,`1,`2})
+  name: Execute(TPlayer, ICardTray<TPlayer, TDeck, TCard>)
+  href: libraries/CardGames.Core.Contracts.IMoveController-3.html#CardGames_Core_Contracts_IMoveController_3_Execute__0_CardGames_Core_Contracts_ICardTray__0__1__2__
+  commentId: M:CardGames.Core.Contracts.IMoveController`3.Execute(`0,CardGames.Core.Contracts.ICardTray{`0,`1,`2})
+  name.vb: Execute(TPlayer, ICardTray(Of TPlayer, TDeck, TCard))
+  fullName: CardGames.Core.Contracts.IMoveController<TPlayer, TDeck, TCard>.Execute(TPlayer, CardGames.Core.Contracts.ICardTray<TPlayer, TDeck, TCard>)
+  fullName.vb: CardGames.Core.Contracts.IMoveController(Of TPlayer, TDeck, TCard).Execute(TPlayer, CardGames.Core.Contracts.ICardTray(Of TPlayer, TDeck, TCard))
+  nameWithType: IMoveController<TPlayer, TDeck, TCard>.Execute(TPlayer, ICardTray<TPlayer, TDeck, TCard>)
+  nameWithType.vb: IMoveController(Of TPlayer, TDeck, TCard).Execute(TPlayer, ICardTray(Of TPlayer, TDeck, TCard))
+- uid: CardGames.Core.Contracts.IMoveController`3.Execute*
+  name: Execute
+  href: libraries/CardGames.Core.Contracts.IMoveController-3.html#CardGames_Core_Contracts_IMoveController_3_Execute_
+  commentId: Overload:CardGames.Core.Contracts.IMoveController`3.Execute
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IMoveController<TPlayer, TDeck, TCard>.Execute
+  fullName.vb: CardGames.Core.Contracts.IMoveController(Of TPlayer, TDeck, TCard).Execute
+  nameWithType: IMoveController<TPlayer, TDeck, TCard>.Execute
+  nameWithType.vb: IMoveController(Of TPlayer, TDeck, TCard).Execute
+- uid: CardGames.Core.Contracts.IPlayer`2
+  name: IPlayer<TDeck, TCard>
+  href: libraries/CardGames.Core.Contracts.IPlayer-2.html
+  commentId: T:CardGames.Core.Contracts.IPlayer`2
+  name.vb: IPlayer(Of TDeck, TCard)
+  fullName: CardGames.Core.Contracts.IPlayer<TDeck, TCard>
+  fullName.vb: CardGames.Core.Contracts.IPlayer(Of TDeck, TCard)
+  nameWithType: IPlayer<TDeck, TCard>
+  nameWithType.vb: IPlayer(Of TDeck, TCard)
+- uid: CardGames.Core.Contracts.IPlayer`2.Deck
+  name: Deck
+  href: libraries/CardGames.Core.Contracts.IPlayer-2.html#CardGames_Core_Contracts_IPlayer_2_Deck
+  commentId: P:CardGames.Core.Contracts.IPlayer`2.Deck
+  fullName: CardGames.Core.Contracts.IPlayer<TDeck, TCard>.Deck
+  fullName.vb: CardGames.Core.Contracts.IPlayer(Of TDeck, TCard).Deck
+  nameWithType: IPlayer<TDeck, TCard>.Deck
+  nameWithType.vb: IPlayer(Of TDeck, TCard).Deck
+- uid: CardGames.Core.Contracts.IPlayer`2.Deck*
+  name: Deck
+  href: libraries/CardGames.Core.Contracts.IPlayer-2.html#CardGames_Core_Contracts_IPlayer_2_Deck_
+  commentId: Overload:CardGames.Core.Contracts.IPlayer`2.Deck
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IPlayer<TDeck, TCard>.Deck
+  fullName.vb: CardGames.Core.Contracts.IPlayer(Of TDeck, TCard).Deck
+  nameWithType: IPlayer<TDeck, TCard>.Deck
+  nameWithType.vb: IPlayer(Of TDeck, TCard).Deck
+- uid: CardGames.Core.Contracts.IPlayer`2.Name
+  name: Name
+  href: libraries/CardGames.Core.Contracts.IPlayer-2.html#CardGames_Core_Contracts_IPlayer_2_Name
+  commentId: P:CardGames.Core.Contracts.IPlayer`2.Name
+  fullName: CardGames.Core.Contracts.IPlayer<TDeck, TCard>.Name
+  fullName.vb: CardGames.Core.Contracts.IPlayer(Of TDeck, TCard).Name
+  nameWithType: IPlayer<TDeck, TCard>.Name
+  nameWithType.vb: IPlayer(Of TDeck, TCard).Name
+- uid: CardGames.Core.Contracts.IPlayer`2.Name*
+  name: Name
+  href: libraries/CardGames.Core.Contracts.IPlayer-2.html#CardGames_Core_Contracts_IPlayer_2_Name_
+  commentId: Overload:CardGames.Core.Contracts.IPlayer`2.Name
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IPlayer<TDeck, TCard>.Name
+  fullName.vb: CardGames.Core.Contracts.IPlayer(Of TDeck, TCard).Name
+  nameWithType: IPlayer<TDeck, TCard>.Name
+  nameWithType.vb: IPlayer(Of TDeck, TCard).Name
+- uid: CardGames.Core.Contracts.IPlayer`2.Status
+  name: Status
+  href: libraries/CardGames.Core.Contracts.IPlayer-2.html#CardGames_Core_Contracts_IPlayer_2_Status
+  commentId: P:CardGames.Core.Contracts.IPlayer`2.Status
+  fullName: CardGames.Core.Contracts.IPlayer<TDeck, TCard>.Status
+  fullName.vb: CardGames.Core.Contracts.IPlayer(Of TDeck, TCard).Status
+  nameWithType: IPlayer<TDeck, TCard>.Status
+  nameWithType.vb: IPlayer(Of TDeck, TCard).Status
+- uid: CardGames.Core.Contracts.IPlayer`2.Status*
+  name: Status
+  href: libraries/CardGames.Core.Contracts.IPlayer-2.html#CardGames_Core_Contracts_IPlayer_2_Status_
+  commentId: Overload:CardGames.Core.Contracts.IPlayer`2.Status
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IPlayer<TDeck, TCard>.Status
+  fullName.vb: CardGames.Core.Contracts.IPlayer(Of TDeck, TCard).Status
+  nameWithType: IPlayer<TDeck, TCard>.Status
+  nameWithType.vb: IPlayer(Of TDeck, TCard).Status
+- uid: CardGames.Core.Contracts.IRound`3
+  name: IRound<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.Contracts.IRound-3.html
+  commentId: T:CardGames.Core.Contracts.IRound`3
+  name.vb: IRound(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard)
+  nameWithType: IRound<TPlayer, TDeck, TCard>
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.Contracts.IRound`3.AllPlayedCards
+  name: AllPlayedCards
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_AllPlayedCards
+  commentId: P:CardGames.Core.Contracts.IRound`3.AllPlayedCards
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.AllPlayedCards
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).AllPlayedCards
+  nameWithType: IRound<TPlayer, TDeck, TCard>.AllPlayedCards
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).AllPlayedCards
+- uid: CardGames.Core.Contracts.IRound`3.AllPlayedCards*
+  name: AllPlayedCards
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_AllPlayedCards_
+  commentId: Overload:CardGames.Core.Contracts.IRound`3.AllPlayedCards
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.AllPlayedCards
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).AllPlayedCards
+  nameWithType: IRound<TPlayer, TDeck, TCard>.AllPlayedCards
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).AllPlayedCards
+- uid: CardGames.Core.Contracts.IRound`3.CreateIteration*
+  name: CreateIteration
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_CreateIteration_
+  commentId: Overload:CardGames.Core.Contracts.IRound`3.CreateIteration
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.CreateIteration
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).CreateIteration
+  nameWithType: IRound<TPlayer, TDeck, TCard>.CreateIteration
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).CreateIteration
+- uid: CardGames.Core.Contracts.IRound`3.CreateIteration``3(System.Collections.Generic.IEnumerable{`0})
+  name: CreateIteration<TRoundIteration, TMoveController, TCardTray>(IEnumerable<TPlayer>)
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_CreateIteration__3_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CardGames.Core.Contracts.IRound`3.CreateIteration``3(System.Collections.Generic.IEnumerable{`0})
+  name.vb: CreateIteration(Of TRoundIteration, TMoveController, TCardTray)(IEnumerable(Of TPlayer))
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.CreateIteration<TRoundIteration, TMoveController, TCardTray>(System.Collections.Generic.IEnumerable<TPlayer>)
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).CreateIteration(Of TRoundIteration, TMoveController, TCardTray)(System.Collections.Generic.IEnumerable(Of TPlayer))
+  nameWithType: IRound<TPlayer, TDeck, TCard>.CreateIteration<TRoundIteration, TMoveController, TCardTray>(IEnumerable<TPlayer>)
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).CreateIteration(Of TRoundIteration, TMoveController, TCardTray)(IEnumerable(Of TPlayer))
+- uid: CardGames.Core.Contracts.IRound`3.Iterations
+  name: Iterations
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_Iterations
+  commentId: P:CardGames.Core.Contracts.IRound`3.Iterations
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.Iterations
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).Iterations
+  nameWithType: IRound<TPlayer, TDeck, TCard>.Iterations
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).Iterations
+- uid: CardGames.Core.Contracts.IRound`3.Iterations*
+  name: Iterations
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_Iterations_
+  commentId: Overload:CardGames.Core.Contracts.IRound`3.Iterations
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.Iterations
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).Iterations
+  nameWithType: IRound<TPlayer, TDeck, TCard>.Iterations
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).Iterations
+- uid: CardGames.Core.Contracts.IRound`3.Number
+  name: Number
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_Number
+  commentId: P:CardGames.Core.Contracts.IRound`3.Number
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.Number
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).Number
+  nameWithType: IRound<TPlayer, TDeck, TCard>.Number
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).Number
+- uid: CardGames.Core.Contracts.IRound`3.Number*
+  name: Number
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_Number_
+  commentId: Overload:CardGames.Core.Contracts.IRound`3.Number
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.Number
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).Number
+  nameWithType: IRound<TPlayer, TDeck, TCard>.Number
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).Number
+- uid: CardGames.Core.Contracts.IRound`3.Play
+  name: Play()
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_Play
+  commentId: M:CardGames.Core.Contracts.IRound`3.Play
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.Play()
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).Play()
+  nameWithType: IRound<TPlayer, TDeck, TCard>.Play()
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).Play()
+- uid: CardGames.Core.Contracts.IRound`3.Play*
+  name: Play
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_Play_
+  commentId: Overload:CardGames.Core.Contracts.IRound`3.Play
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.Play
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).Play
+  nameWithType: IRound<TPlayer, TDeck, TCard>.Play
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).Play
+- uid: CardGames.Core.Contracts.IRound`3.Players
+  name: Players
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_Players
+  commentId: P:CardGames.Core.Contracts.IRound`3.Players
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).Players
+  nameWithType: IRound<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.Contracts.IRound`3.Players*
+  name: Players
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_Players_
+  commentId: Overload:CardGames.Core.Contracts.IRound`3.Players
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).Players
+  nameWithType: IRound<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.Contracts.IRound`3.Winner
+  name: Winner
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_Winner
+  commentId: P:CardGames.Core.Contracts.IRound`3.Winner
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: IRound<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.Contracts.IRound`3.Winner*
+  name: Winner
+  href: libraries/CardGames.Core.Contracts.IRound-3.html#CardGames_Core_Contracts_IRound_3_Winner_
+  commentId: Overload:CardGames.Core.Contracts.IRound`3.Winner
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRound<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.Contracts.IRound(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: IRound<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: IRound(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.Contracts.IRoundIteration`3
+  name: IRoundIteration<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html
+  commentId: T:CardGames.Core.Contracts.IRoundIteration`3
+  name.vb: IRoundIteration(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard)
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.Contracts.IRoundIteration`3.CurrentCardTray
+  name: CurrentCardTray
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_CurrentCardTray
+  commentId: P:CardGames.Core.Contracts.IRoundIteration`3.CurrentCardTray
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.CurrentCardTray
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).CurrentCardTray
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.CurrentCardTray
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).CurrentCardTray
+- uid: CardGames.Core.Contracts.IRoundIteration`3.CurrentCardTray*
+  name: CurrentCardTray
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_CurrentCardTray_
+  commentId: Overload:CardGames.Core.Contracts.IRoundIteration`3.CurrentCardTray
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.CurrentCardTray
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).CurrentCardTray
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.CurrentCardTray
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).CurrentCardTray
+- uid: CardGames.Core.Contracts.IRoundIteration`3.CurrentRound
+  name: CurrentRound
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_CurrentRound
+  commentId: P:CardGames.Core.Contracts.IRoundIteration`3.CurrentRound
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.CurrentRound
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).CurrentRound
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.CurrentRound
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).CurrentRound
+- uid: CardGames.Core.Contracts.IRoundIteration`3.CurrentRound*
+  name: CurrentRound
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_CurrentRound_
+  commentId: Overload:CardGames.Core.Contracts.IRoundIteration`3.CurrentRound
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.CurrentRound
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).CurrentRound
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.CurrentRound
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).CurrentRound
+- uid: CardGames.Core.Contracts.IRoundIteration`3.Initialize*
+  name: Initialize
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_Initialize_
+  commentId: Overload:CardGames.Core.Contracts.IRoundIteration`3.Initialize
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.Initialize
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).Initialize
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.Initialize
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).Initialize
+- uid: CardGames.Core.Contracts.IRoundIteration`3.Initialize``2(System.Collections.Generic.IEnumerable{`0})
+  name: Initialize<TMoveController, TCardTray>(IEnumerable<TPlayer>)
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_Initialize__2_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CardGames.Core.Contracts.IRoundIteration`3.Initialize``2(System.Collections.Generic.IEnumerable{`0})
+  name.vb: Initialize(Of TMoveController, TCardTray)(IEnumerable(Of TPlayer))
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.Initialize<TMoveController, TCardTray>(System.Collections.Generic.IEnumerable<TPlayer>)
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).Initialize(Of TMoveController, TCardTray)(System.Collections.Generic.IEnumerable(Of TPlayer))
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.Initialize<TMoveController, TCardTray>(IEnumerable<TPlayer>)
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).Initialize(Of TMoveController, TCardTray)(IEnumerable(Of TPlayer))
+- uid: CardGames.Core.Contracts.IRoundIteration`3.MoveController
+  name: MoveController
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_MoveController
+  commentId: P:CardGames.Core.Contracts.IRoundIteration`3.MoveController
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.MoveController
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).MoveController
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.MoveController
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).MoveController
+- uid: CardGames.Core.Contracts.IRoundIteration`3.MoveController*
+  name: MoveController
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_MoveController_
+  commentId: Overload:CardGames.Core.Contracts.IRoundIteration`3.MoveController
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.MoveController
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).MoveController
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.MoveController
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).MoveController
+- uid: CardGames.Core.Contracts.IRoundIteration`3.Play
+  name: Play()
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_Play
+  commentId: M:CardGames.Core.Contracts.IRoundIteration`3.Play
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.Play()
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).Play()
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.Play()
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).Play()
+- uid: CardGames.Core.Contracts.IRoundIteration`3.Play*
+  name: Play
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_Play_
+  commentId: Overload:CardGames.Core.Contracts.IRoundIteration`3.Play
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.Play
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).Play
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.Play
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).Play
+- uid: CardGames.Core.Contracts.IRoundIteration`3.Players
+  name: Players
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_Players
+  commentId: P:CardGames.Core.Contracts.IRoundIteration`3.Players
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).Players
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.Contracts.IRoundIteration`3.Players*
+  name: Players
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_Players_
+  commentId: Overload:CardGames.Core.Contracts.IRoundIteration`3.Players
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).Players
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.Contracts.IRoundIteration`3.Winner
+  name: Winner
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_Winner
+  commentId: P:CardGames.Core.Contracts.IRoundIteration`3.Winner
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.Contracts.IRoundIteration`3.Winner*
+  name: Winner
+  href: libraries/CardGames.Core.Contracts.IRoundIteration-3.html#CardGames_Core_Contracts_IRoundIteration_3_Winner_
+  commentId: Overload:CardGames.Core.Contracts.IRoundIteration`3.Winner
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IRoundIteration<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.Contracts.IRoundIteration(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: IRoundIteration<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: IRoundIteration(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.Contracts.IShuffleable
+  name: IShuffleable
+  href: libraries/CardGames.Core.Contracts.IShuffleable.html
+  commentId: T:CardGames.Core.Contracts.IShuffleable
+  fullName: CardGames.Core.Contracts.IShuffleable
+  nameWithType: IShuffleable
+- uid: CardGames.Core.Contracts.IShuffleable.Shuffle
+  name: Shuffle()
+  href: libraries/CardGames.Core.Contracts.IShuffleable.html#CardGames_Core_Contracts_IShuffleable_Shuffle
+  commentId: M:CardGames.Core.Contracts.IShuffleable.Shuffle
+  fullName: CardGames.Core.Contracts.IShuffleable.Shuffle()
+  nameWithType: IShuffleable.Shuffle()
+- uid: CardGames.Core.Contracts.IShuffleable.Shuffle*
+  name: Shuffle
+  href: libraries/CardGames.Core.Contracts.IShuffleable.html#CardGames_Core_Contracts_IShuffleable_Shuffle_
+  commentId: Overload:CardGames.Core.Contracts.IShuffleable.Shuffle
+  isSpec: "True"
+  fullName: CardGames.Core.Contracts.IShuffleable.Shuffle
+  nameWithType: IShuffleable.Shuffle
+- uid: CardGames.Core.Deck`1
+  name: Deck<TCard>
+  href: libraries/CardGames.Core.Deck-1.html
+  commentId: T:CardGames.Core.Deck`1
+  name.vb: Deck(Of TCard)
+  fullName: CardGames.Core.Deck<TCard>
+  fullName.vb: CardGames.Core.Deck(Of TCard)
+  nameWithType: Deck<TCard>
+  nameWithType.vb: Deck(Of TCard)
+- uid: CardGames.Core.Deck`1.CanPick
+  name: CanPick
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_CanPick
+  commentId: P:CardGames.Core.Deck`1.CanPick
+  fullName: CardGames.Core.Deck<TCard>.CanPick
+  fullName.vb: CardGames.Core.Deck(Of TCard).CanPick
+  nameWithType: Deck<TCard>.CanPick
+  nameWithType.vb: Deck(Of TCard).CanPick
+- uid: CardGames.Core.Deck`1.CanPick*
+  name: CanPick
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_CanPick_
+  commentId: Overload:CardGames.Core.Deck`1.CanPick
+  isSpec: "True"
+  fullName: CardGames.Core.Deck<TCard>.CanPick
+  fullName.vb: CardGames.Core.Deck(Of TCard).CanPick
+  nameWithType: Deck<TCard>.CanPick
+  nameWithType.vb: Deck(Of TCard).CanPick
+- uid: CardGames.Core.Deck`1.Cards
+  name: Cards
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_Cards
+  commentId: P:CardGames.Core.Deck`1.Cards
+  fullName: CardGames.Core.Deck<TCard>.Cards
+  fullName.vb: CardGames.Core.Deck(Of TCard).Cards
+  nameWithType: Deck<TCard>.Cards
+  nameWithType.vb: Deck(Of TCard).Cards
+- uid: CardGames.Core.Deck`1.Cards*
+  name: Cards
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_Cards_
+  commentId: Overload:CardGames.Core.Deck`1.Cards
+  isSpec: "True"
+  fullName: CardGames.Core.Deck<TCard>.Cards
+  fullName.vb: CardGames.Core.Deck(Of TCard).Cards
+  nameWithType: Deck<TCard>.Cards
+  nameWithType.vb: Deck(Of TCard).Cards
+- uid: CardGames.Core.Deck`1.Draw
+  name: Draw()
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_Draw
+  commentId: M:CardGames.Core.Deck`1.Draw
+  fullName: CardGames.Core.Deck<TCard>.Draw()
+  fullName.vb: CardGames.Core.Deck(Of TCard).Draw()
+  nameWithType: Deck<TCard>.Draw()
+  nameWithType.vb: Deck(Of TCard).Draw()
+- uid: CardGames.Core.Deck`1.Draw(System.Int32)
+  name: Draw(Int32)
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_Draw_System_Int32_
+  commentId: M:CardGames.Core.Deck`1.Draw(System.Int32)
+  fullName: CardGames.Core.Deck<TCard>.Draw(System.Int32)
+  fullName.vb: CardGames.Core.Deck(Of TCard).Draw(System.Int32)
+  nameWithType: Deck<TCard>.Draw(Int32)
+  nameWithType.vb: Deck(Of TCard).Draw(Int32)
+- uid: CardGames.Core.Deck`1.Draw*
+  name: Draw
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_Draw_
+  commentId: Overload:CardGames.Core.Deck`1.Draw
+  isSpec: "True"
+  fullName: CardGames.Core.Deck<TCard>.Draw
+  fullName.vb: CardGames.Core.Deck(Of TCard).Draw
+  nameWithType: Deck<TCard>.Draw
+  nameWithType.vb: Deck(Of TCard).Draw
+- uid: CardGames.Core.Deck`1.Put(`0)
+  name: Put(TCard)
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_Put__0_
+  commentId: M:CardGames.Core.Deck`1.Put(`0)
+  fullName: CardGames.Core.Deck<TCard>.Put(TCard)
+  fullName.vb: CardGames.Core.Deck(Of TCard).Put(TCard)
+  nameWithType: Deck<TCard>.Put(TCard)
+  nameWithType.vb: Deck(Of TCard).Put(TCard)
+- uid: CardGames.Core.Deck`1.Put(System.Collections.Generic.IEnumerable{`0})
+  name: Put(IEnumerable<TCard>)
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_Put_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CardGames.Core.Deck`1.Put(System.Collections.Generic.IEnumerable{`0})
+  name.vb: Put(IEnumerable(Of TCard))
+  fullName: CardGames.Core.Deck<TCard>.Put(System.Collections.Generic.IEnumerable<TCard>)
+  fullName.vb: CardGames.Core.Deck(Of TCard).Put(System.Collections.Generic.IEnumerable(Of TCard))
+  nameWithType: Deck<TCard>.Put(IEnumerable<TCard>)
+  nameWithType.vb: Deck(Of TCard).Put(IEnumerable(Of TCard))
+- uid: CardGames.Core.Deck`1.Put*
+  name: Put
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_Put_
+  commentId: Overload:CardGames.Core.Deck`1.Put
+  isSpec: "True"
+  fullName: CardGames.Core.Deck<TCard>.Put
+  fullName.vb: CardGames.Core.Deck(Of TCard).Put
+  nameWithType: Deck<TCard>.Put
+  nameWithType.vb: Deck(Of TCard).Put
+- uid: CardGames.Core.Deck`1.Shuffle
+  name: Shuffle()
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_Shuffle
+  commentId: M:CardGames.Core.Deck`1.Shuffle
+  fullName: CardGames.Core.Deck<TCard>.Shuffle()
+  fullName.vb: CardGames.Core.Deck(Of TCard).Shuffle()
+  nameWithType: Deck<TCard>.Shuffle()
+  nameWithType.vb: Deck(Of TCard).Shuffle()
+- uid: CardGames.Core.Deck`1.Shuffle*
+  name: Shuffle
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_Shuffle_
+  commentId: Overload:CardGames.Core.Deck`1.Shuffle
+  isSpec: "True"
+  fullName: CardGames.Core.Deck<TCard>.Shuffle
+  fullName.vb: CardGames.Core.Deck(Of TCard).Shuffle
+  nameWithType: Deck<TCard>.Shuffle
+  nameWithType.vb: Deck(Of TCard).Shuffle
+- uid: CardGames.Core.Deck`1.ToString
+  name: ToString()
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_ToString
+  commentId: M:CardGames.Core.Deck`1.ToString
+  fullName: CardGames.Core.Deck<TCard>.ToString()
+  fullName.vb: CardGames.Core.Deck(Of TCard).ToString()
+  nameWithType: Deck<TCard>.ToString()
+  nameWithType.vb: Deck(Of TCard).ToString()
+- uid: CardGames.Core.Deck`1.ToString*
+  name: ToString
+  href: libraries/CardGames.Core.Deck-1.html#CardGames_Core_Deck_1_ToString_
+  commentId: Overload:CardGames.Core.Deck`1.ToString
+  isSpec: "True"
+  fullName: CardGames.Core.Deck<TCard>.ToString
+  fullName.vb: CardGames.Core.Deck(Of TCard).ToString
+  nameWithType: Deck<TCard>.ToString
+  nameWithType.vb: Deck(Of TCard).ToString
+- uid: CardGames.Core.Enums
+  name: CardGames.Core.Enums
+  href: libraries/CardGames.Core.Enums.html
+  commentId: N:CardGames.Core.Enums
+  fullName: CardGames.Core.Enums
+  nameWithType: CardGames.Core.Enums
+- uid: CardGames.Core.Enums.PlayerStatus
+  name: PlayerStatus
+  href: libraries/CardGames.Core.Enums.PlayerStatus.html
+  commentId: T:CardGames.Core.Enums.PlayerStatus
+  fullName: CardGames.Core.Enums.PlayerStatus
+  nameWithType: PlayerStatus
+- uid: CardGames.Core.Enums.PlayerStatus.Competing
+  name: Competing
+  href: libraries/CardGames.Core.Enums.PlayerStatus.html#CardGames_Core_Enums_PlayerStatus_Competing
+  commentId: F:CardGames.Core.Enums.PlayerStatus.Competing
+  fullName: CardGames.Core.Enums.PlayerStatus.Competing
+  nameWithType: PlayerStatus.Competing
+- uid: CardGames.Core.Enums.PlayerStatus.Lost
+  name: Lost
+  href: libraries/CardGames.Core.Enums.PlayerStatus.html#CardGames_Core_Enums_PlayerStatus_Lost
+  commentId: F:CardGames.Core.Enums.PlayerStatus.Lost
+  fullName: CardGames.Core.Enums.PlayerStatus.Lost
+  nameWithType: PlayerStatus.Lost
+- uid: CardGames.Core.Enums.PlayerStatus.Won
+  name: Won
+  href: libraries/CardGames.Core.Enums.PlayerStatus.html#CardGames_Core_Enums_PlayerStatus_Won
+  commentId: F:CardGames.Core.Enums.PlayerStatus.Won
+  fullName: CardGames.Core.Enums.PlayerStatus.Won
+  nameWithType: PlayerStatus.Won
+- uid: CardGames.Core.Game`3
+  name: Game<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.Game-3.html
+  commentId: T:CardGames.Core.Game`3
+  name.vb: Game(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard)
+  nameWithType: Game<TPlayer, TDeck, TCard>
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.Game`3.CreateRound*
+  name: CreateRound
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_CreateRound_
+  commentId: Overload:CardGames.Core.Game`3.CreateRound
+  isSpec: "True"
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.CreateRound
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).CreateRound
+  nameWithType: Game<TPlayer, TDeck, TCard>.CreateRound
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).CreateRound
+- uid: CardGames.Core.Game`3.CreateRound``1(System.Collections.Generic.IEnumerable{`0},System.Int32)
+  name: CreateRound<TRound>(IEnumerable<TPlayer>, Int32)
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_CreateRound__1_System_Collections_Generic_IEnumerable__0__System_Int32_
+  commentId: M:CardGames.Core.Game`3.CreateRound``1(System.Collections.Generic.IEnumerable{`0},System.Int32)
+  name.vb: CreateRound(Of TRound)(IEnumerable(Of TPlayer), Int32)
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.CreateRound<TRound>(System.Collections.Generic.IEnumerable<TPlayer>, System.Int32)
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).CreateRound(Of TRound)(System.Collections.Generic.IEnumerable(Of TPlayer), System.Int32)
+  nameWithType: Game<TPlayer, TDeck, TCard>.CreateRound<TRound>(IEnumerable<TPlayer>, Int32)
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).CreateRound(Of TRound)(IEnumerable(Of TPlayer), Int32)
+- uid: CardGames.Core.Game`3.DistributeCards
+  name: DistributeCards()
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_DistributeCards
+  commentId: M:CardGames.Core.Game`3.DistributeCards
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.DistributeCards()
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).DistributeCards()
+  nameWithType: Game<TPlayer, TDeck, TCard>.DistributeCards()
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).DistributeCards()
+- uid: CardGames.Core.Game`3.DistributeCards*
+  name: DistributeCards
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_DistributeCards_
+  commentId: Overload:CardGames.Core.Game`3.DistributeCards
+  isSpec: "True"
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.DistributeCards
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).DistributeCards
+  nameWithType: Game<TPlayer, TDeck, TCard>.DistributeCards
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).DistributeCards
+- uid: CardGames.Core.Game`3.InitialDeck
+  name: InitialDeck
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_InitialDeck
+  commentId: P:CardGames.Core.Game`3.InitialDeck
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.InitialDeck
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).InitialDeck
+  nameWithType: Game<TPlayer, TDeck, TCard>.InitialDeck
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).InitialDeck
+- uid: CardGames.Core.Game`3.InitialDeck*
+  name: InitialDeck
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_InitialDeck_
+  commentId: Overload:CardGames.Core.Game`3.InitialDeck
+  isSpec: "True"
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.InitialDeck
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).InitialDeck
+  nameWithType: Game<TPlayer, TDeck, TCard>.InitialDeck
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).InitialDeck
+- uid: CardGames.Core.Game`3.Play
+  name: Play()
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_Play
+  commentId: M:CardGames.Core.Game`3.Play
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.Play()
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).Play()
+  nameWithType: Game<TPlayer, TDeck, TCard>.Play()
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).Play()
+- uid: CardGames.Core.Game`3.Play*
+  name: Play
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_Play_
+  commentId: Overload:CardGames.Core.Game`3.Play
+  isSpec: "True"
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.Play
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).Play
+  nameWithType: Game<TPlayer, TDeck, TCard>.Play
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).Play
+- uid: CardGames.Core.Game`3.Players
+  name: Players
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_Players
+  commentId: P:CardGames.Core.Game`3.Players
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).Players
+  nameWithType: Game<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.Game`3.Players*
+  name: Players
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_Players_
+  commentId: Overload:CardGames.Core.Game`3.Players
+  isSpec: "True"
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).Players
+  nameWithType: Game<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.Game`3.Rounds
+  name: Rounds
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_Rounds
+  commentId: P:CardGames.Core.Game`3.Rounds
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.Rounds
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).Rounds
+  nameWithType: Game<TPlayer, TDeck, TCard>.Rounds
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).Rounds
+- uid: CardGames.Core.Game`3.Rounds*
+  name: Rounds
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_Rounds_
+  commentId: Overload:CardGames.Core.Game`3.Rounds
+  isSpec: "True"
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.Rounds
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).Rounds
+  nameWithType: Game<TPlayer, TDeck, TCard>.Rounds
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).Rounds
+- uid: CardGames.Core.Game`3.Winner
+  name: Winner
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_Winner
+  commentId: P:CardGames.Core.Game`3.Winner
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: Game<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.Game`3.Winner*
+  name: Winner
+  href: libraries/CardGames.Core.Game-3.html#CardGames_Core_Game_3_Winner_
+  commentId: Overload:CardGames.Core.Game`3.Winner
+  isSpec: "True"
+  fullName: CardGames.Core.Game<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.Game(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: Game<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: Game(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.Helpers
+  name: CardGames.Core.Helpers
+  href: libraries/CardGames.Core.Helpers.html
+  commentId: N:CardGames.Core.Helpers
+  fullName: CardGames.Core.Helpers
+  nameWithType: CardGames.Core.Helpers
+- uid: CardGames.Core.Helpers.Utils
+  name: Utils
+  href: libraries/CardGames.Core.Helpers.Utils.html
+  commentId: T:CardGames.Core.Helpers.Utils
+  fullName: CardGames.Core.Helpers.Utils
+  nameWithType: Utils
+- uid: CardGames.Core.Helpers.Utils.Random
+  name: Random
+  href: libraries/CardGames.Core.Helpers.Utils.html#CardGames_Core_Helpers_Utils_Random
+  commentId: P:CardGames.Core.Helpers.Utils.Random
+  fullName: CardGames.Core.Helpers.Utils.Random
+  nameWithType: Utils.Random
+- uid: CardGames.Core.Helpers.Utils.Random*
+  name: Random
+  href: libraries/CardGames.Core.Helpers.Utils.html#CardGames_Core_Helpers_Utils_Random_
+  commentId: Overload:CardGames.Core.Helpers.Utils.Random
+  isSpec: "True"
+  fullName: CardGames.Core.Helpers.Utils.Random
+  nameWithType: Utils.Random
+- uid: CardGames.Core.MoveController`3
+  name: MoveController<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.MoveController-3.html
+  commentId: T:CardGames.Core.MoveController`3
+  name.vb: MoveController(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.MoveController<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.MoveController(Of TPlayer, TDeck, TCard)
+  nameWithType: MoveController<TPlayer, TDeck, TCard>
+  nameWithType.vb: MoveController(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.MoveController`3.Execute(`0,CardGames.Core.Contracts.ICardTray{`0,`1,`2})
+  name: Execute(TPlayer, ICardTray<TPlayer, TDeck, TCard>)
+  href: libraries/CardGames.Core.MoveController-3.html#CardGames_Core_MoveController_3_Execute__0_CardGames_Core_Contracts_ICardTray__0__1__2__
+  commentId: M:CardGames.Core.MoveController`3.Execute(`0,CardGames.Core.Contracts.ICardTray{`0,`1,`2})
+  name.vb: Execute(TPlayer, ICardTray(Of TPlayer, TDeck, TCard))
+  fullName: CardGames.Core.MoveController<TPlayer, TDeck, TCard>.Execute(TPlayer, CardGames.Core.Contracts.ICardTray<TPlayer, TDeck, TCard>)
+  fullName.vb: CardGames.Core.MoveController(Of TPlayer, TDeck, TCard).Execute(TPlayer, CardGames.Core.Contracts.ICardTray(Of TPlayer, TDeck, TCard))
+  nameWithType: MoveController<TPlayer, TDeck, TCard>.Execute(TPlayer, ICardTray<TPlayer, TDeck, TCard>)
+  nameWithType.vb: MoveController(Of TPlayer, TDeck, TCard).Execute(TPlayer, ICardTray(Of TPlayer, TDeck, TCard))
+- uid: CardGames.Core.MoveController`3.Execute*
+  name: Execute
+  href: libraries/CardGames.Core.MoveController-3.html#CardGames_Core_MoveController_3_Execute_
+  commentId: Overload:CardGames.Core.MoveController`3.Execute
+  isSpec: "True"
+  fullName: CardGames.Core.MoveController<TPlayer, TDeck, TCard>.Execute
+  fullName.vb: CardGames.Core.MoveController(Of TPlayer, TDeck, TCard).Execute
+  nameWithType: MoveController<TPlayer, TDeck, TCard>.Execute
+  nameWithType.vb: MoveController(Of TPlayer, TDeck, TCard).Execute
+- uid: CardGames.Core.Player`2
+  name: Player<TDeck, TCard>
+  href: libraries/CardGames.Core.Player-2.html
+  commentId: T:CardGames.Core.Player`2
+  name.vb: Player(Of TDeck, TCard)
+  fullName: CardGames.Core.Player<TDeck, TCard>
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard)
+  nameWithType: Player<TDeck, TCard>
+  nameWithType.vb: Player(Of TDeck, TCard)
+- uid: CardGames.Core.Player`2.CompareTo(CardGames.Core.Player{`0,`1})
+  name: CompareTo(Player<TDeck, TCard>)
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_CompareTo_CardGames_Core_Player__0__1__
+  commentId: M:CardGames.Core.Player`2.CompareTo(CardGames.Core.Player{`0,`1})
+  name.vb: CompareTo(Player(Of TDeck, TCard))
+  fullName: CardGames.Core.Player<TDeck, TCard>.CompareTo(CardGames.Core.Player<TDeck, TCard>)
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).CompareTo(CardGames.Core.Player(Of TDeck, TCard))
+  nameWithType: Player<TDeck, TCard>.CompareTo(Player<TDeck, TCard>)
+  nameWithType.vb: Player(Of TDeck, TCard).CompareTo(Player(Of TDeck, TCard))
+- uid: CardGames.Core.Player`2.CompareTo*
+  name: CompareTo
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_CompareTo_
+  commentId: Overload:CardGames.Core.Player`2.CompareTo
+  isSpec: "True"
+  fullName: CardGames.Core.Player<TDeck, TCard>.CompareTo
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).CompareTo
+  nameWithType: Player<TDeck, TCard>.CompareTo
+  nameWithType.vb: Player(Of TDeck, TCard).CompareTo
+- uid: CardGames.Core.Player`2.Deck
+  name: Deck
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_Deck
+  commentId: P:CardGames.Core.Player`2.Deck
+  fullName: CardGames.Core.Player<TDeck, TCard>.Deck
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).Deck
+  nameWithType: Player<TDeck, TCard>.Deck
+  nameWithType.vb: Player(Of TDeck, TCard).Deck
+- uid: CardGames.Core.Player`2.Deck*
+  name: Deck
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_Deck_
+  commentId: Overload:CardGames.Core.Player`2.Deck
+  isSpec: "True"
+  fullName: CardGames.Core.Player<TDeck, TCard>.Deck
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).Deck
+  nameWithType: Player<TDeck, TCard>.Deck
+  nameWithType.vb: Player(Of TDeck, TCard).Deck
+- uid: CardGames.Core.Player`2.Equals(CardGames.Core.Player{`0,`1})
+  name: Equals(Player<TDeck, TCard>)
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_Equals_CardGames_Core_Player__0__1__
+  commentId: M:CardGames.Core.Player`2.Equals(CardGames.Core.Player{`0,`1})
+  name.vb: Equals(Player(Of TDeck, TCard))
+  fullName: CardGames.Core.Player<TDeck, TCard>.Equals(CardGames.Core.Player<TDeck, TCard>)
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).Equals(CardGames.Core.Player(Of TDeck, TCard))
+  nameWithType: Player<TDeck, TCard>.Equals(Player<TDeck, TCard>)
+  nameWithType.vb: Player(Of TDeck, TCard).Equals(Player(Of TDeck, TCard))
+- uid: CardGames.Core.Player`2.Equals*
+  name: Equals
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_Equals_
+  commentId: Overload:CardGames.Core.Player`2.Equals
+  isSpec: "True"
+  fullName: CardGames.Core.Player<TDeck, TCard>.Equals
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).Equals
+  nameWithType: Player<TDeck, TCard>.Equals
+  nameWithType.vb: Player(Of TDeck, TCard).Equals
+- uid: CardGames.Core.Player`2.Name
+  name: Name
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_Name
+  commentId: P:CardGames.Core.Player`2.Name
+  fullName: CardGames.Core.Player<TDeck, TCard>.Name
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).Name
+  nameWithType: Player<TDeck, TCard>.Name
+  nameWithType.vb: Player(Of TDeck, TCard).Name
+- uid: CardGames.Core.Player`2.Name*
+  name: Name
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_Name_
+  commentId: Overload:CardGames.Core.Player`2.Name
+  isSpec: "True"
+  fullName: CardGames.Core.Player<TDeck, TCard>.Name
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).Name
+  nameWithType: Player<TDeck, TCard>.Name
+  nameWithType.vb: Player(Of TDeck, TCard).Name
+- uid: CardGames.Core.Player`2.Status
+  name: Status
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_Status
+  commentId: P:CardGames.Core.Player`2.Status
+  fullName: CardGames.Core.Player<TDeck, TCard>.Status
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).Status
+  nameWithType: Player<TDeck, TCard>.Status
+  nameWithType.vb: Player(Of TDeck, TCard).Status
+- uid: CardGames.Core.Player`2.Status*
+  name: Status
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_Status_
+  commentId: Overload:CardGames.Core.Player`2.Status
+  isSpec: "True"
+  fullName: CardGames.Core.Player<TDeck, TCard>.Status
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).Status
+  nameWithType: Player<TDeck, TCard>.Status
+  nameWithType.vb: Player(Of TDeck, TCard).Status
+- uid: CardGames.Core.Player`2.ToString
+  name: ToString()
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_ToString
+  commentId: M:CardGames.Core.Player`2.ToString
+  fullName: CardGames.Core.Player<TDeck, TCard>.ToString()
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).ToString()
+  nameWithType: Player<TDeck, TCard>.ToString()
+  nameWithType.vb: Player(Of TDeck, TCard).ToString()
+- uid: CardGames.Core.Player`2.ToString*
+  name: ToString
+  href: libraries/CardGames.Core.Player-2.html#CardGames_Core_Player_2_ToString_
+  commentId: Overload:CardGames.Core.Player`2.ToString
+  isSpec: "True"
+  fullName: CardGames.Core.Player<TDeck, TCard>.ToString
+  fullName.vb: CardGames.Core.Player(Of TDeck, TCard).ToString
+  nameWithType: Player<TDeck, TCard>.ToString
+  nameWithType.vb: Player(Of TDeck, TCard).ToString
+- uid: CardGames.Core.Round`3
+  name: Round<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.Round-3.html
+  commentId: T:CardGames.Core.Round`3
+  name.vb: Round(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard)
+  nameWithType: Round<TPlayer, TDeck, TCard>
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.Round`3.AllPlayedCards
+  name: AllPlayedCards
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_AllPlayedCards
+  commentId: P:CardGames.Core.Round`3.AllPlayedCards
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.AllPlayedCards
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).AllPlayedCards
+  nameWithType: Round<TPlayer, TDeck, TCard>.AllPlayedCards
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).AllPlayedCards
+- uid: CardGames.Core.Round`3.AllPlayedCards*
+  name: AllPlayedCards
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_AllPlayedCards_
+  commentId: Overload:CardGames.Core.Round`3.AllPlayedCards
+  isSpec: "True"
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.AllPlayedCards
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).AllPlayedCards
+  nameWithType: Round<TPlayer, TDeck, TCard>.AllPlayedCards
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).AllPlayedCards
+- uid: CardGames.Core.Round`3.CreateIteration*
+  name: CreateIteration
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_CreateIteration_
+  commentId: Overload:CardGames.Core.Round`3.CreateIteration
+  isSpec: "True"
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.CreateIteration
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).CreateIteration
+  nameWithType: Round<TPlayer, TDeck, TCard>.CreateIteration
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).CreateIteration
+- uid: CardGames.Core.Round`3.CreateIteration``3(System.Collections.Generic.IEnumerable{`0})
+  name: CreateIteration<TRoundIteration, TMoveController, TCardTray>(IEnumerable<TPlayer>)
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_CreateIteration__3_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CardGames.Core.Round`3.CreateIteration``3(System.Collections.Generic.IEnumerable{`0})
+  name.vb: CreateIteration(Of TRoundIteration, TMoveController, TCardTray)(IEnumerable(Of TPlayer))
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.CreateIteration<TRoundIteration, TMoveController, TCardTray>(System.Collections.Generic.IEnumerable<TPlayer>)
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).CreateIteration(Of TRoundIteration, TMoveController, TCardTray)(System.Collections.Generic.IEnumerable(Of TPlayer))
+  nameWithType: Round<TPlayer, TDeck, TCard>.CreateIteration<TRoundIteration, TMoveController, TCardTray>(IEnumerable<TPlayer>)
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).CreateIteration(Of TRoundIteration, TMoveController, TCardTray)(IEnumerable(Of TPlayer))
+- uid: CardGames.Core.Round`3.Iterations
+  name: Iterations
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_Iterations
+  commentId: P:CardGames.Core.Round`3.Iterations
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.Iterations
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).Iterations
+  nameWithType: Round<TPlayer, TDeck, TCard>.Iterations
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).Iterations
+- uid: CardGames.Core.Round`3.Iterations*
+  name: Iterations
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_Iterations_
+  commentId: Overload:CardGames.Core.Round`3.Iterations
+  isSpec: "True"
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.Iterations
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).Iterations
+  nameWithType: Round<TPlayer, TDeck, TCard>.Iterations
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).Iterations
+- uid: CardGames.Core.Round`3.Number
+  name: Number
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_Number
+  commentId: P:CardGames.Core.Round`3.Number
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.Number
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).Number
+  nameWithType: Round<TPlayer, TDeck, TCard>.Number
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).Number
+- uid: CardGames.Core.Round`3.Number*
+  name: Number
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_Number_
+  commentId: Overload:CardGames.Core.Round`3.Number
+  isSpec: "True"
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.Number
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).Number
+  nameWithType: Round<TPlayer, TDeck, TCard>.Number
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).Number
+- uid: CardGames.Core.Round`3.Play
+  name: Play()
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_Play
+  commentId: M:CardGames.Core.Round`3.Play
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.Play()
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).Play()
+  nameWithType: Round<TPlayer, TDeck, TCard>.Play()
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).Play()
+- uid: CardGames.Core.Round`3.Play*
+  name: Play
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_Play_
+  commentId: Overload:CardGames.Core.Round`3.Play
+  isSpec: "True"
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.Play
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).Play
+  nameWithType: Round<TPlayer, TDeck, TCard>.Play
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).Play
+- uid: CardGames.Core.Round`3.Players
+  name: Players
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_Players
+  commentId: P:CardGames.Core.Round`3.Players
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).Players
+  nameWithType: Round<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.Round`3.Players*
+  name: Players
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_Players_
+  commentId: Overload:CardGames.Core.Round`3.Players
+  isSpec: "True"
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).Players
+  nameWithType: Round<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.Round`3.Winner
+  name: Winner
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_Winner
+  commentId: P:CardGames.Core.Round`3.Winner
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: Round<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.Round`3.Winner*
+  name: Winner
+  href: libraries/CardGames.Core.Round-3.html#CardGames_Core_Round_3_Winner_
+  commentId: Overload:CardGames.Core.Round`3.Winner
+  isSpec: "True"
+  fullName: CardGames.Core.Round<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.Round(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: Round<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: Round(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.RoundIteration`3
+  name: RoundIteration<TPlayer, TDeck, TCard>
+  href: libraries/CardGames.Core.RoundIteration-3.html
+  commentId: T:CardGames.Core.RoundIteration`3
+  name.vb: RoundIteration(Of TPlayer, TDeck, TCard)
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard)
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard)
+- uid: CardGames.Core.RoundIteration`3.CurrentCardTray
+  name: CurrentCardTray
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_CurrentCardTray
+  commentId: P:CardGames.Core.RoundIteration`3.CurrentCardTray
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.CurrentCardTray
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).CurrentCardTray
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.CurrentCardTray
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).CurrentCardTray
+- uid: CardGames.Core.RoundIteration`3.CurrentCardTray*
+  name: CurrentCardTray
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_CurrentCardTray_
+  commentId: Overload:CardGames.Core.RoundIteration`3.CurrentCardTray
+  isSpec: "True"
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.CurrentCardTray
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).CurrentCardTray
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.CurrentCardTray
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).CurrentCardTray
+- uid: CardGames.Core.RoundIteration`3.CurrentRound
+  name: CurrentRound
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_CurrentRound
+  commentId: P:CardGames.Core.RoundIteration`3.CurrentRound
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.CurrentRound
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).CurrentRound
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.CurrentRound
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).CurrentRound
+- uid: CardGames.Core.RoundIteration`3.CurrentRound*
+  name: CurrentRound
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_CurrentRound_
+  commentId: Overload:CardGames.Core.RoundIteration`3.CurrentRound
+  isSpec: "True"
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.CurrentRound
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).CurrentRound
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.CurrentRound
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).CurrentRound
+- uid: CardGames.Core.RoundIteration`3.Initialize*
+  name: Initialize
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_Initialize_
+  commentId: Overload:CardGames.Core.RoundIteration`3.Initialize
+  isSpec: "True"
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.Initialize
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).Initialize
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.Initialize
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).Initialize
+- uid: CardGames.Core.RoundIteration`3.Initialize``2(System.Collections.Generic.IEnumerable{`0})
+  name: Initialize<TMoveController, TCardTray>(IEnumerable<TPlayer>)
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_Initialize__2_System_Collections_Generic_IEnumerable__0__
+  commentId: M:CardGames.Core.RoundIteration`3.Initialize``2(System.Collections.Generic.IEnumerable{`0})
+  name.vb: Initialize(Of TMoveController, TCardTray)(IEnumerable(Of TPlayer))
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.Initialize<TMoveController, TCardTray>(System.Collections.Generic.IEnumerable<TPlayer>)
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).Initialize(Of TMoveController, TCardTray)(System.Collections.Generic.IEnumerable(Of TPlayer))
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.Initialize<TMoveController, TCardTray>(IEnumerable<TPlayer>)
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).Initialize(Of TMoveController, TCardTray)(IEnumerable(Of TPlayer))
+- uid: CardGames.Core.RoundIteration`3.MoveController
+  name: MoveController
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_MoveController
+  commentId: P:CardGames.Core.RoundIteration`3.MoveController
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.MoveController
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).MoveController
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.MoveController
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).MoveController
+- uid: CardGames.Core.RoundIteration`3.MoveController*
+  name: MoveController
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_MoveController_
+  commentId: Overload:CardGames.Core.RoundIteration`3.MoveController
+  isSpec: "True"
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.MoveController
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).MoveController
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.MoveController
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).MoveController
+- uid: CardGames.Core.RoundIteration`3.Play
+  name: Play()
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_Play
+  commentId: M:CardGames.Core.RoundIteration`3.Play
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.Play()
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).Play()
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.Play()
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).Play()
+- uid: CardGames.Core.RoundIteration`3.Play*
+  name: Play
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_Play_
+  commentId: Overload:CardGames.Core.RoundIteration`3.Play
+  isSpec: "True"
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.Play
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).Play
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.Play
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).Play
+- uid: CardGames.Core.RoundIteration`3.Players
+  name: Players
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_Players
+  commentId: P:CardGames.Core.RoundIteration`3.Players
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).Players
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.RoundIteration`3.Players*
+  name: Players
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_Players_
+  commentId: Overload:CardGames.Core.RoundIteration`3.Players
+  isSpec: "True"
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.Players
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).Players
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.Players
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).Players
+- uid: CardGames.Core.RoundIteration`3.Winner
+  name: Winner
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_Winner
+  commentId: P:CardGames.Core.RoundIteration`3.Winner
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.Core.RoundIteration`3.Winner*
+  name: Winner
+  href: libraries/CardGames.Core.RoundIteration-3.html#CardGames_Core_RoundIteration_3_Winner_
+  commentId: Overload:CardGames.Core.RoundIteration`3.Winner
+  isSpec: "True"
+  fullName: CardGames.Core.RoundIteration<TPlayer, TDeck, TCard>.Winner
+  fullName.vb: CardGames.Core.RoundIteration(Of TPlayer, TDeck, TCard).Winner
+  nameWithType: RoundIteration<TPlayer, TDeck, TCard>.Winner
+  nameWithType.vb: RoundIteration(Of TPlayer, TDeck, TCard).Winner
+- uid: CardGames.War
+  name: CardGames.War
+  href: libraries/CardGames.War.html
+  commentId: N:CardGames.War
+  fullName: CardGames.War
+  nameWithType: CardGames.War
+- uid: CardGames.War.Contracts
+  name: CardGames.War.Contracts
+  href: libraries/CardGames.War.Contracts.html
+  commentId: N:CardGames.War.Contracts
+  fullName: CardGames.War.Contracts
+  nameWithType: CardGames.War.Contracts
+- uid: CardGames.War.Contracts.ILogged
+  name: ILogged
+  href: libraries/CardGames.War.Contracts.ILogged.html
+  commentId: T:CardGames.War.Contracts.ILogged
+  fullName: CardGames.War.Contracts.ILogged
+  nameWithType: ILogged
+- uid: CardGames.War.Contracts.ILogged.Log
+  name: Log()
+  href: libraries/CardGames.War.Contracts.ILogged.html#CardGames_War_Contracts_ILogged_Log
+  commentId: M:CardGames.War.Contracts.ILogged.Log
+  fullName: CardGames.War.Contracts.ILogged.Log()
+  nameWithType: ILogged.Log()
+- uid: CardGames.War.Contracts.ILogged.Log*
+  name: Log
+  href: libraries/CardGames.War.Contracts.ILogged.html#CardGames_War_Contracts_ILogged_Log_
+  commentId: Overload:CardGames.War.Contracts.ILogged.Log
+  isSpec: "True"
+  fullName: CardGames.War.Contracts.ILogged.Log
+  nameWithType: ILogged.Log
+- uid: CardGames.War.Contracts.ILogged.Logger
+  name: Logger
+  href: libraries/CardGames.War.Contracts.ILogged.html#CardGames_War_Contracts_ILogged_Logger
+  commentId: P:CardGames.War.Contracts.ILogged.Logger
+  fullName: CardGames.War.Contracts.ILogged.Logger
+  nameWithType: ILogged.Logger
+- uid: CardGames.War.Contracts.ILogged.Logger*
+  name: Logger
+  href: libraries/CardGames.War.Contracts.ILogged.html#CardGames_War_Contracts_ILogged_Logger_
+  commentId: Overload:CardGames.War.Contracts.ILogged.Logger
+  isSpec: "True"
+  fullName: CardGames.War.Contracts.ILogged.Logger
+  nameWithType: ILogged.Logger
+- uid: CardGames.War.GameManager
+  name: GameManager
+  href: libraries/CardGames.War.GameManager.html
+  commentId: T:CardGames.War.GameManager
+  fullName: CardGames.War.GameManager
+  nameWithType: GameManager
+- uid: CardGames.War.GameManager.Play(System.Collections.Generic.IEnumerable{System.String},Serilog.ILogger)
+  name: Play(IEnumerable<String>, ILogger)
+  href: libraries/CardGames.War.GameManager.html#CardGames_War_GameManager_Play_System_Collections_Generic_IEnumerable_System_String__Serilog_ILogger_
+  commentId: M:CardGames.War.GameManager.Play(System.Collections.Generic.IEnumerable{System.String},Serilog.ILogger)
+  name.vb: Play(IEnumerable(Of String), ILogger)
+  fullName: CardGames.War.GameManager.Play(System.Collections.Generic.IEnumerable<System.String>, Serilog.ILogger)
+  fullName.vb: CardGames.War.GameManager.Play(System.Collections.Generic.IEnumerable(Of System.String), Serilog.ILogger)
+  nameWithType: GameManager.Play(IEnumerable<String>, ILogger)
+  nameWithType.vb: GameManager.Play(IEnumerable(Of String), ILogger)
+- uid: CardGames.War.GameManager.Play(System.Collections.Generic.List{System.Tuple{System.String,System.String[]}},Serilog.ILogger)
+  name: Play(List<Tuple<String, String[]>>, ILogger)
+  href: libraries/CardGames.War.GameManager.html#CardGames_War_GameManager_Play_System_Collections_Generic_List_System_Tuple_System_String_System_String_____Serilog_ILogger_
+  commentId: M:CardGames.War.GameManager.Play(System.Collections.Generic.List{System.Tuple{System.String,System.String[]}},Serilog.ILogger)
+  name.vb: Play(List(Of Tuple(Of String, String())), ILogger)
+  fullName: CardGames.War.GameManager.Play(System.Collections.Generic.List<System.Tuple<System.String, System.String[]>>, Serilog.ILogger)
+  fullName.vb: CardGames.War.GameManager.Play(System.Collections.Generic.List(Of System.Tuple(Of System.String, System.String())), Serilog.ILogger)
+  nameWithType: GameManager.Play(List<Tuple<String, String[]>>, ILogger)
+  nameWithType.vb: GameManager.Play(List(Of Tuple(Of String, String())), ILogger)
+- uid: CardGames.War.GameManager.Play(System.Int32,System.Int32,Serilog.ILogger)
+  name: Play(Int32, Int32, ILogger)
+  href: libraries/CardGames.War.GameManager.html#CardGames_War_GameManager_Play_System_Int32_System_Int32_Serilog_ILogger_
+  commentId: M:CardGames.War.GameManager.Play(System.Int32,System.Int32,Serilog.ILogger)
+  fullName: CardGames.War.GameManager.Play(System.Int32, System.Int32, Serilog.ILogger)
+  nameWithType: GameManager.Play(Int32, Int32, ILogger)
+- uid: CardGames.War.GameManager.Play*
+  name: Play
+  href: libraries/CardGames.War.GameManager.html#CardGames_War_GameManager_Play_
+  commentId: Overload:CardGames.War.GameManager.Play
+  isSpec: "True"
+  fullName: CardGames.War.GameManager.Play
+  nameWithType: GameManager.Play
+- uid: CardGames.War.Moves
+  name: CardGames.War.Moves
+  href: libraries/CardGames.War.Moves.html
+  commentId: N:CardGames.War.Moves
+  fullName: CardGames.War.Moves
+  nameWithType: CardGames.War.Moves
+- uid: CardGames.War.Moves.SimplePlayerMoveController
+  name: SimplePlayerMoveController
+  href: libraries/CardGames.War.Moves.SimplePlayerMoveController.html
+  commentId: T:CardGames.War.Moves.SimplePlayerMoveController
+  fullName: CardGames.War.Moves.SimplePlayerMoveController
+  nameWithType: SimplePlayerMoveController
+- uid: CardGames.War.Moves.SimplePlayerMoveController.Execute(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.Core.Contracts.ICardTray{CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard})
+  name: Execute(FiftyTwoCardGamePlayer, ICardTray<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>)
+  href: libraries/CardGames.War.Moves.SimplePlayerMoveController.html#CardGames_War_Moves_SimplePlayerMoveController_Execute_CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_CardGames_Core_Contracts_ICardTray_CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameDeck_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard__
+  commentId: M:CardGames.War.Moves.SimplePlayerMoveController.Execute(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.Core.Contracts.ICardTray{CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard})
+  name.vb: Execute(FiftyTwoCardGamePlayer, ICardTray(Of FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard))
+  fullName: CardGames.War.Moves.SimplePlayerMoveController.Execute(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer, CardGames.Core.Contracts.ICardTray<CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard>)
+  fullName.vb: CardGames.War.Moves.SimplePlayerMoveController.Execute(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer, CardGames.Core.Contracts.ICardTray(Of CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard))
+  nameWithType: SimplePlayerMoveController.Execute(FiftyTwoCardGamePlayer, ICardTray<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>)
+  nameWithType.vb: SimplePlayerMoveController.Execute(FiftyTwoCardGamePlayer, ICardTray(Of FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard))
+- uid: CardGames.War.Moves.SimplePlayerMoveController.Execute*
+  name: Execute
+  href: libraries/CardGames.War.Moves.SimplePlayerMoveController.html#CardGames_War_Moves_SimplePlayerMoveController_Execute_
+  commentId: Overload:CardGames.War.Moves.SimplePlayerMoveController.Execute
+  isSpec: "True"
+  fullName: CardGames.War.Moves.SimplePlayerMoveController.Execute
+  nameWithType: SimplePlayerMoveController.Execute
+- uid: CardGames.War.Moves.SimplePlayerMoveController.ToString
+  name: ToString()
+  href: libraries/CardGames.War.Moves.SimplePlayerMoveController.html#CardGames_War_Moves_SimplePlayerMoveController_ToString
+  commentId: M:CardGames.War.Moves.SimplePlayerMoveController.ToString
+  fullName: CardGames.War.Moves.SimplePlayerMoveController.ToString()
+  nameWithType: SimplePlayerMoveController.ToString()
+- uid: CardGames.War.Moves.SimplePlayerMoveController.ToString*
+  name: ToString
+  href: libraries/CardGames.War.Moves.SimplePlayerMoveController.html#CardGames_War_Moves_SimplePlayerMoveController_ToString_
+  commentId: Overload:CardGames.War.Moves.SimplePlayerMoveController.ToString
+  isSpec: "True"
+  fullName: CardGames.War.Moves.SimplePlayerMoveController.ToString
+  nameWithType: SimplePlayerMoveController.ToString
+- uid: CardGames.War.Moves.WarPlayerMovementController
+  name: WarPlayerMovementController
+  href: libraries/CardGames.War.Moves.WarPlayerMovementController.html
+  commentId: T:CardGames.War.Moves.WarPlayerMovementController
+  fullName: CardGames.War.Moves.WarPlayerMovementController
+  nameWithType: WarPlayerMovementController
+- uid: CardGames.War.Moves.WarPlayerMovementController.Execute(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.Core.Contracts.ICardTray{CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard})
+  name: Execute(FiftyTwoCardGamePlayer, ICardTray<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>)
+  href: libraries/CardGames.War.Moves.WarPlayerMovementController.html#CardGames_War_Moves_WarPlayerMovementController_Execute_CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_CardGames_Core_Contracts_ICardTray_CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameDeck_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard__
+  commentId: M:CardGames.War.Moves.WarPlayerMovementController.Execute(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.Core.Contracts.ICardTray{CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard})
+  name.vb: Execute(FiftyTwoCardGamePlayer, ICardTray(Of FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard))
+  fullName: CardGames.War.Moves.WarPlayerMovementController.Execute(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer, CardGames.Core.Contracts.ICardTray<CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard>)
+  fullName.vb: CardGames.War.Moves.WarPlayerMovementController.Execute(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer, CardGames.Core.Contracts.ICardTray(Of CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard))
+  nameWithType: WarPlayerMovementController.Execute(FiftyTwoCardGamePlayer, ICardTray<FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard>)
+  nameWithType.vb: WarPlayerMovementController.Execute(FiftyTwoCardGamePlayer, ICardTray(Of FiftyTwoCardGamePlayer, FiftyTwoCardGameDeck, FiftyTwoCardGameCard))
+- uid: CardGames.War.Moves.WarPlayerMovementController.Execute*
+  name: Execute
+  href: libraries/CardGames.War.Moves.WarPlayerMovementController.html#CardGames_War_Moves_WarPlayerMovementController_Execute_
+  commentId: Overload:CardGames.War.Moves.WarPlayerMovementController.Execute
+  isSpec: "True"
+  fullName: CardGames.War.Moves.WarPlayerMovementController.Execute
+  nameWithType: WarPlayerMovementController.Execute
+- uid: CardGames.War.Moves.WarPlayerMovementController.ToString
+  name: ToString()
+  href: libraries/CardGames.War.Moves.WarPlayerMovementController.html#CardGames_War_Moves_WarPlayerMovementController_ToString
+  commentId: M:CardGames.War.Moves.WarPlayerMovementController.ToString
+  fullName: CardGames.War.Moves.WarPlayerMovementController.ToString()
+  nameWithType: WarPlayerMovementController.ToString()
+- uid: CardGames.War.Moves.WarPlayerMovementController.ToString*
+  name: ToString
+  href: libraries/CardGames.War.Moves.WarPlayerMovementController.html#CardGames_War_Moves_WarPlayerMovementController_ToString_
+  commentId: Overload:CardGames.War.Moves.WarPlayerMovementController.ToString
+  isSpec: "True"
+  fullName: CardGames.War.Moves.WarPlayerMovementController.ToString
+  nameWithType: WarPlayerMovementController.ToString
+- uid: CardGames.War.StandardFiftyTwo
+  name: CardGames.War.StandardFiftyTwo
+  href: libraries/CardGames.War.StandardFiftyTwo.html
+  commentId: N:CardGames.War.StandardFiftyTwo
+  fullName: CardGames.War.StandardFiftyTwo
+  nameWithType: CardGames.War.StandardFiftyTwo
+- uid: CardGames.War.StandardFiftyTwo.Enums
+  name: CardGames.War.StandardFiftyTwo.Enums
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.html
+  commentId: N:CardGames.War.StandardFiftyTwo.Enums
+  fullName: CardGames.War.StandardFiftyTwo.Enums
+  nameWithType: CardGames.War.StandardFiftyTwo.Enums
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face
+  name: Face
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html
+  commentId: T:CardGames.War.StandardFiftyTwo.Enums.Face
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face
+  nameWithType: Face
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Ace
+  name: Ace
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Ace
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Ace
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Ace
+  nameWithType: Face.Ace
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Eight
+  name: Eight
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Eight
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Eight
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Eight
+  nameWithType: Face.Eight
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Five
+  name: Five
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Five
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Five
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Five
+  nameWithType: Face.Five
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Four
+  name: Four
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Four
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Four
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Four
+  nameWithType: Face.Four
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Jack
+  name: Jack
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Jack
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Jack
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Jack
+  nameWithType: Face.Jack
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.King
+  name: King
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_King
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.King
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.King
+  nameWithType: Face.King
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Nine
+  name: Nine
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Nine
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Nine
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Nine
+  nameWithType: Face.Nine
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Queen
+  name: Queen
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Queen
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Queen
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Queen
+  nameWithType: Face.Queen
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Seven
+  name: Seven
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Seven
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Seven
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Seven
+  nameWithType: Face.Seven
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Six
+  name: Six
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Six
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Six
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Six
+  nameWithType: Face.Six
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Ten
+  name: Ten
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Ten
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Ten
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Ten
+  nameWithType: Face.Ten
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Three
+  name: Three
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Three
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Three
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Three
+  nameWithType: Face.Three
+- uid: CardGames.War.StandardFiftyTwo.Enums.Face.Two
+  name: Two
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Face.html#CardGames_War_StandardFiftyTwo_Enums_Face_Two
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Face.Two
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Face.Two
+  nameWithType: Face.Two
+- uid: CardGames.War.StandardFiftyTwo.Enums.Suite
+  name: Suite
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Suite.html
+  commentId: T:CardGames.War.StandardFiftyTwo.Enums.Suite
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Suite
+  nameWithType: Suite
+- uid: CardGames.War.StandardFiftyTwo.Enums.Suite.Clubs
+  name: Clubs
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Suite.html#CardGames_War_StandardFiftyTwo_Enums_Suite_Clubs
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Suite.Clubs
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Suite.Clubs
+  nameWithType: Suite.Clubs
+- uid: CardGames.War.StandardFiftyTwo.Enums.Suite.Diamonds
+  name: Diamonds
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Suite.html#CardGames_War_StandardFiftyTwo_Enums_Suite_Diamonds
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Suite.Diamonds
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Suite.Diamonds
+  nameWithType: Suite.Diamonds
+- uid: CardGames.War.StandardFiftyTwo.Enums.Suite.Hearts
+  name: Hearts
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Suite.html#CardGames_War_StandardFiftyTwo_Enums_Suite_Hearts
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Suite.Hearts
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Suite.Hearts
+  nameWithType: Suite.Hearts
+- uid: CardGames.War.StandardFiftyTwo.Enums.Suite.Spades
+  name: Spades
+  href: libraries/CardGames.War.StandardFiftyTwo.Enums.Suite.html#CardGames_War_StandardFiftyTwo_Enums_Suite_Spades
+  commentId: F:CardGames.War.StandardFiftyTwo.Enums.Suite.Spades
+  fullName: CardGames.War.StandardFiftyTwo.Enums.Suite.Spades
+  nameWithType: Suite.Spades
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard
+  name: FiftyTwoCardGameCard
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html
+  commentId: T:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard
+  nameWithType: FiftyTwoCardGameCard
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.#ctor(CardGames.War.StandardFiftyTwo.Enums.Suite,CardGames.War.StandardFiftyTwo.Enums.Face,System.Boolean)
+  name: FiftyTwoCardGameCard(Suite, Face, Boolean)
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard__ctor_CardGames_War_StandardFiftyTwo_Enums_Suite_CardGames_War_StandardFiftyTwo_Enums_Face_System_Boolean_
+  commentId: M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.#ctor(CardGames.War.StandardFiftyTwo.Enums.Suite,CardGames.War.StandardFiftyTwo.Enums.Face,System.Boolean)
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.FiftyTwoCardGameCard(CardGames.War.StandardFiftyTwo.Enums.Suite, CardGames.War.StandardFiftyTwo.Enums.Face, System.Boolean)
+  nameWithType: FiftyTwoCardGameCard.FiftyTwoCardGameCard(Suite, Face, Boolean)
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.#ctor*
+  name: FiftyTwoCardGameCard
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard__ctor_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.#ctor
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.FiftyTwoCardGameCard
+  nameWithType: FiftyTwoCardGameCard.FiftyTwoCardGameCard
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.CompareTo(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  name: CompareTo(FiftyTwoCardGameCard)
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_CompareTo_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_
+  commentId: M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.CompareTo(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.CompareTo(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  nameWithType: FiftyTwoCardGameCard.CompareTo(FiftyTwoCardGameCard)
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.CompareTo*
+  name: CompareTo
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_CompareTo_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.CompareTo
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.CompareTo
+  nameWithType: FiftyTwoCardGameCard.CompareTo
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Equals(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  name: Equals(FiftyTwoCardGameCard)
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_Equals_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_
+  commentId: M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Equals(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Equals(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  nameWithType: FiftyTwoCardGameCard.Equals(FiftyTwoCardGameCard)
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Equals*
+  name: Equals
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_Equals_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Equals
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Equals
+  nameWithType: FiftyTwoCardGameCard.Equals
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Face
+  name: Face
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_Face
+  commentId: P:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Face
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Face
+  nameWithType: FiftyTwoCardGameCard.Face
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Face*
+  name: Face
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_Face_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Face
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Face
+  nameWithType: FiftyTwoCardGameCard.Face
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_Equality(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  name: Equality(FiftyTwoCardGameCard, FiftyTwoCardGameCard)
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_op_Equality_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_
+  commentId: M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_Equality(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Equality(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  nameWithType: FiftyTwoCardGameCard.Equality(FiftyTwoCardGameCard, FiftyTwoCardGameCard)
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_Equality*
+  name: Equality
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_op_Equality_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_Equality
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Equality
+  nameWithType: FiftyTwoCardGameCard.Equality
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_GreaterThan(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  name: GreaterThan(FiftyTwoCardGameCard, FiftyTwoCardGameCard)
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_op_GreaterThan_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_
+  commentId: M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_GreaterThan(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.GreaterThan(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  nameWithType: FiftyTwoCardGameCard.GreaterThan(FiftyTwoCardGameCard, FiftyTwoCardGameCard)
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_GreaterThan*
+  name: GreaterThan
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_op_GreaterThan_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_GreaterThan
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.GreaterThan
+  nameWithType: FiftyTwoCardGameCard.GreaterThan
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_Inequality(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  name: Inequality(FiftyTwoCardGameCard, FiftyTwoCardGameCard)
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_op_Inequality_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_
+  commentId: M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_Inequality(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Inequality(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  nameWithType: FiftyTwoCardGameCard.Inequality(FiftyTwoCardGameCard, FiftyTwoCardGameCard)
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_Inequality*
+  name: Inequality
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_op_Inequality_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_Inequality
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Inequality
+  nameWithType: FiftyTwoCardGameCard.Inequality
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_LessThan(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  name: LessThan(FiftyTwoCardGameCard, FiftyTwoCardGameCard)
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_op_LessThan_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_
+  commentId: M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_LessThan(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.LessThan(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  nameWithType: FiftyTwoCardGameCard.LessThan(FiftyTwoCardGameCard, FiftyTwoCardGameCard)
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_LessThan*
+  name: LessThan
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_op_LessThan_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.op_LessThan
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.LessThan
+  nameWithType: FiftyTwoCardGameCard.LessThan
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Suite
+  name: Suite
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_Suite
+  commentId: P:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Suite
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Suite
+  nameWithType: FiftyTwoCardGameCard.Suite
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Suite*
+  name: Suite
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_Suite_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Suite
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Suite
+  nameWithType: FiftyTwoCardGameCard.Suite
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.ToString
+  name: ToString()
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_ToString
+  commentId: M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.ToString
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.ToString()
+  nameWithType: FiftyTwoCardGameCard.ToString()
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.ToString*
+  name: ToString
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_ToString_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.ToString
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.ToString
+  nameWithType: FiftyTwoCardGameCard.ToString
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck
+  name: FiftyTwoCardGameDeck
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.html
+  commentId: T:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck
+  nameWithType: FiftyTwoCardGameDeck
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.ToString
+  name: ToString()
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameDeck_ToString
+  commentId: M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.ToString
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.ToString()
+  nameWithType: FiftyTwoCardGameDeck.ToString()
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.ToString*
+  name: ToString
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGameDeck_ToString_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.ToString
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.ToString
+  nameWithType: FiftyTwoCardGameDeck.ToString
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer
+  name: FiftyTwoCardGamePlayer
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html
+  commentId: T:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer
+  nameWithType: FiftyTwoCardGamePlayer
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt
+  name: LostAt
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_LostAt
+  commentId: P:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt
+  nameWithType: FiftyTwoCardGamePlayer.LostAt
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt*
+  name: LostAt
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_LostAt_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt
+  nameWithType: FiftyTwoCardGamePlayer.LostAt
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.Status
+  name: Status
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_Status
+  commentId: P:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.Status
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.Status
+  nameWithType: FiftyTwoCardGamePlayer.Status
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.Status*
+  name: Status
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_Status_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.Status
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.Status
+  nameWithType: FiftyTwoCardGamePlayer.Status
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.ToString
+  name: ToString()
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_ToString
+  commentId: M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.ToString
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.ToString()
+  nameWithType: FiftyTwoCardGamePlayer.ToString()
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.ToString*
+  name: ToString
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_ToString_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.ToString
+  isSpec: "True"
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.ToString
+  nameWithType: FiftyTwoCardGamePlayer.ToString
+- uid: CardGames.War.WarCardGame
+  name: WarCardGame
+  href: libraries/CardGames.War.WarCardGame.html
+  commentId: T:CardGames.War.WarCardGame
+  fullName: CardGames.War.WarCardGame
+  nameWithType: WarCardGame
+- uid: CardGames.War.WarCardGame.#ctor(System.Collections.Generic.IEnumerable{CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer},CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck)
+  name: WarCardGame(IEnumerable<FiftyTwoCardGamePlayer>, FiftyTwoCardGameDeck)
+  href: libraries/CardGames.War.WarCardGame.html#CardGames_War_WarCardGame__ctor_System_Collections_Generic_IEnumerable_CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer__CardGames_War_StandardFiftyTwo_FiftyTwoCardGameDeck_
+  commentId: M:CardGames.War.WarCardGame.#ctor(System.Collections.Generic.IEnumerable{CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer},CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck)
+  name.vb: WarCardGame(IEnumerable(Of FiftyTwoCardGamePlayer), FiftyTwoCardGameDeck)
+  fullName: CardGames.War.WarCardGame.WarCardGame(System.Collections.Generic.IEnumerable<CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer>, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck)
+  fullName.vb: CardGames.War.WarCardGame.WarCardGame(System.Collections.Generic.IEnumerable(Of CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer), CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck)
+  nameWithType: WarCardGame.WarCardGame(IEnumerable<FiftyTwoCardGamePlayer>, FiftyTwoCardGameDeck)
+  nameWithType.vb: WarCardGame.WarCardGame(IEnumerable(Of FiftyTwoCardGamePlayer), FiftyTwoCardGameDeck)
+- uid: CardGames.War.WarCardGame.#ctor*
+  name: WarCardGame
+  href: libraries/CardGames.War.WarCardGame.html#CardGames_War_WarCardGame__ctor_
+  commentId: Overload:CardGames.War.WarCardGame.#ctor
+  isSpec: "True"
+  fullName: CardGames.War.WarCardGame.WarCardGame
+  nameWithType: WarCardGame.WarCardGame
+- uid: CardGames.War.WarCardGame.Log
+  name: Log()
+  href: libraries/CardGames.War.WarCardGame.html#CardGames_War_WarCardGame_Log
+  commentId: M:CardGames.War.WarCardGame.Log
+  fullName: CardGames.War.WarCardGame.Log()
+  nameWithType: WarCardGame.Log()
+- uid: CardGames.War.WarCardGame.Log*
+  name: Log
+  href: libraries/CardGames.War.WarCardGame.html#CardGames_War_WarCardGame_Log_
+  commentId: Overload:CardGames.War.WarCardGame.Log
+  isSpec: "True"
+  fullName: CardGames.War.WarCardGame.Log
+  nameWithType: WarCardGame.Log
+- uid: CardGames.War.WarCardGame.Logger
+  name: Logger
+  href: libraries/CardGames.War.WarCardGame.html#CardGames_War_WarCardGame_Logger
+  commentId: P:CardGames.War.WarCardGame.Logger
+  fullName: CardGames.War.WarCardGame.Logger
+  nameWithType: WarCardGame.Logger
+- uid: CardGames.War.WarCardGame.Logger*
+  name: Logger
+  href: libraries/CardGames.War.WarCardGame.html#CardGames_War_WarCardGame_Logger_
+  commentId: Overload:CardGames.War.WarCardGame.Logger
+  isSpec: "True"
+  fullName: CardGames.War.WarCardGame.Logger
+  nameWithType: WarCardGame.Logger
+- uid: CardGames.War.WarCardGame.Play
+  name: Play()
+  href: libraries/CardGames.War.WarCardGame.html#CardGames_War_WarCardGame_Play
+  commentId: M:CardGames.War.WarCardGame.Play
+  fullName: CardGames.War.WarCardGame.Play()
+  nameWithType: WarCardGame.Play()
+- uid: CardGames.War.WarCardGame.Play*
+  name: Play
+  href: libraries/CardGames.War.WarCardGame.html#CardGames_War_WarCardGame_Play_
+  commentId: Overload:CardGames.War.WarCardGame.Play
+  isSpec: "True"
+  fullName: CardGames.War.WarCardGame.Play
+  nameWithType: WarCardGame.Play
+- uid: CardGames.War.WarCardGame.Winner
+  name: Winner
+  href: libraries/CardGames.War.WarCardGame.html#CardGames_War_WarCardGame_Winner
+  commentId: P:CardGames.War.WarCardGame.Winner
+  fullName: CardGames.War.WarCardGame.Winner
+  nameWithType: WarCardGame.Winner
+- uid: CardGames.War.WarCardGame.Winner*
+  name: Winner
+  href: libraries/CardGames.War.WarCardGame.html#CardGames_War_WarCardGame_Winner_
+  commentId: Overload:CardGames.War.WarCardGame.Winner
+  isSpec: "True"
+  fullName: CardGames.War.WarCardGame.Winner
+  nameWithType: WarCardGame.Winner
+- uid: CardGames.War.WarCardRound
+  name: WarCardRound
+  href: libraries/CardGames.War.WarCardRound.html
+  commentId: T:CardGames.War.WarCardRound
+  fullName: CardGames.War.WarCardRound
+  nameWithType: WarCardRound
+- uid: CardGames.War.WarCardRound.Log
+  name: Log()
+  href: libraries/CardGames.War.WarCardRound.html#CardGames_War_WarCardRound_Log
+  commentId: M:CardGames.War.WarCardRound.Log
+  fullName: CardGames.War.WarCardRound.Log()
+  nameWithType: WarCardRound.Log()
+- uid: CardGames.War.WarCardRound.Log*
+  name: Log
+  href: libraries/CardGames.War.WarCardRound.html#CardGames_War_WarCardRound_Log_
+  commentId: Overload:CardGames.War.WarCardRound.Log
+  isSpec: "True"
+  fullName: CardGames.War.WarCardRound.Log
+  nameWithType: WarCardRound.Log
+- uid: CardGames.War.WarCardRound.Logger
+  name: Logger
+  href: libraries/CardGames.War.WarCardRound.html#CardGames_War_WarCardRound_Logger
+  commentId: P:CardGames.War.WarCardRound.Logger
+  fullName: CardGames.War.WarCardRound.Logger
+  nameWithType: WarCardRound.Logger
+- uid: CardGames.War.WarCardRound.Logger*
+  name: Logger
+  href: libraries/CardGames.War.WarCardRound.html#CardGames_War_WarCardRound_Logger_
+  commentId: Overload:CardGames.War.WarCardRound.Logger
+  isSpec: "True"
+  fullName: CardGames.War.WarCardRound.Logger
+  nameWithType: WarCardRound.Logger
+- uid: CardGames.War.WarCardRound.Play
+  name: Play()
+  href: libraries/CardGames.War.WarCardRound.html#CardGames_War_WarCardRound_Play
+  commentId: M:CardGames.War.WarCardRound.Play
+  fullName: CardGames.War.WarCardRound.Play()
+  nameWithType: WarCardRound.Play()
+- uid: CardGames.War.WarCardRound.Play*
+  name: Play
+  href: libraries/CardGames.War.WarCardRound.html#CardGames_War_WarCardRound_Play_
+  commentId: Overload:CardGames.War.WarCardRound.Play
+  isSpec: "True"
+  fullName: CardGames.War.WarCardRound.Play
+  nameWithType: WarCardRound.Play
+- uid: CardGames.War.WarCardRound.ToString
+  name: ToString()
+  href: libraries/CardGames.War.WarCardRound.html#CardGames_War_WarCardRound_ToString
+  commentId: M:CardGames.War.WarCardRound.ToString
+  fullName: CardGames.War.WarCardRound.ToString()
+  nameWithType: WarCardRound.ToString()
+- uid: CardGames.War.WarCardRound.ToString*
+  name: ToString
+  href: libraries/CardGames.War.WarCardRound.html#CardGames_War_WarCardRound_ToString_
+  commentId: Overload:CardGames.War.WarCardRound.ToString
+  isSpec: "True"
+  fullName: CardGames.War.WarCardRound.ToString
+  nameWithType: WarCardRound.ToString
+- uid: CardGames.War.WarCardRoundIteration
+  name: WarCardRoundIteration
+  href: libraries/CardGames.War.WarCardRoundIteration.html
+  commentId: T:CardGames.War.WarCardRoundIteration
+  fullName: CardGames.War.WarCardRoundIteration
+  nameWithType: WarCardRoundIteration
+- uid: CardGames.War.WarCardRoundIteration.HasConflict
+  name: HasConflict
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_HasConflict
+  commentId: P:CardGames.War.WarCardRoundIteration.HasConflict
+  fullName: CardGames.War.WarCardRoundIteration.HasConflict
+  nameWithType: WarCardRoundIteration.HasConflict
+- uid: CardGames.War.WarCardRoundIteration.HasConflict*
+  name: HasConflict
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_HasConflict_
+  commentId: Overload:CardGames.War.WarCardRoundIteration.HasConflict
+  isSpec: "True"
+  fullName: CardGames.War.WarCardRoundIteration.HasConflict
+  nameWithType: WarCardRoundIteration.HasConflict
+- uid: CardGames.War.WarCardRoundIteration.Log
+  name: Log()
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_Log
+  commentId: M:CardGames.War.WarCardRoundIteration.Log
+  fullName: CardGames.War.WarCardRoundIteration.Log()
+  nameWithType: WarCardRoundIteration.Log()
+- uid: CardGames.War.WarCardRoundIteration.Log*
+  name: Log
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_Log_
+  commentId: Overload:CardGames.War.WarCardRoundIteration.Log
+  isSpec: "True"
+  fullName: CardGames.War.WarCardRoundIteration.Log
+  nameWithType: WarCardRoundIteration.Log
+- uid: CardGames.War.WarCardRoundIteration.Logger
+  name: Logger
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_Logger
+  commentId: P:CardGames.War.WarCardRoundIteration.Logger
+  fullName: CardGames.War.WarCardRoundIteration.Logger
+  nameWithType: WarCardRoundIteration.Logger
+- uid: CardGames.War.WarCardRoundIteration.Logger*
+  name: Logger
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_Logger_
+  commentId: Overload:CardGames.War.WarCardRoundIteration.Logger
+  isSpec: "True"
+  fullName: CardGames.War.WarCardRoundIteration.Logger
+  nameWithType: WarCardRoundIteration.Logger
+- uid: CardGames.War.WarCardRoundIteration.Play
+  name: Play()
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_Play
+  commentId: M:CardGames.War.WarCardRoundIteration.Play
+  fullName: CardGames.War.WarCardRoundIteration.Play()
+  nameWithType: WarCardRoundIteration.Play()
+- uid: CardGames.War.WarCardRoundIteration.Play*
+  name: Play
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_Play_
+  commentId: Overload:CardGames.War.WarCardRoundIteration.Play
+  isSpec: "True"
+  fullName: CardGames.War.WarCardRoundIteration.Play
+  nameWithType: WarCardRoundIteration.Play
+- uid: CardGames.War.WarCardRoundIteration.PlayersInConflict
+  name: PlayersInConflict
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_PlayersInConflict
+  commentId: P:CardGames.War.WarCardRoundIteration.PlayersInConflict
+  fullName: CardGames.War.WarCardRoundIteration.PlayersInConflict
+  nameWithType: WarCardRoundIteration.PlayersInConflict
+- uid: CardGames.War.WarCardRoundIteration.PlayersInConflict*
+  name: PlayersInConflict
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_PlayersInConflict_
+  commentId: Overload:CardGames.War.WarCardRoundIteration.PlayersInConflict
+  isSpec: "True"
+  fullName: CardGames.War.WarCardRoundIteration.PlayersInConflict
+  nameWithType: WarCardRoundIteration.PlayersInConflict
+- uid: CardGames.War.WarCardRoundIteration.Winner
+  name: Winner
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_Winner
+  commentId: P:CardGames.War.WarCardRoundIteration.Winner
+  fullName: CardGames.War.WarCardRoundIteration.Winner
+  nameWithType: WarCardRoundIteration.Winner
+- uid: CardGames.War.WarCardRoundIteration.Winner*
+  name: Winner
+  href: libraries/CardGames.War.WarCardRoundIteration.html#CardGames_War_WarCardRoundIteration_Winner_
+  commentId: Overload:CardGames.War.WarCardRoundIteration.Winner
+  isSpec: "True"
+  fullName: CardGames.War.WarCardRoundIteration.Winner
+  nameWithType: WarCardRoundIteration.Winner
+- uid: CardGames.War.WarCardTray
+  name: WarCardTray
+  href: libraries/CardGames.War.WarCardTray.html
+  commentId: T:CardGames.War.WarCardTray
+  fullName: CardGames.War.WarCardTray
+  nameWithType: WarCardTray
+- uid: CardGames.War.WarCardTray.Place*
+  name: Place
+  href: libraries/CardGames.War.WarCardTray.html#CardGames_War_WarCardTray_Place_
+  commentId: Overload:CardGames.War.WarCardTray.Place
+  isSpec: "True"
+  fullName: CardGames.War.WarCardTray.Place
+  nameWithType: WarCardTray.Place
+- uid: CardGames.War.WarCardTray.Place``1(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  name: Place<TCardTraySlot>(FiftyTwoCardGamePlayer, FiftyTwoCardGameCard)
+  href: libraries/CardGames.War.WarCardTray.html#CardGames_War_WarCardTray_Place__1_CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_
+  commentId: M:CardGames.War.WarCardTray.Place``1(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  name.vb: Place(Of TCardTraySlot)(FiftyTwoCardGamePlayer, FiftyTwoCardGameCard)
+  fullName: CardGames.War.WarCardTray.Place<TCardTraySlot>(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  fullName.vb: CardGames.War.WarCardTray.Place(Of TCardTraySlot)(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer, CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  nameWithType: WarCardTray.Place<TCardTraySlot>(FiftyTwoCardGamePlayer, FiftyTwoCardGameCard)
+  nameWithType.vb: WarCardTray.Place(Of TCardTraySlot)(FiftyTwoCardGamePlayer, FiftyTwoCardGameCard)
+- uid: CardGames.War.WarCardTray.PlayedCards
+  name: PlayedCards
+  href: libraries/CardGames.War.WarCardTray.html#CardGames_War_WarCardTray_PlayedCards
+  commentId: P:CardGames.War.WarCardTray.PlayedCards
+  fullName: CardGames.War.WarCardTray.PlayedCards
+  nameWithType: WarCardTray.PlayedCards
+- uid: CardGames.War.WarCardTray.PlayedCards*
+  name: PlayedCards
+  href: libraries/CardGames.War.WarCardTray.html#CardGames_War_WarCardTray_PlayedCards_
+  commentId: Overload:CardGames.War.WarCardTray.PlayedCards
+  isSpec: "True"
+  fullName: CardGames.War.WarCardTray.PlayedCards
+  nameWithType: WarCardTray.PlayedCards
+- uid: CardGames.War.WarCardTraySlot
+  name: WarCardTraySlot
+  href: libraries/CardGames.War.WarCardTraySlot.html
+  commentId: T:CardGames.War.WarCardTraySlot
+  fullName: CardGames.War.WarCardTraySlot
+  nameWithType: WarCardTraySlot
+- uid: CardGames.War.WarCardTraySlot.Cards
+  name: Cards
+  href: libraries/CardGames.War.WarCardTraySlot.html#CardGames_War_WarCardTraySlot_Cards
+  commentId: P:CardGames.War.WarCardTraySlot.Cards
+  fullName: CardGames.War.WarCardTraySlot.Cards
+  nameWithType: WarCardTraySlot.Cards
+- uid: CardGames.War.WarCardTraySlot.Cards*
+  name: Cards
+  href: libraries/CardGames.War.WarCardTraySlot.html#CardGames_War_WarCardTraySlot_Cards_
+  commentId: Overload:CardGames.War.WarCardTraySlot.Cards
+  isSpec: "True"
+  fullName: CardGames.War.WarCardTraySlot.Cards
+  nameWithType: WarCardTraySlot.Cards
+- uid: CardGames.War.WarCardTraySlot.Put(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  name: Put(FiftyTwoCardGameCard)
+  href: libraries/CardGames.War.WarCardTraySlot.html#CardGames_War_WarCardTraySlot_Put_CardGames_War_StandardFiftyTwo_FiftyTwoCardGameCard_
+  commentId: M:CardGames.War.WarCardTraySlot.Put(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  fullName: CardGames.War.WarCardTraySlot.Put(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)
+  nameWithType: WarCardTraySlot.Put(FiftyTwoCardGameCard)
+- uid: CardGames.War.WarCardTraySlot.Put*
+  name: Put
+  href: libraries/CardGames.War.WarCardTraySlot.html#CardGames_War_WarCardTraySlot_Put_
+  commentId: Overload:CardGames.War.WarCardTraySlot.Put
+  isSpec: "True"
+  fullName: CardGames.War.WarCardTraySlot.Put
+  nameWithType: WarCardTraySlot.Put

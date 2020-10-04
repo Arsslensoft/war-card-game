@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Disclaimer | War Card Games Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Disclaimer | War Card Games Documentation ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="disclaimer">Disclaimer</h1>
+
+<p>After checking the problem statement there criteria seemed to be the highest priority:</p>
+<ul>
+<li>Modeling</li>
+<li>Variable names</li>
+<li>Maintainability</li>
+</ul>
+<p>After verifying the given link: <a href="https://www.momes.net/jeux/jeux-interieur/regle-des-jeux-de-cartes/la-bataille-regles-du-jeu-842140">https://www.momes.net/jeux/jeux-interieur/regle-des-jeux-de-cartes/la-bataille-regles-du-jeu-842140</a></p>
+<p>I noticed that there are variants for the game, so from that i decided to make it easily modifyable by increasing abstraction.</p>
+<p>I focused on making the system as abstract for the ease of maintenainability as possible by maintaining a minimum of documentation.</p>
+<h1 id="proposition-and-to-do">Proposition and To Do</h1>
+<ul>
+<li>Wrap the code in <code>#region...#endregion</code>.</li>
+<li>More Unit Tests and Integration Tests.</li>
+<li>Exception handling.</li>
+<li>Abstract the game manager make it easily substitutable.</li>
+<li>Make string values a const, use a constants class.</li>
+</ul>
+<h1 id="explaining-libraries">Explaining Libraries</h1>
+<p>The project is composed of 2 libraries:</p>
+<ul>
+<li>CardGames.Core: contains the abstractions for any card game that is based on rounds and putting cards on a tray.</li>
+<li>CardGames.War: The specific implementation of this problem.</li>
+</ul>
+<h1 id="explaining-components-and-extension-points">Explaining components and extension points</h1>
+<p>Every component of the game is customizable, this is achieved using the D.I.P and generics, the behavior of each component
+is substitutable and can be overriden easily.</p>
+<p>Theoretically i designed it to make sure that this is possible, but unfortunately due to the tight time, i couldn't test it on other card games.</p>
+<h2 id="customize-the-cards">Customize the cards</h2>
+<p>You can change the card representation and their meaning by only creating a card class that inherit from the <code>Card</code> class, and override the <code>IEquatable&lt;T&gt;</code> and <code>IComparable&lt;T&gt;</code>.</p>
+<h2 id="customize-the-player-move-logic">Customize the player move logic</h2>
+<p>As you can see there is an example of that in the war card game, when the user turn comes, a MoveController subclass will be callled to handle the player behavior logic.
+An example of that is <code>SimplePlayerMoveController</code>.</p>
+<h2 id="customize-the-round-and-round-iteration-behavior">Customize the Round and Round iteration behavior</h2>
+<p>Just inherit the <code>Round</code> or <code>RoundIteration</code> classes depending on what you want to override, and override the Play method as it contains all the logic related to it.</p>
+<p>In case you overide the | <code>RoundIteration</code>, the <code>CreateIteration</code> method has the ability to use your custom iteration behavior type.</p>
+<p>In case you overide the <code>Round</code>, the <code>CreateRound</code> method has the ability to use your custom <code>Round</code> behavior type.</p>
+<h2 id="customize-the-game-deck-and-player">Customize the Game, Deck and Player</h2>
+<p>These are can be easily customized by inheriting the base class and overriding its method.</p>
+<p>These classes rarely change as they are part of every card game and contain the minimum set of operation that are common between all games, The exception can apply to the <code>Game</code> class which is the highest level class and is the easiest one to override due to the fact that no other internal class depends on it.</p>
+<h1 id="ease-of-mocking">Ease of mocking</h1>
+<p>All components use interfaces, therefore mocking is easy to use for testing.</p>
+<h1 id="used-principles">Used Principles</h1>
+<ul>
+<li>Don't Repeat Yourself (DRY)</li>
+<li>S.O.L.I.D</li>
+<li>OOP Principles</li>
+</ul>
+<h1 id="implementation-time">Implementation Time</h1>
+<p>03/10/2020:</p>
+<ul>
+<li>15h40-15h50: Problem Analysis Part I, Reading the provided link and defining extension points of the system.</li>
+<li>15h50-16h20: Problem Analysis Part II  / Coding &amp; Iterating on the design Part 1</li>
+<li>16h20-16h51: Pause</li>
+<li>16h51-19h01: Coding &amp; Iterating on the design Part 2 / Implementation &amp; Test Complete (1 Scenario)</li>
+<li>19h01-19h10: Some documentation of the solution / Code Cleanup &amp; Refactoring</li>
+<li>19h40-20h20: Implement the history printer</li>
+<li>20h21-2035: Document the project Part I</li>
+<li>20h35-20h42: Pause</li>
+<li>20h42-21h00: Documentation</li>
+<li>21h00-21h30: Console app methods and reading input</li>
+<li>21h30-22h00: Explaining the system in README</li>
+</ul>
+<p>Time Taken To Design &amp; Implement: ~4h10 the solution</p>
+<p>Time Taken To Document / Refactor / Cleanup Code: 50 minutes</p>
+<p>Time Taken To Debug / Test / Write tests / Verify the code / Apply fixes: 60 minutes</p>
+<p>Total Time Taken Without : ~6h</p>
+<h2 id="delay-considerations">Delay Considerations</h2>
+<p>Some distractions during the implementation due to phone calls and family matters, can be estimated to 30 minutes.</p>
+<h1 id="class-diagram">Class diagram</h1>
+<p><img src="/images/intro_class.png" alt="The global class diagram" title="Class diagram"></p>
+<h1 id="environment">Environment</h1>
+<p>The solution was implemented using:</p>
+<ul>
+<li>.NET Core</li>
+<li>Visual Studio 2019</li>
+<li>Resharper Ultimate</li>
+</ul>
+<h1 id="testing-the-project">Testing the project</h1>
+<p>Import the library <code>CardGames.War</code> and perform your tests. You can check an example test for the <code>CardGames.War</code> in the <code>CardGames.War.Tests</code></p>
+<h1 id="unit-tests">Unit Tests</h1>
+<p>Were not implemented due to the lack of time.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Arsslensoft/war-card-game/blob/main/articles/intro.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) - Arsslen Idadi 2020. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

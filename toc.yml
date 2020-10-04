@@ -1,0 +1,5 @@
+- name: Articles
+  href: articles/
+- name: Libraries Documentation
+  href: libraries/
+  homepage: libraries/index.md

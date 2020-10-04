@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CardGames.War</name>
+    </assembly>
+    <members>
+        <member name="T:CardGames.War.Contracts.ILogged">
+            <summary>
+                Represents the interface that adds history logging capability.
+            </summary>
+        </member>
+        <member name="P:CardGames.War.Contracts.ILogged.Logger">
+            <summary>
+                Represents the default logger.
+            </summary>
+        </member>
+        <member name="M:CardGames.War.Contracts.ILogged.Log">
+            <summary>
+                Logs the trace of the calling component.
+            </summary>
+        </member>
+        <member name="T:CardGames.War.GameManager">
+            <summary>
+                Represents the Façade of the war game class.
+            </summary>
+        </member>
+        <member name="M:CardGames.War.GameManager.Play(System.Collections.Generic.IEnumerable{System.String},Serilog.ILogger)">
+            <summary>
+                Creates a game using a list of player names.
+            </summary>
+            <param name="playerNames">The player names list.</param>
+            <param name="logger">The logger.</param>
+            <returns>The created and simulated game.</returns>
+        </member>
+        <member name="M:CardGames.War.GameManager.Play(System.Int32,System.Int32,Serilog.ILogger)">
+            <summary>
+                Creates a set of games.
+            </summary>
+            <param name="numberOfPlayers">The number of players.</param>
+            <param name="numberOfGames">The number of games to create.</param>
+            <param name="logger">The logger.</param>
+            <returns>The simulated games.</returns>
+        </member>
+        <member name="T:CardGames.War.Moves.SimplePlayerMoveController">
+            <summary>
+                Represents the simple move controller class.
+                This controller will draw one card and put it in the tray on call.
+            </summary>
+        </member>
+        <member name="M:CardGames.War.Moves.SimplePlayerMoveController.Execute(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.Core.Contracts.ICardTray{CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard})">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.Moves.SimplePlayerMoveController.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.War.Moves.WarPlayerMovementController">
+            <summary>
+                Represents the war mode move controller class.
+                This controller will draw 2 cards and put them in the tray on call.
+                The first card will be put face down, while the other facing up on top of the first.
+            </summary>
+        </member>
+        <member name="M:CardGames.War.Moves.WarPlayerMovementController.Execute(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.Core.Contracts.ICardTray{CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard})">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.Moves.WarPlayerMovementController.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.War.StandardFiftyTwo.Enums.Face">
+            <summary>
+                Represents the faces of a standard 52 cards deck and their representative values for the war game.
+            </summary>
+        </member>
+        <member name="T:CardGames.War.StandardFiftyTwo.Enums.Suite">
+            <summary>
+                Represents the suites of a standard 52 cards deck.
+            </summary>
+        </member>
+        <member name="T:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard">
+            <summary>
+                Represents the standard 52-card deck card class.
+            </summary>
+        </member>
+        <member name="P:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Face">
+            <summary>
+                Represents the face of the card.
+            </summary>
+        </member>
+        <member name="P:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Suite">
+            <summary>
+                Represents the suite of the card.
+            </summary>
+        </member>
+        <member name="M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.CompareTo(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.Equals(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck">
+            <summary>
+                Represents the standard 52-card deck.
+            </summary>
+        </member>
+        <member name="M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.ToString">
+            <inheritdoc cref="T:CardGames.Core.Deck`1"/>
+        </member>
+        <member name="T:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer">
+            <summary>
+                Represents the player that will use a standard 52-card deck.
+            </summary>
+        </member>
+        <member name="P:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.OutOfGameAt">
+            <summary>
+            Represents the time when the player got out of the game.
+            </summary>
+        </member>
+        <member name="P:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.Status">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.ToString">
+            <inheritdoc cref="T:CardGames.Core.Player`2"/>
+        </member>
+        <member name="T:CardGames.War.WarCardGame">
+            <summary>
+                Represents the war card game class.
+            </summary>
+        </member>
+        <member name="P:CardGames.War.WarCardGame.Winner">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.War.WarCardGame.Logger">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.WarCardGame.Log">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.WarCardGame.Play">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.War.WarCardRound">
+            <summary>
+                Represents the round of the war card game class.
+            </summary>
+        </member>
+        <member name="P:CardGames.War.WarCardRound.Logger">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.WarCardRound.Log">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.WarCardRound.Play">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.WarCardRound.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.War.WarCardRoundIteration">
+            <summary>
+                Represents the round iteration of the war card game class.
+            </summary>
+        </member>
+        <member name="P:CardGames.War.WarCardRoundIteration.HasConflict">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.War.WarCardRoundIteration.PlayersInConflict">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.War.WarCardRoundIteration.Winner">
+            <inheritdoc />
+        </member>
+        <member name="P:CardGames.War.WarCardRoundIteration.Logger">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.WarCardRoundIteration.Log">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.WarCardRoundIteration.Play">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.War.WarCardTray">
+            <summary>
+                Represents the war card game card tray class.
+            </summary>
+        </member>
+        <member name="P:CardGames.War.WarCardTray.PlayedCards">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.WarCardTray.Place``1(CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer,CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)">
+            <inheritdoc />
+        </member>
+        <member name="T:CardGames.War.WarCardTraySlot">
+            <summary>
+                Represents the war card game card tray slot class.
+            </summary>
+        </member>
+        <member name="P:CardGames.War.WarCardTraySlot.Cards">
+            <inheritdoc />
+        </member>
+        <member name="M:CardGames.War.WarCardTraySlot.Put(CardGames.War.StandardFiftyTwo.FiftyTwoCardGameCard)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

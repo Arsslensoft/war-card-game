@@ -1,0 +1,422 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class RoundIteration&lt;TPlayer, TDeck, TCard&gt;
+   | War Card Games Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class RoundIteration&lt;TPlayer, TDeck, TCard&gt;
+   | War Card Games Documentation ">
+    <meta name="generator" content="docfx 2.56.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CardGames.Core.RoundIteration`3">
+  
+  
+  <h1 id="CardGames_Core_RoundIteration_3" data-uid="CardGames.Core.RoundIteration`3" class="text-break">Class RoundIteration&lt;TPlayer, TDeck, TCard&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Represents the round iteration concerning a set of players class.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">RoundIteration&lt;TPlayer, TDeck, TCard&gt;</span></div>
+      <div class="level2"><a class="xref" href="CardGames.War.WarCardRoundIteration.html">WarCardRoundIteration</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="CardGames.Core.Contracts.IRoundIteration-3.html">IRoundIteration</a>&lt;TPlayer, TDeck, TCard&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CardGames.Core.html">CardGames.Core</a></h6>
+  <h6><strong>Assembly</strong>: CardGames.Core.dll</h6>
+  <h5 id="CardGames_Core_RoundIteration_3_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class RoundIteration&lt;TPlayer, TDeck, TCard&gt; : IRoundIteration&lt;TPlayer, TDeck, TCard&gt; where TPlayer : class, IPlayer&lt;TDeck, TCard&gt; where TDeck : class, IDeck&lt;TCard&gt; where TCard : class, ICard</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TPlayer</span></td>
+        <td><p>The  type that represents the customized <a class="xref" href="CardGames.Core.Player-2.html">Player&lt;TDeck, TCard&gt;</a> for a given game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TDeck</span></td>
+        <td><p>The  type that represents the customized <a class="xref" href="CardGames.Core.Deck-1.html">Deck&lt;TCard&gt;</a> for a given game.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TCard</span></td>
+        <td><p>The type that represents the customized <a class="xref" href="CardGames.Core.Card.html">Card</a> for a given game.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Arsslensoft/war-card-game/new/main/apiSpec/new?filename=CardGames_Core_RoundIteration_3_CurrentCardTray.md&amp;value=---%0Auid%3A%20CardGames.Core.RoundIteration%603.CurrentCardTray%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Arsslensoft/war-card-game/blob/main/src/CardGames.Core/RoundIteration.cs/#L25">View Source</a>
+  </span>
+  <a id="CardGames_Core_RoundIteration_3_CurrentCardTray_" data-uid="CardGames.Core.RoundIteration`3.CurrentCardTray*"></a>
+  <h4 id="CardGames_Core_RoundIteration_3_CurrentCardTray" data-uid="CardGames.Core.RoundIteration`3.CurrentCardTray">CurrentCardTray</h4>
+  <div class="markdown level1 summary"><p>Represents the current card tray.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ICardTray&lt;TPlayer, TDeck, TCard&gt; CurrentCardTray { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CardGames.Core.Contracts.ICardTray-3.html">ICardTray</a>&lt;TPlayer, TDeck, TCard&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Arsslensoft/war-card-game/new/main/apiSpec/new?filename=CardGames_Core_RoundIteration_3_CurrentRound.md&amp;value=---%0Auid%3A%20CardGames.Core.RoundIteration%603.CurrentRound%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Arsslensoft/war-card-game/blob/main/src/CardGames.Core/RoundIteration.cs/#L22">View Source</a>
+  </span>
+  <a id="CardGames_Core_RoundIteration_3_CurrentRound_" data-uid="CardGames.Core.RoundIteration`3.CurrentRound*"></a>
+  <h4 id="CardGames_Core_RoundIteration_3_CurrentRound" data-uid="CardGames.Core.RoundIteration`3.CurrentRound">CurrentRound</h4>
+  <div class="markdown level1 summary"><p>Represents the current round this iteration is attached to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRound&lt;TPlayer, TDeck, TCard&gt; CurrentRound { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CardGames.Core.Contracts.IRound-3.html">IRound</a>&lt;TPlayer, TDeck, TCard&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Arsslensoft/war-card-game/new/main/apiSpec/new?filename=CardGames_Core_RoundIteration_3_MoveController.md&amp;value=---%0Auid%3A%20CardGames.Core.RoundIteration%603.MoveController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Arsslensoft/war-card-game/blob/main/src/CardGames.Core/RoundIteration.cs/#L28">View Source</a>
+  </span>
+  <a id="CardGames_Core_RoundIteration_3_MoveController_" data-uid="CardGames.Core.RoundIteration`3.MoveController*"></a>
+  <h4 id="CardGames_Core_RoundIteration_3_MoveController" data-uid="CardGames.Core.RoundIteration`3.MoveController">MoveController</h4>
+  <div class="markdown level1 summary"><p>Represents the movement controller that is specific to this round iteration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMoveController&lt;TPlayer, TDeck, TCard&gt; MoveController { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CardGames.Core.Contracts.IMoveController-3.html">IMoveController</a>&lt;TPlayer, TDeck, TCard&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Arsslensoft/war-card-game/new/main/apiSpec/new?filename=CardGames_Core_RoundIteration_3_Players.md&amp;value=---%0Auid%3A%20CardGames.Core.RoundIteration%603.Players%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Arsslensoft/war-card-game/blob/main/src/CardGames.Core/RoundIteration.cs/#L19">View Source</a>
+  </span>
+  <a id="CardGames_Core_RoundIteration_3_Players_" data-uid="CardGames.Core.RoundIteration`3.Players*"></a>
+  <h4 id="CardGames_Core_RoundIteration_3_Players" data-uid="CardGames.Core.RoundIteration`3.Players">Players</h4>
+  <div class="markdown level1 summary"><p>Represents the players that are part of this iteration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;TPlayer&gt; Players { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TPlayer&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Arsslensoft/war-card-game/new/main/apiSpec/new?filename=CardGames_Core_RoundIteration_3_Winner.md&amp;value=---%0Auid%3A%20CardGames.Core.RoundIteration%603.Winner%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Arsslensoft/war-card-game/blob/main/src/CardGames.Core/RoundIteration.cs/#L31">View Source</a>
+  </span>
+  <a id="CardGames_Core_RoundIteration_3_Winner_" data-uid="CardGames.Core.RoundIteration`3.Winner*"></a>
+  <h4 id="CardGames_Core_RoundIteration_3_Winner" data-uid="CardGames.Core.RoundIteration`3.Winner">Winner</h4>
+  <div class="markdown level1 summary"><p>Represents the winning player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract TPlayer Winner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TPlayer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Arsslensoft/war-card-game/new/main/apiSpec/new?filename=CardGames_Core_RoundIteration_3_Initialize__2_System_Collections_Generic_IEnumerable__0__.md&amp;value=---%0Auid%3A%20CardGames.Core.RoundIteration%603.Initialize%60%602(System.Collections.Generic.IEnumerable%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Arsslensoft/war-card-game/blob/main/src/CardGames.Core/RoundIteration.cs/#L39">View Source</a>
+  </span>
+  <a id="CardGames_Core_RoundIteration_3_Initialize_" data-uid="CardGames.Core.RoundIteration`3.Initialize*"></a>
+  <h4 id="CardGames_Core_RoundIteration_3_Initialize__2_System_Collections_Generic_IEnumerable__0__" data-uid="CardGames.Core.RoundIteration`3.Initialize``2(System.Collections.Generic.IEnumerable{`0})">Initialize&lt;TMoveController, TCardTray&gt;(IEnumerable&lt;TPlayer&gt;)</h4>
+  <div class="markdown level1 summary"><p>Represents the initialization code to be executed just after the creation and before round iteration execution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Initialize&lt;TMoveController, TCardTray&gt;(IEnumerable&lt;TPlayer&gt; players)
+    where TMoveController : class, IMoveController&lt;TPlayer, TDeck, TCard&gt;, new()
+    where TCardTray : class, ICardTray&lt;TPlayer, TDeck, TCard&gt;, new()</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TPlayer&gt;</td>
+        <td><span class="parametername">players</span></td>
+        <td><p>The players of the current round iteration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TMoveController</span></td>
+        <td><p>The movement controller type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TCardTray</span></td>
+        <td><p>The card tray type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Arsslensoft/war-card-game/new/main/apiSpec/new?filename=CardGames_Core_RoundIteration_3_Play.md&amp;value=---%0Auid%3A%20CardGames.Core.RoundIteration%603.Play%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Arsslensoft/war-card-game/blob/main/src/CardGames.Core/RoundIteration.cs/#L36">View Source</a>
+  </span>
+  <a id="CardGames_Core_RoundIteration_3_Play_" data-uid="CardGames.Core.RoundIteration`3.Play*"></a>
+  <h4 id="CardGames_Core_RoundIteration_3_Play" data-uid="CardGames.Core.RoundIteration`3.Play">Play()</h4>
+  <div class="markdown level1 summary"><p>Represents the round iteration play logic.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void Play()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="CardGames.Core.Contracts.IRoundIteration-3.html">IRoundIteration&lt;TPlayer, TDeck, TCard&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Arsslensoft/war-card-game/new/main/apiSpec/new?filename=CardGames_Core_RoundIteration_3.md&amp;value=---%0Auid%3A%20CardGames.Core.RoundIteration%603%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Arsslensoft/war-card-game/blob/main/src/CardGames.Core/RoundIteration.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) - Arsslen Idadi 2020. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
