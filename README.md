@@ -1,3 +1,5 @@
+# Documentation
+You can find the documentation of the project in http://cardgames.arsslensoft.com
 # Disclaimer
 After checking the problem statement there criteria seemed to be the highest priority:
 
