@@ -16,6 +16,8 @@ I focused on making the system as abstract for the ease of maintenainability as 
 * More Unit Tests and Integration Tests.
 * Exception handling.
 * Abstract the game manager make it easily substitutable.
+* Make string values a const, use a constants class.
+
 
 # Explaining Libraries
 The project is composed of 2 libraries:
