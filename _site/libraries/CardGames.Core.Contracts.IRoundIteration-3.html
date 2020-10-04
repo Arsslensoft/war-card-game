@@ -82,6 +82,7 @@ This interface will define the detailed round logic which is specific to the gam
   <h5 id="CardGames_Core_Contracts_IRoundIteration_3_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IRoundIteration&lt;TPlayer, TDeck, TCard&gt;
+
     where TPlayer : class, IPlayer&lt;TDeck, TCard&gt; where TDeck : class, IDeck&lt;TCard&gt; where TCard : class, ICard</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
@@ -284,7 +285,9 @@ This interface will define the detailed round logic which is specific to the gam
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void Initialize&lt;TMoveController, TCardTray&gt;(IEnumerable&lt;TPlayer&gt; players)
+
     where TMoveController : class, IMoveController&lt;TPlayer, TDeck, TCard&gt;, new()
+
     where TCardTray : class, ICardTray&lt;TPlayer, TDeck, TCard&gt;, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

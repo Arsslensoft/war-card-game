@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "jN4KJugQc2sMjT+ffWJdrg=="
+          "hash": "Bd+30odFNU8fKWNe+cUvnA=="
         }
       },
       "is_incremental": true,
@@ -36,7 +36,7 @@
           "hash": "a0CD297NtSRovb8uMnMXkQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -68,10 +68,10 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Card.html",
-          "hash": "8+pSEaxGDThT4vFpdSIhcw=="
+          "hash": "TMDsUuV+M8a4GBgBPGArcQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -80,10 +80,10 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.CardTray-3.html",
-          "hash": "RBUkiPlhLoUqbutOuzc2Dg=="
+          "hash": "PqLYVcoiI+6iytvrTAJfng=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -92,10 +92,10 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.CardTraySlot-3.html",
-          "hash": "62D8wkwvlJ3E+MGLvagf6Q=="
+          "hash": "bfONp3h2rJR4Yo4q7FqH7A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -116,7 +116,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Contracts.ICardTray-3.html",
-          "hash": "Jqhof/bHk3+N42MAi5fJ8A=="
+          "hash": "mxkoge47jr78oRcT/FByGA=="
         }
       },
       "is_incremental": true,
@@ -128,7 +128,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Contracts.ICardTraySlot-3.html",
-          "hash": "WhneWvSEpWhCn9snH8XFMQ=="
+          "hash": "4bRNEto7Zgz5vB2Bnrgq7g=="
         }
       },
       "is_incremental": true,
@@ -140,7 +140,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Contracts.IDeck-1.html",
-          "hash": "IyHqLG0wHyHjiJyyYWjSUw=="
+          "hash": "TfgrOlS5PHhmtWuCOgjk8w=="
         }
       },
       "is_incremental": true,
@@ -152,7 +152,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Contracts.IGame-3.html",
-          "hash": "B/2AFmUDCP/cAASy/8Z1AA=="
+          "hash": "mZohyqq/vsOVrB+A36JWyg=="
         }
       },
       "is_incremental": true,
@@ -164,7 +164,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Contracts.IMoveController-3.html",
-          "hash": "OKnk/PApLPKfPQee4Rl0fA=="
+          "hash": "DY4OItyREa0YI+oYfKWh+A=="
         }
       },
       "is_incremental": true,
@@ -176,7 +176,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Contracts.IPlayer-2.html",
-          "hash": "BLKNd6Nb5p+usV+lXusSrg=="
+          "hash": "ozJXj/sua54vssPbLkyEzw=="
         }
       },
       "is_incremental": true,
@@ -188,7 +188,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Contracts.IRound-3.html",
-          "hash": "2x5SGslPUed72HvtOLzxYQ=="
+          "hash": "o2+zNtPUhhDO18DD7aoehA=="
         }
       },
       "is_incremental": true,
@@ -200,7 +200,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Contracts.IRoundIteration-3.html",
-          "hash": "/Hok/ThP2bVX8NJ+em6lJA=="
+          "hash": "FDyhqwttlxhpCJxG+rNKUQ=="
         }
       },
       "is_incremental": true,
@@ -236,7 +236,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Deck-1.html",
-          "hash": "PFPwOzTsr13PUpHu0xfTdQ=="
+          "hash": "JQoycN51LcSxgb85DWEw3w=="
         }
       },
       "is_incremental": false,
@@ -272,10 +272,10 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Game-3.html",
-          "hash": "H0UTCFbM39ZcxjCoCs+Ffg=="
+          "hash": "jAl8a2Y6ceI2tMoXvlCWEQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -308,10 +308,10 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.MoveController-3.html",
-          "hash": "S/JnTMqYxu4tXIaGO8NuTw=="
+          "hash": "DSU0YQlJwr3C+0GNtsSukA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -320,7 +320,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Player-2.html",
-          "hash": "+SZmSZj4Wy4upzA07ZnaCw=="
+          "hash": "JWMzJXWAb/EQBkWSLexy8w=="
         }
       },
       "is_incremental": false,
@@ -332,10 +332,10 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.Round-3.html",
-          "hash": "M34u6R/eaxt+Nw1uqHlFiQ=="
+          "hash": "Cz9Tg2ytvdEeEFAPeGYedg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -344,10 +344,10 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.Core.RoundIteration-3.html",
-          "hash": "bl8LobtcL8O1+zJADeDTNA=="
+          "hash": "1fddRMYLfZ9nuDO7gpkQ4g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -404,7 +404,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.War.Moves.SimplePlayerMoveController.html",
-          "hash": "lXkaxJpr8puot0wboXdtAA=="
+          "hash": "lzQVVBHi1olLsP2zv/9FCg=="
         }
       },
       "is_incremental": false,
@@ -416,7 +416,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.War.Moves.WarPlayerMovementController.html",
-          "hash": "wzDt/H/2RwKQ7DwPXTy7TA=="
+          "hash": "++bcx/45IxM7/ts5T2eR8w=="
         }
       },
       "is_incremental": false,
@@ -479,7 +479,7 @@
           "hash": "lUmJzG8MFTedrv6rVssd2A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -488,7 +488,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGameDeck.html",
-          "hash": "GtZz7/nujmurdCfskWLkUg=="
+          "hash": "xKj8Mo8+0rM4lT9q6u18tg=="
         }
       },
       "is_incremental": false,
@@ -500,7 +500,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html",
-          "hash": "KcfMoM4IueLfHU9PLCr98Q=="
+          "hash": "4zlsOsJnghRlhhQEd4dedQ=="
         }
       },
       "is_incremental": false,
@@ -524,7 +524,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.War.WarCardGame.html",
-          "hash": "ZN3rRkyMPp/QphxFHtBMHw=="
+          "hash": "aYOQa8q7yM7fNZDzDn7G/A=="
         }
       },
       "is_incremental": false,
@@ -536,7 +536,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.War.WarCardRound.html",
-          "hash": "jkMk6R9Eunzy3L4T1uDDDA=="
+          "hash": "n4KcOCoxxo/4HuxoVTy3ug=="
         }
       },
       "is_incremental": true,
@@ -548,7 +548,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.War.WarCardRoundIteration.html",
-          "hash": "wkw4P+jWFtiJLf6eH/SrOw=="
+          "hash": "JdVk0pq985ibpN150LIfYA=="
         }
       },
       "is_incremental": false,
@@ -560,7 +560,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.War.WarCardTray.html",
-          "hash": "yA2fZMOBj04G/oR/PuyYIg=="
+          "hash": "/O0NC+vVwyf/AGUgOQ9aSg=="
         }
       },
       "is_incremental": false,
@@ -572,7 +572,7 @@
       "output": {
         ".html": {
           "relative_path": "libraries/CardGames.War.WarCardTraySlot.html",
-          "hash": "sSHjXA/qkCHFu1rM/N9smA=="
+          "hash": "cYMgs6H3R6Luu1z/BL8WQA=="
         }
       },
       "is_incremental": true,
@@ -640,13 +640,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 3
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 44,
-          "skipped_file_count": 33
+          "skipped_file_count": 42
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

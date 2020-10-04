@@ -26,7 +26,7 @@ namespace CardGames.War.StandardFiftyTwo
             }
         }
 
-        /// <inheritdoc cref="Player{TDeck,TCard}"/>
+        /// <inheritdoc />
         public override string ToString() => $"[Standard-52 Player, {base.ToString()}]";
     }
 }

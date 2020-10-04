@@ -7,7 +7,7 @@ namespace CardGames.War.StandardFiftyTwo
     /// </summary>
     public class FiftyTwoCardGameDeck : Deck<FiftyTwoCardGameCard>
     {
-        /// <inheritdoc cref="Deck{TCard}"/>
+        /// <inheritdoc />
         public override string ToString() => $"[Standard-52 Deck, {base.ToString()}]";
     }
 }

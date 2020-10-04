@@ -81,6 +81,7 @@
   <h5 id="CardGames_Core_Contracts_ICardTray_3_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface ICardTray&lt;TPlayer, TDeck, TCard&gt;
+
     where TPlayer : class, IPlayer&lt;TDeck, TCard&gt; where TDeck : class, IDeck&lt;TCard&gt; where TCard : class, ICard</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
@@ -159,6 +160,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void Place&lt;TCardTraySlot&gt;(TPlayer player, TCard card)
+
     where TCardTraySlot : class, ICardTraySlot&lt;TPlayer, TDeck, TCard&gt;, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

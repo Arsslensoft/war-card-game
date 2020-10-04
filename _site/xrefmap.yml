@@ -2009,19 +2009,19 @@ references:
   commentId: T:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer
   fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer
   nameWithType: FiftyTwoCardGamePlayer
-- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt
-  name: LostAt
-  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_LostAt
-  commentId: P:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt
-  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt
-  nameWithType: FiftyTwoCardGamePlayer.LostAt
-- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt*
-  name: LostAt
-  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_LostAt_
-  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.OutOfGameAt
+  name: OutOfGameAt
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_OutOfGameAt
+  commentId: P:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.OutOfGameAt
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.OutOfGameAt
+  nameWithType: FiftyTwoCardGamePlayer.OutOfGameAt
+- uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.OutOfGameAt*
+  name: OutOfGameAt
+  href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_OutOfGameAt_
+  commentId: Overload:CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.OutOfGameAt
   isSpec: "True"
-  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.LostAt
-  nameWithType: FiftyTwoCardGamePlayer.LostAt
+  fullName: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.OutOfGameAt
+  nameWithType: FiftyTwoCardGamePlayer.OutOfGameAt
 - uid: CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.Status
   name: Status
   href: libraries/CardGames.War.StandardFiftyTwo.FiftyTwoCardGamePlayer.html#CardGames_War_StandardFiftyTwo_FiftyTwoCardGamePlayer_Status

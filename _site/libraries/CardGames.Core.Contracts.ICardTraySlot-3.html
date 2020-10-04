@@ -81,6 +81,7 @@
   <h5 id="CardGames_Core_Contracts_ICardTraySlot_3_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface ICardTraySlot&lt;TPlayer, TDeck, TCard&gt;
+
     where TPlayer : class, IPlayer&lt;TDeck, TCard&gt; where TDeck : class, IDeck&lt;TCard&gt; where TCard : class, ICard</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
