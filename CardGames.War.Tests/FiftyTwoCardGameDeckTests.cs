@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using CardGames.War.StandardFiftyTwo;
 using CardGames.War.StandardFiftyTwo.Enums;
@@ -7,6 +8,23 @@ namespace CardGames.Core.Tests
 {
     public class FiftyTwoCardGameDeckTests
     {
+
+        [Test]
+        public void PutCollectionTests()
+        {
+            var sampleDeck = new FiftyTwoCardGameDeck();
+            var cards = new List<FiftyTwoCardGameCard>()
+            {
+                new FiftyTwoCardGameCard(Suite.Clubs, Face.Ace),
+                new FiftyTwoCardGameCard(Suite.Spades, Face.Ace),
+            };
+
+            sampleDeck.Put(cards);
+
+            Assert.AreEqual(sampleDeck.Cards.Count(), 2);
+            Assert.AreEqual(sampleDeck.Cards.First(), cards[0]);
+            Assert.AreEqual(sampleDeck.Cards.First(), cards[1]);
+        }
 
         [Test]
         public void PutTests()
