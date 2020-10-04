@@ -50,23 +50,23 @@ namespace WarCardGameConsole
         }
         static void Main(string[] args)
         {
-            //Console.WriteLine("1) Number of games and players");
-            //Console.WriteLine("Else) Players and their assigned cards");
-            //Console.Write("Enter the choice: ");
-            //int option = int.Parse(Console.ReadLine());
-            //if (option == 1) NumberOfPlayersAndGames();
-            //else PlayersWithCards();
+            Console.WriteLine("1) Number of games and players");
+            Console.WriteLine("Else) Players and their assigned cards");
+            Console.Write("Enter the choice: ");
+            int option = int.Parse(Console.ReadLine());
+            if (option == 1) NumberOfPlayersAndGames();
+            else PlayersWithCards();
 
-            // Test code
-            var log = new LoggerConfiguration()
-                .WriteTo.Console()
-                .CreateLogger();
-            GameManager.Play(new List<Tuple<string, string[]>>()
-            {
-                new Tuple<string, string[]>("A", "ace,spades|ten,hearts".Split('|')),
-                new Tuple<string, string[]>("B", "king,clubs|ten,spades".Split('|')),
-                new Tuple<string, string[]>("C", "king,hearts|ten,clubs".Split('|'))
-            }, log);
+            //// Test code
+            //var log = new LoggerConfiguration()
+            //    .WriteTo.Console()
+            //    .CreateLogger();
+            //GameManager.Play(new List<Tuple<string, string[]>>()
+            //{
+            //    new Tuple<string, string[]>("A", "ace,spades|ten,hearts".Split('|')),
+            //    new Tuple<string, string[]>("B", "king,clubs|ten,spades".Split('|')),
+            //    new Tuple<string, string[]>("C", "king,hearts|ten,clubs".Split('|'))
+            //}, log);
             Console.Read();
         }
 
