@@ -16,16 +16,16 @@ namespace CardGames.Core
     {
         #region Properties
         /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}" />
-        public virtual IEnumerable<TPlayer> Players { get; protected set; }
+        public virtual IEnumerable<TPlayer> Players { get; set; }
 
         /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}" />
         public IRound<TPlayer, TDeck, TCard> CurrentRound { get; set; }
 
         /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}" />
-        public ICardTray<TPlayer, TDeck, TCard> CurrentCardTray { get; protected set; }
+        public ICardTray<TPlayer, TDeck, TCard> CurrentCardTray { get; set; }
 
         /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}" />
-        public IMoveController<TPlayer, TDeck, TCard> MoveController { get; protected set; }
+        public IMoveController<TPlayer, TDeck, TCard> MoveController { get; set; }
 
         /// <inheritdoc cref="IRoundIteration{TPlayer,TDeck,TCard}" />
         public abstract TPlayer Winner { get; }
