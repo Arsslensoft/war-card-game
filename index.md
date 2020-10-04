@@ -1,2 +1,2 @@
 # Welcome
-Refer to [Markdown](articles/intro.md) to get started.
+Refer to [Getting Started](articles/intro.md) to get started.
